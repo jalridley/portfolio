@@ -1,0 +1,6 @@
+<template>
+  <h1 class="flex justify-center text-3xl font-bold">Projects Page</h1>
+  <NuxtLink class="hover:text-emerald-700" to="/projects/explosion"
+    >Explosion Ai</NuxtLink
+  >
+</template>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h1 class="flex justify-center text-3xl font-bold">contact page</h1>
-  </div>
+  </section>
 </template>

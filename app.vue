@@ -8,6 +8,9 @@
 useHead({
   titleTemplate: '%s | Jal Ridley',
   title: 'Home',
+  htmlAttrs: {
+    lang: 'en',
+  },
   meta: [
     {
       name: 'description',

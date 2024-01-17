@@ -7,7 +7,7 @@
 <script setup lang="ts">
 useHead({
   titleTemplate: '%s | Jal Ridley',
-  title: 'Home',
+  title: 'Jal Ridley Portfolio',
   htmlAttrs: {
     lang: 'en',
   },

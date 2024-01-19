@@ -28,7 +28,18 @@ export default {
       '3xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        'anim-bounce': {
+          '0%, 20%, 50%, 80%, 100%': { transform: 'translateY(0)' },
+          '40%': { transform: 'translateY(-10px)' },
+          '60%': { transform: 'translateY(-5px)' },
+        },
+      },
+      animation: {
+        'icon-bounce': 'anim-bounce 2s 1 ease',
+      },
+    },
   },
   plugins: [],
 }

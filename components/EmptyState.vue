@@ -3,8 +3,8 @@
     class="rounded-md border border-gray-200 bg-white px-4 py-12 text-center text-gray-500"
   >
     <img
-      src="@/assets/icons/eye-empty.svg"
-      alt="Bouncing crossed out eye icon"
+      src="../assets/icons/eye-empty.svg"
+      alt="Crossed out eye"
       aria-hidden="true"
       :name="icon"
       class="motion-safe:animate-icon-bounce mx-auto h-16 w-16"

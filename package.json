@@ -27,6 +27,7 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",
+    "vitest": "^1.2.1",
     "vue": "^3.4.6",
     "vue-router": "^4.2.5"
   }

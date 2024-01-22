@@ -25,7 +25,7 @@
       <h2>Stats Percentage Bar Component</h2>
       <div class="flex h-full justify-center">
         <StatsPercentageBar
-          class="w-2 rounded-l-lg"
+          class="h-40 w-2 rounded-l-lg"
           :items="[
             {
               color: 'rgba(5, 150, 105, 0.7)',
@@ -49,13 +49,6 @@
             },
           ]"
         />
-        <div class="ml-2 h-full py-1">
-          <div class="px-4 py-2">Green stat label</div>
-          <div class="px-4 py-2">Blue stat label</div>
-          <div class="px-4 py-2">Dark gray stat label</div>
-          <div class="px-4 py-2">Light gray stat label</div>
-          <div class="px-4 py-2">Red stat label</div>
-        </div>
       </div>
 
       <p>

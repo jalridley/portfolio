@@ -18,5 +18,4 @@ const props = defineProps<Props>()
 const filteredItems = computed(() => {
   return props.items.filter((item: { value: number }) => item.value > 0)
 })
-console.log(linearGradient(filteredItems.value))
 </script>

@@ -59,6 +59,127 @@
         necessitatibus.
       </p>
     </article>
+    <article class="rounded border border-gray-400 bg-purple-300 p-4">
+      <h2>Custom Icon Design</h2>
+      <span class="flex flex-wrap space-x-2">
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/actions.svg"
+            alt="Greater-than with underscore icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/animate-sparkles.svg"
+            alt="Animated sparkles icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/annotation.svg"
+            alt="Annotation icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/flag.svg"
+            alt="Flag icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/loading.svg"
+            alt="Animated loading icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/save-disc.svg"
+            alt="Save disc icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/tag.svg"
+            alt="Tag icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/tasks.svg"
+            alt="Tasks icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/trash.svg"
+            alt="Trash can icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/user-minus.svg"
+            alt="User with minus icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/user-plus.svg"
+            alt="User with plus icon"
+            class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-24 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/team.svg"
+            alt="Team icon"
+            class="h-6 w-16"
+          />
+        </div>
+      </span>
+
+      <p>
+        <strong>Descriptive text about Component</strong>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
+        quos corrupti, odit officia hic non illum, modi labore similique neque
+        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
+        necessitatibus.
+      </p>
+    </article>
   </section>
 </template>
 <script setup lang="ts">

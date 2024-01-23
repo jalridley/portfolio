@@ -152,6 +152,15 @@
             class="h-6 w-6"
           />
         </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/user-minus.svg"
+            alt="User with minus icon"
+            class="h-6 w-6"
+          />
+        </div>
       </span>
 
       <p>

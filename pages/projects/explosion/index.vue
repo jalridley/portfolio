@@ -68,7 +68,6 @@
           <img
             src="@/assets/icons/explosion/actions.svg"
             alt="Greater-than with underscore icon"
-            aria-hidden="true"
             class="h-6 w-6"
           />
         </div>
@@ -78,7 +77,6 @@
           <img
             src="@/assets/icons/explosion/animate-sparkles.svg"
             alt="Animated sparkles icon"
-            aria-hidden="true"
             class="h-6 w-6"
           />
         </div>
@@ -88,7 +86,6 @@
           <img
             src="@/assets/icons/explosion/annotation.svg"
             alt="Annotation icon"
-            aria-hidden="true"
             class="h-6 w-6"
           />
         </div>
@@ -98,7 +95,6 @@
           <img
             src="@/assets/icons/explosion/flag.svg"
             alt="Flag icon"
-            aria-hidden="true"
             class="h-6 w-6"
           />
         </div>
@@ -108,7 +104,6 @@
           <img
             src="@/assets/icons/explosion/loading.svg"
             alt="Animated loading icon"
-            aria-hidden="true"
             class="h-6 w-6"
           />
         </div>
@@ -118,7 +113,6 @@
           <img
             src="@/assets/icons/explosion/save-disc.svg"
             alt="Save disc icon"
-            aria-hidden="true"
             class="h-6 w-6"
           />
         </div>
@@ -128,7 +122,6 @@
           <img
             src="@/assets/icons/explosion/tag.svg"
             alt="Tag icon"
-            aria-hidden="true"
             class="h-6 w-6"
           />
         </div>
@@ -138,7 +131,6 @@
           <img
             src="@/assets/icons/explosion/tasks.svg"
             alt="Tasks icon"
-            aria-hidden="true"
             class="h-6 w-6"
           />
         </div>
@@ -148,7 +140,6 @@
           <img
             src="@/assets/icons/explosion/team.svg"
             alt="Team icon"
-            aria-hidden="true"
             class="h-6 w-16"
           />
         </div>

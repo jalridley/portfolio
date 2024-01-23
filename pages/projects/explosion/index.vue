@@ -92,6 +92,16 @@
             class="h-6 w-6"
           />
         </div>
+        <div
+          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/flag.svg"
+            alt="Flag icon"
+            aria-hidden="true"
+            class="h-6 w-6"
+          />
+        </div>
       </span>
 
       <p>

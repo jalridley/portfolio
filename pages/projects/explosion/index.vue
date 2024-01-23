@@ -132,6 +132,16 @@
             class="h-6 w-6"
           />
         </div>
+        <div
+          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/tasks.svg"
+            alt="Tasks icon"
+            aria-hidden="true"
+            class="h-6 w-6"
+          />
+        </div>
       </span>
 
       <p>

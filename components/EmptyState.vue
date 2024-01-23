@@ -3,7 +3,7 @@
     class="rounded-md border border-gray-200 bg-white px-4 py-12 text-center text-gray-500"
   >
     <img
-      src="../assets/icons/eye-empty.svg"
+      src="../assets/icons/explosion/eye-empty.svg"
       alt="Crossed out eye"
       aria-hidden="true"
       :name="icon"

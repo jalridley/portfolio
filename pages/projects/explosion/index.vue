@@ -61,9 +61,9 @@
     </article>
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Custom Icon Design</h2>
-      <span class="flex space-x-2">
+      <span class="flex flex-wrap space-x-2">
         <div
-          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
           <img
             src="@/assets/icons/explosion/actions.svg"
@@ -73,7 +73,7 @@
           />
         </div>
         <div
-          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
           <img
             src="@/assets/icons/explosion/animate-sparkles.svg"
@@ -83,7 +83,7 @@
           />
         </div>
         <div
-          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
           <img
             src="@/assets/icons/explosion/annotation.svg"
@@ -93,7 +93,7 @@
           />
         </div>
         <div
-          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
           <img
             src="@/assets/icons/explosion/flag.svg"
@@ -103,7 +103,7 @@
           />
         </div>
         <div
-          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
           <img
             src="@/assets/icons/explosion/loading.svg"
@@ -113,7 +113,7 @@
           />
         </div>
         <div
-          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
           <img
             src="@/assets/icons/explosion/save-disc.svg"
@@ -123,7 +123,7 @@
           />
         </div>
         <div
-          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
           <img
             src="@/assets/icons/explosion/tag.svg"
@@ -133,13 +133,23 @@
           />
         </div>
         <div
-          class="flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 bg-white"
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
           <img
             src="@/assets/icons/explosion/tasks.svg"
             alt="Tasks icon"
             aria-hidden="true"
             class="h-6 w-6"
+          />
+        </div>
+        <div
+          class="flex h-11 w-24 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <img
+            src="@/assets/icons/explosion/team.svg"
+            alt="Team icon"
+            aria-hidden="true"
+            class="h-6 w-16"
           />
         </div>
       </span>

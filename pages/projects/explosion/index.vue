@@ -12,7 +12,12 @@
     </p>
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Empty State Component</h2>
-      <EmptyState />
+
+      <EmptyState>
+        <template #icon>
+          <IconsEmptyEye />
+        </template>
+      </EmptyState>
       <p>
         <strong>Descriptive text about Component</strong>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam

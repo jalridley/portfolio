@@ -70,11 +70,7 @@
         <div
           class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
-          <img
-            src="@/assets/icons/explosion/actions.svg"
-            alt="Greater-than with underscore icon"
-            class="h-6 w-6"
-          />
+          <IconsActions class="h-6 w-6" />
         </div>
         <div
           class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
@@ -188,7 +184,6 @@
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Stats List Component</h2>
       <StatsList
-        class="h-full"
         title="Stats"
         :items="[
           {
@@ -236,14 +231,45 @@
         necessitatibus.
       </p>
     </article>
+    <article class="rounded border border-gray-400 bg-purple-300 p-4">
+      <h2>Stats Grid Component</h2>
+      <StatsGrid
+        :items="[
+          {
+            name: pluralize(3, 'Action'),
+            stat: 12,
+            icon: IconsActions,
+          },
+          {
+            name: 'Running',
+            stat: 9,
+            icon: IconsStatusActive,
+          },
+          {
+            name: 'Failed',
+            stat: 2,
+            icon: IconsStatusError,
+          },
+        ]"
+      />
+      <p>
+        <strong>Descriptive text about Component</strong>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
+        quos corrupti, odit officia hic non illum, modi labore similique neque
+        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
+        necessitatibus.
+      </p>
+    </article>
   </section>
 </template>
 <script setup lang="ts">
+import { pluralize } from '@/utils/language'
 import IconsStatusActive from '~/components/icons/IconsStatusActive.vue'
 import IconsStatusLoading from '~/components/icons/IconsStatusLoading.vue'
 import IconsStatusPaused from '~/components/icons/IconsStatusPaused.vue'
 import IconsStatusPending from '~/components/icons/IconsStatusPending.vue'
 import IconsStatusError from '~/components/icons/IconsStatusError.vue'
+import IconsActions from '~/components/icons/IconsActions.vue'
 
 useHead({
   title: 'Explosion Ai',

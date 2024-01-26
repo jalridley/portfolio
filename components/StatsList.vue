@@ -4,7 +4,7 @@
       {{ title }}
     </div>
     <ul class="py-1">
-      <li v-for="(item, index) in filteredItems" :key="index" class="text-sm">
+      <li v-for="item in filteredItems" :key="item.name" class="text-sm">
         <NuxtLink
           class="group my-1 flex h-full w-full items-center justify-between px-4 py-2 transition"
           :class="[

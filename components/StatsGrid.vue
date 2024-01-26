@@ -3,7 +3,7 @@
     class="grid divide-x divide-gray-200 rounded border border-gray-200 bg-white"
     :class="[numCols.get(itemsLength(items))]"
   >
-    <div v-for="(item, index) in items" :key="index" class="p-4 text-center">
+    <div v-for="item in items" :key="item.name" class="p-4 text-center">
       <dd>
         <span class="text-3xl font-medium">{{ item.stat }}</span>
         <component

@@ -16,15 +16,12 @@
 </template>
 
 <script setup lang="ts">
-interface StatusItem {
-  name: string
-  stat: string | number
-  icon: string
-}
+import type { DashboardStat } from '~/types'
 
 interface Props {
-  items: StatusItem[]
+  items: DashboardStat[]
 }
+
 defineProps<Props>()
 
 const itemsLength = (items: any) => {

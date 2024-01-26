@@ -193,9 +193,9 @@
         :items="[
           {
             icon: IconsStatusActive,
-            stat: 4, // tasksStats.running,
+            stat: 4,
             name: 'Running',
-            // url: `/project/${projectId}/tasks?q=status:STARTED`,
+            // url: links to item url if there is one,
             classes: 'text-emerald-600 hover:text-emerald-700',
           },
         ]"

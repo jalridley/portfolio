@@ -205,6 +205,13 @@
             // url: links to item url if there is one,
             classes: 'text-sky-600 hover:text-sky-700',
           },
+          {
+            icon: IconsStatusPaused,
+            stat: 3,
+            name: 'Stopped',
+            // url: links to item url if there is one,
+            classes: 'text-slate-600 hover:text-slate-700',
+          },
         ]"
       />
       <p>
@@ -220,6 +227,7 @@
 <script setup lang="ts">
 import IconsStatusActive from '~/components/icons/IconsStatusActive.vue'
 import IconsStatusLoading from '~/components/icons/IconsStatusLoading.vue'
+import IconsStatusPaused from '~/components/icons/IconsStatusPaused.vue'
 
 useHead({
   title: 'Explosion Ai',

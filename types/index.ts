@@ -4,7 +4,7 @@ export interface ColorStatItem {
 }
 
 export type DashboardStat = {
-  icon: string
+  icon: Component
   name: string
   url?: string
   stat: number

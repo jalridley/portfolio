@@ -2,7 +2,6 @@
   <dl :class="[numCols.get(itemsLength(items))]">
     <div v-for="(item, index) in items" :key="index" class="p-4 text-center">
       <dd>
-        <span>{{ isLoading ? '...' : item.stat }}</span>
         <component
           :is="item.icon"
           class="ml-1 inline-block h-3.5 w-3.5 text-slate-500"
@@ -24,7 +23,6 @@ interface StatusItem {
 
 interface Props {
   items: StatusItem[]
-  isLoading?: boolean
 }
 defineProps<Props>()
 

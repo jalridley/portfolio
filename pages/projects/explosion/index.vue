@@ -70,11 +70,7 @@
         <div
           class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
-          <img
-            src="@/assets/icons/explosion/actions.svg"
-            alt="Greater-than with underscore icon"
-            class="h-6 w-6"
-          />
+          <IconsActions class="h-6 w-6" />
         </div>
         <div
           class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
@@ -243,18 +239,18 @@
         :items="[
           {
             name: pluralize(3, 'Action'),
-            stat: 12, // stats.actions_count,
-            icon: 'actions',
+            stat: 12,
+            icon: IconsActions,
           },
           {
             name: 'Running',
-            stat: 9, // actionsStats.running,
-            icon: 'status-active', // actionsStats.running > 0 ? 'status-active' : 'status-paused',
+            stat: 9,
+            icon: IconsStatusActive,
           },
           {
             name: 'Failed',
-            stat: 2, // actionsStats.failed,
-            icon: 'status-error', // actionsStats.failed > 0 ? 'status-error' : 'status-paused',
+            stat: 2,
+            icon: IconsStatusError,
           },
         ]"
       />
@@ -275,6 +271,7 @@ import IconsStatusLoading from '~/components/icons/IconsStatusLoading.vue'
 import IconsStatusPaused from '~/components/icons/IconsStatusPaused.vue'
 import IconsStatusPending from '~/components/icons/IconsStatusPending.vue'
 import IconsStatusError from '~/components/icons/IconsStatusError.vue'
+import IconsActions from '~/components/icons/IconsActions.vue'
 
 useHead({
   title: 'Explosion Ai',

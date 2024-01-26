@@ -1,11 +1,6 @@
 <template>
   <dl :class="[numCols.get(itemsLength(items))]">
-    <div
-      v-for="(item, index) in items"
-      :key="index"
-      class="p-4 text-center"
-      :class="item.color"
-    >
+    <div v-for="(item, index) in items" :key="index" class="p-4 text-center">
       <dd>
         <span :data-test="`status-${item.id}`">{{
           isLoading ? '...' : item.stat
@@ -28,7 +23,6 @@ interface StatusItem {
   name: string
   stat: string | number
   icon: string
-  color?: string
 }
 
 interface Props {

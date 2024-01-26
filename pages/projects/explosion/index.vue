@@ -12,7 +12,12 @@
     </p>
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Empty State Component</h2>
-      <EmptyState />
+
+      <EmptyState>
+        <template #icon>
+          <IconsEmptyEye />
+        </template>
+      </EmptyState>
       <p>
         <strong>Descriptive text about Component</strong>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
@@ -180,9 +185,66 @@
         necessitatibus.
       </p>
     </article>
+    <article class="rounded border border-gray-400 bg-purple-300 p-4">
+      <h2>Stats List Component</h2>
+      <StatsList
+        class="h-full"
+        title="Stats"
+        :items="[
+          {
+            icon: IconsStatusActive,
+            stat: 9,
+            name: 'Running',
+            // url: links to item url if there is one,
+            classes: 'text-emerald-600 hover:text-emerald-700',
+          },
+          {
+            icon: IconsStatusLoading,
+            stat: 7,
+            name: 'Starting',
+            // url: links to item url if there is one,
+            classes: 'text-sky-600 hover:text-sky-700',
+          },
+          {
+            icon: IconsStatusPaused,
+            stat: 3,
+            name: 'Stopped',
+            // url: links to item url if there is one,
+            classes: 'text-slate-600 hover:text-slate-700',
+          },
+          {
+            icon: IconsStatusPending,
+            stat: 5,
+            name: 'Pending',
+            // url: links to item url if there is one,
+            classes: 'text-slate-500 hover:text-slate-600',
+          },
+          {
+            icon: IconsStatusError,
+            stat: 5,
+            name: 'Failed',
+            // url: links to item url if there is one,
+            classes: 'text-rose-600 hover:text-rose-700',
+          },
+        ]"
+      />
+      <p>
+        <strong>Descriptive text about Component</strong>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
+        quos corrupti, odit officia hic non illum, modi labore similique neque
+        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
+        necessitatibus.
+      </p>
+    </article>
   </section>
 </template>
 <script setup lang="ts">
+import IconsStatusActive from '~/components/icons/IconsStatusActive.vue'
+import IconsStatusLoading from '~/components/icons/IconsStatusLoading.vue'
+import IconsStatusPaused from '~/components/icons/IconsStatusPaused.vue'
+import IconsStatusPending from '~/components/icons/IconsStatusPending.vue'
+import IconsStatusError from '~/components/icons/IconsStatusError.vue'
+
 useHead({
   title: 'Explosion Ai',
 })

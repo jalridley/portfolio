@@ -10,8 +10,8 @@
         <span :data-test="`status-${item.id}`">{{
           isLoading ? '...' : item.stat
         }}</span>
-        <PIcon
-          :name="item.icon"
+        <component
+          :is="item.icon"
           class="ml-1 inline-block h-3.5 w-3.5 text-slate-500"
         />
       </dd>

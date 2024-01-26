@@ -193,10 +193,17 @@
         :items="[
           {
             icon: IconsStatusActive,
-            stat: 4,
+            stat: 9,
             name: 'Running',
             // url: links to item url if there is one,
             classes: 'text-emerald-600 hover:text-emerald-700',
+          },
+          {
+            icon: IconsStatusLoading,
+            stat: 7,
+            name: 'Starting',
+            // url: links to item url if there is one,
+            classes: 'text-sky-600 hover:text-sky-700',
           },
         ]"
       />
@@ -212,6 +219,7 @@
 </template>
 <script setup lang="ts">
 import IconsStatusActive from '~/components/icons/IconsStatusActive.vue'
+import IconsStatusLoading from '~/components/icons/IconsStatusLoading.vue'
 
 useHead({
   title: 'Explosion Ai',

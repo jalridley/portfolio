@@ -212,6 +212,14 @@
             // url: links to item url if there is one,
             classes: 'text-slate-600 hover:text-slate-700',
           },
+          {
+            icon: IconsStatusPending,
+            stat: 5,
+            name: 'Pending',
+            // url: links to item url if there is one,
+
+            classes: 'text-slate-500 hover:text-slate-600',
+          },
         ]"
       />
       <p>
@@ -228,6 +236,7 @@
 import IconsStatusActive from '~/components/icons/IconsStatusActive.vue'
 import IconsStatusLoading from '~/components/icons/IconsStatusLoading.vue'
 import IconsStatusPaused from '~/components/icons/IconsStatusPaused.vue'
+import IconsStatusPending from '~/components/icons/IconsStatusPending.vue'
 
 useHead({
   title: 'Explosion Ai',

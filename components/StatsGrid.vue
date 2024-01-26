@@ -1,14 +1,17 @@
 <template>
-  <dl :class="[numCols.get(itemsLength(items))]">
+  <dl
+    class="grid divide-x divide-gray-200 rounded border border-gray-200 bg-white"
+    :class="[numCols.get(itemsLength(items))]"
+  >
     <div v-for="(item, index) in items" :key="index" class="p-4 text-center">
       <dd>
-        <span>{{ item.stat }}</span>
+        <span class="text-3xl font-medium">{{ item.stat }}</span>
         <component
           :is="item.icon"
           class="ml-1 inline-block h-3.5 w-3.5 align-baseline text-slate-500"
         />
       </dd>
-      <dt>
+      <dt class="text-xs tracking-wide text-slate-500">
         {{ item.name }}
       </dt>
     </div>
@@ -37,17 +40,3 @@ const numCols = new Map([
   [3, 'grid-cols-3'],
 ])
 </script>
-
-<style lang="postcss" scoped>
-dl {
-  @apply grid divide-x divide-gray-200 rounded border border-gray-200 bg-white;
-}
-
-dd span {
-  @apply text-3xl font-medium;
-}
-
-dt {
-  @apply text-xs tracking-wide text-slate-500;
-}
-</style>

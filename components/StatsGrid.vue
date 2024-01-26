@@ -5,7 +5,7 @@
         <span>{{ item.stat }}</span>
         <component
           :is="item.icon"
-          class="ml-1 inline-block h-3.5 w-3.5 text-slate-500"
+          class="ml-1 inline-block h-3.5 w-3.5 align-baseline text-slate-500"
         />
       </dd>
       <dt>

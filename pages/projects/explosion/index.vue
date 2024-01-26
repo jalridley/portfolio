@@ -184,7 +184,6 @@
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Stats List Component</h2>
       <StatsList
-        class="h-full"
         title="Stats"
         :items="[
           {
@@ -235,7 +234,6 @@
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Stats Grid Component</h2>
       <StatsGrid
-        class="lg:order-4"
         :items="[
           {
             name: pluralize(3, 'Action'),

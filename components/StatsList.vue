@@ -36,16 +36,16 @@
 </template>
 
 <script setup lang="ts">
-import type { DashboardStat } from '~/types/index'
+import type { StatItem } from '~/types/index'
 
 interface Props {
   title: string
-  items: DashboardStat[]
+  items: StatItem[]
 }
 
 const props = defineProps<Props>()
 
 const filteredItems = computed(() => {
-  return props.items.filter((item: DashboardStat) => item.stat > 0)
+  return props.items.filter((item: StatItem) => item.stat > 0)
 })
 </script>

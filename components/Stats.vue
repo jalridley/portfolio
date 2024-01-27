@@ -6,7 +6,6 @@
         <strong class="mr-1 text-base font-medium text-slate-800">{{
           item.stat
         }}</strong>
-
         <span class="text-slate-500">{{ item.name }}</span>
       </li>
     </ul>

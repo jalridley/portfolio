@@ -3,7 +3,7 @@ export interface ColorStatItem {
   value: number
 }
 
-export type DashboardStat = {
+export type StatItem = {
   icon: Component
   name: string
   url?: string

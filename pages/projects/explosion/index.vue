@@ -283,8 +283,7 @@
         <strong>Descriptive text about Component</strong>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
         quos corrupti, odit officia hic non illum, modi labore similique neque
-        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
-        necessitatibus.
+        temporibus sapiente. Minus qui eos repudiandae perspiciatis ulla.
       </p>
     </article>
   </section>

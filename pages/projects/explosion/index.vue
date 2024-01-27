@@ -13,11 +13,7 @@
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Empty State Component</h2>
 
-      <EmptyState>
-        <template #icon>
-          <IconsEmptyEye />
-        </template>
-      </EmptyState>
+      <EmptyState />
       <p>
         <strong>Descriptive text about Component</strong>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
@@ -84,11 +80,7 @@
         <div
           class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
-          <img
-            src="@/assets/icons/explosion/annotation.svg"
-            alt="Annotation icon"
-            class="h-6 w-6"
-          />
+          <IconsAnnotation class="h-6 w-6" />
         </div>
         <div
           class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
@@ -161,6 +153,11 @@
             alt="User with plus icon"
             class="h-6 w-6"
           />
+        </div>
+        <div
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
+        >
+          <IconsAdministrator class="h-6 w-6" />
         </div>
         <div
           class="flex h-11 w-24 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
@@ -260,6 +257,36 @@
         necessitatibus.
       </p>
     </article>
+    <article class="rounded border border-gray-400 bg-purple-300 p-4">
+      <h2>Stats Component</h2>
+      <Stats
+        classes="ml-0 flex shrink-0 grow-0 items-center justify-center text-slate-500 lg:ml-10"
+        :items="[
+          {
+            name: pluralize(1, 'Admin'),
+            icon: IconsAdministrator,
+            stat: 1,
+          },
+          {
+            name: pluralize(8, 'Dev'),
+            icon: IconsCode,
+            stat: 8,
+          },
+          {
+            name: pluralize(22, 'Annotator'),
+            icon: IconsAnnotation,
+            stat: 22,
+          },
+        ]"
+      />
+      <p>
+        <strong>Descriptive text about Component</strong>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
+        quos corrupti, odit officia hic non illum, modi labore similique neque
+        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
+        necessitatibus.
+      </p>
+    </article>
   </section>
 </template>
 <script setup lang="ts">
@@ -270,6 +297,9 @@ import IconsStatusPaused from '~/components/icons/IconsStatusPaused.vue'
 import IconsStatusPending from '~/components/icons/IconsStatusPending.vue'
 import IconsStatusError from '~/components/icons/IconsStatusError.vue'
 import IconsActions from '~/components/icons/IconsActions.vue'
+import IconsAnnotation from '~/components/icons/IconsAnnotation.vue'
+import IconsAdministrator from '~/components/icons/IconsAdministrator.vue'
+import IconsCode from '~/components/icons/IconsCode.vue'
 
 useHead({
   title: 'Explosion Ai',

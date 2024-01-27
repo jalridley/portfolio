@@ -19,10 +19,10 @@
 </template>
 
 <script setup lang="ts">
-import type { DashboardStat } from '~/types'
+import type { StatItem } from '~/types'
 
 interface Props {
-  items: DashboardStat[]
+  items: StatItem[]
 }
 
 defineProps<Props>()

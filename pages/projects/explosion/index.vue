@@ -11,6 +11,29 @@
       necessitatibus.
     </p>
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
+      <h2>Header Details Component</h2>
+      <div class="flex justify-center space-x-10">
+        <HeaderDetails
+          title="Actions"
+          :icon="IconsHome"
+          description="US news in English"
+        />
+        <HeaderDetails
+          headline="Train & Evaluate"
+          title="Actions"
+          :icon="IconsActions"
+          is-card-header
+        />
+      </div>
+      <p>
+        <strong>Descriptive text about Component</strong>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
+        quos corrupti, odit officia hic non illum, modi labore similique neque
+        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
+        necessitatibus.
+      </p>
+    </article>
+    <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Empty State Component</h2>
 
       <EmptyState />
@@ -299,6 +322,7 @@ import IconsActions from '~/components/icons/IconsActions.vue'
 import IconsAnnotation from '~/components/icons/IconsAnnotation.vue'
 import IconsAdministrator from '~/components/icons/IconsAdministrator.vue'
 import IconsCode from '~/components/icons/IconsCode.vue'
+import IconsHome from '~/components/icons/IconsHome.vue'
 
 useHead({
   title: 'Explosion Ai',

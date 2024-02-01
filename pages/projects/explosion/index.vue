@@ -1,6 +1,9 @@
 <template>
   <section class="space-y-6">
     <h1 class="flex justify-center text-3xl font-bold">Explosion page 💥</h1>
+    <NuxtLink class="hover:text-emerald-700" to="/projects/explosion/dashboard"
+      >Dashboard Feature</NuxtLink
+    >
     <p>
       <strong
         >Descriptive text about Explosion AI work and Prodigy Teams:</strong

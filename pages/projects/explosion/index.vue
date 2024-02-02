@@ -147,11 +147,7 @@
         <div
           class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
-          <img
-            src="@/assets/icons/explosion/tasks.svg"
-            alt="Tasks icon"
-            class="h-6 w-6"
-          />
+          <IconsTasks class="h-6 w-6" />
         </div>
         <div
           class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
@@ -321,6 +317,7 @@ import IconsStatusLoading from '~/components/icons/IconsStatusLoading.vue'
 import IconsStatusPaused from '~/components/icons/IconsStatusPaused.vue'
 import IconsStatusPending from '~/components/icons/IconsStatusPending.vue'
 import IconsStatusError from '~/components/icons/IconsStatusError.vue'
+import IconsTasks from '~/components/icons/IconsTasks.vue'
 import IconsActions from '~/components/icons/IconsActions.vue'
 import IconsAnnotation from '~/components/icons/IconsAnnotation.vue'
 import IconsAdministrator from '~/components/icons/IconsAdministrator.vue'

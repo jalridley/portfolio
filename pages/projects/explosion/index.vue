@@ -98,7 +98,7 @@
           class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white"
         >
           <img
-            src="@/assets/icons/explosion/animate-sparkles.svg"
+            src="@/assets/icons/explosion/animate-sparkles-black.svg"
             alt="Animated sparkles icon"
             class="h-6 w-6"
           />

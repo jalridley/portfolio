@@ -63,6 +63,13 @@
         ]"
       />
       <!-- actions -->
+      <HeaderDetails
+        class="items-center rounded border border-slate-200 bg-white p-2 lg:order-2"
+        headline="Train & Evaluate"
+        title="Actions"
+        :icon="IconsActions"
+        is-card-header
+      />
     </section>
   </main>
 </template>

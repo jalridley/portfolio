@@ -6,7 +6,7 @@
       >
         <!-- <h1 class="flex justify-center text-5xl font-bold">Dashboard page</h1> -->
         <HeaderDetails
-          title="Actions"
+          title="Project X"
           :icon="IconsHome"
           description="US news in English"
         />
@@ -35,6 +35,7 @@
     <section
       class="container mx-auto mt-2 grid grid-cols-1 gap-8 px-6 lg:max-w-4xl lg:grid-cols-2 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
     >
+      <!-- tasks -->
       <HeaderDetails
         class="items-center rounded border border-slate-200 bg-white p-2 lg:order-1"
         headline="Annotate Data"
@@ -61,6 +62,7 @@
           },
         ]"
       />
+      <!-- actions -->
     </section>
   </main>
 </template>

@@ -17,7 +17,7 @@
       <h2>Header Details Component</h2>
       <div class="flex justify-center space-x-10">
         <HeaderDetails
-          title="Actions"
+          title="Project X"
           :icon="IconsHome"
           description="US news in English"
         />

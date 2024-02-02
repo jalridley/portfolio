@@ -89,6 +89,52 @@
           },
         ]"
       />
+      <div
+        class="flex flex-col rounded border border-slate-200 bg-slate-100 p-6 lg:order-5"
+      >
+        <div class="flex h-full justify-center">
+          <StatsList
+            title="Stats"
+            :items="[
+              {
+                icon: IconsStatusActive,
+                stat: 1,
+                name: 'Running',
+                // url: links to item url if there is one,
+                classes: 'text-emerald-600 hover:text-emerald-700',
+              },
+              {
+                icon: IconsStatusLoading,
+                stat: 2,
+                name: 'Starting',
+                // url: links to item url if there is one,
+                classes: 'text-sky-600 hover:text-sky-700',
+              },
+              {
+                icon: IconsStatusPaused,
+                stat: 3,
+                name: 'Stopped',
+                // url: links to item url if there is one,
+                classes: 'text-slate-600 hover:text-slate-700',
+              },
+              {
+                icon: IconsStatusPending,
+                stat: 1,
+                name: 'Pending',
+                // url: links to item url if there is one,
+                classes: 'text-slate-500 hover:text-slate-600',
+              },
+              {
+                icon: IconsStatusError,
+                stat: 1,
+                name: 'Failed',
+                // url: links to item url if there is one,
+                classes: 'text-rose-600 hover:text-rose-700',
+              },
+            ]"
+          />
+        </div>
+      </div>
     </section>
   </main>
 </template>

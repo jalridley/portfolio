@@ -10,6 +10,26 @@
           :icon="IconsHome"
           description="US news in English"
         />
+        <Stats
+          classes="ml-0 flex shrink-0 grow-0 items-center justify-center text-slate-500 lg:ml-10"
+          :items="[
+            {
+              name: pluralize(1, 'Admin'),
+              icon: IconsAdministrator,
+              stat: 1,
+            },
+            {
+              name: pluralize(8, 'Dev'),
+              icon: IconsCode,
+              stat: 8,
+            },
+            {
+              name: pluralize(22, 'Annotator'),
+              icon: IconsAnnotation,
+              stat: 22,
+            },
+          ]"
+        />
       </section>
     </header>
   </main>

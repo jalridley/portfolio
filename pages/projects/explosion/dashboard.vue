@@ -32,6 +32,17 @@
         />
       </section>
     </header>
+    <section
+      class="container mx-auto mt-2 grid grid-cols-1 gap-8 px-6 lg:max-w-4xl lg:grid-cols-2 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
+    >
+      <HeaderDetails
+        class="items-center rounded border border-slate-200 bg-white p-2 lg:order-1"
+        headline="Annotate Data"
+        title="Tasks"
+        :icon="IconsTasks"
+        is-card-header
+      />
+    </section>
   </main>
 </template>
 
@@ -43,6 +54,7 @@ import IconsStatusPaused from '~/components/icons/IconsStatusPaused.vue'
 import IconsStatusPending from '~/components/icons/IconsStatusPending.vue'
 import IconsStatusError from '~/components/icons/IconsStatusError.vue'
 import IconsActions from '~/components/icons/IconsActions.vue'
+import IconsTasks from '~/components/icons/IconsTasks.vue'
 import IconsAnnotation from '~/components/icons/IconsAnnotation.vue'
 import IconsAdministrator from '~/components/icons/IconsAdministrator.vue'
 import IconsCode from '~/components/icons/IconsCode.vue'

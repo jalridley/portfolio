@@ -93,7 +93,33 @@
         class="flex flex-col rounded border border-slate-200 bg-slate-100 p-6 lg:order-5"
       >
         <div class="flex h-full justify-center">
+          <StatsPercentageBar
+            class="w-2 rounded-l-lg"
+            :items="[
+              {
+                color: 'rgba(5, 150, 105, 0.7)',
+                value: 1,
+              },
+              {
+                color: 'rgba(2, 132, 199, 0.7)',
+                value: 2,
+              },
+              {
+                color: 'rgba(71, 85, 105, 0.7)',
+                value: 3,
+              },
+              {
+                color: 'rgba(100, 116, 139, 0.7)',
+                value: 1,
+              },
+              {
+                color: 'rgba(225, 29, 72, 0.7)',
+                value: 1,
+              },
+            ]"
+          />
           <StatsList
+            class="h-full"
             title="Stats"
             :items="[
               {

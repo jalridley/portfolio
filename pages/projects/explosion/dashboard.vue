@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="bg-slate-50">
     <header>
       <section
         class="container mx-auto mt-2 px-6 py-2 md:py-4 lg:flex lg:max-w-4xl lg:justify-between lg:py-6 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
@@ -42,6 +42,25 @@
         :icon="IconsTasks"
         is-card-header
       />
+      <StatsGrid
+        :items="[
+          {
+            name: pluralize(3, 'Task'),
+            stat: 12,
+            icon: IconsTasks,
+          },
+          {
+            name: 'Running',
+            stat: 9,
+            icon: IconsStatusActive,
+          },
+          {
+            name: pluralize(2, 'Live session'),
+            stat: 2,
+            icon: IconsAnimateSparkles,
+          },
+        ]"
+      />
     </section>
   </main>
 </template>
@@ -59,6 +78,8 @@ import IconsAnnotation from '~/components/icons/IconsAnnotation.vue'
 import IconsAdministrator from '~/components/icons/IconsAdministrator.vue'
 import IconsCode from '~/components/icons/IconsCode.vue'
 import IconsHome from '~/components/icons/IconsHome.vue'
+import IconsAnimateSparkles from '~/components/icons/IconsAnimateSparkles.vue'
+
 useHead({
   title: 'Dashboard',
 })

@@ -46,7 +46,7 @@
       <StatsGrid
         :items="[
           {
-            name: pluralize(3, 'Task'),
+            name: pluralize(12, 'Task'),
             stat: 12,
             icon: IconsTasks,
           },
@@ -69,6 +69,25 @@
         title="Actions"
         :icon="IconsActions"
         is-card-header
+      />
+      <StatsGrid
+        :items="[
+          {
+            name: pluralize(8, 'Action'),
+            stat: 8,
+            icon: IconsActions,
+          },
+          {
+            name: 'Running',
+            stat: 1,
+            icon: IconsStatusActive,
+          },
+          {
+            name: 'Failed',
+            stat: 1,
+            icon: IconsStatusError,
+          },
+        ]"
       />
     </section>
   </main>

@@ -44,6 +44,7 @@
         is-card-header
       />
       <StatsGrid
+        class="lg:order-3"
         :items="[
           {
             name: pluralize(12, 'Task'),
@@ -52,40 +53,13 @@
           },
           {
             name: 'Running',
-            stat: 9,
+            stat: 4,
             icon: IconsStatusActive,
           },
           {
             name: pluralize(2, 'Live session'),
             stat: 2,
             icon: IconsAnimateSparkles,
-          },
-        ]"
-      />
-      <!-- actions -->
-      <HeaderDetails
-        class="items-center rounded border border-slate-200 bg-white p-2 lg:order-2"
-        headline="Train & Evaluate"
-        title="Actions"
-        :icon="IconsActions"
-        is-card-header
-      />
-      <StatsGrid
-        :items="[
-          {
-            name: pluralize(8, 'Action'),
-            stat: 8,
-            icon: IconsActions,
-          },
-          {
-            name: 'Running',
-            stat: 1,
-            icon: IconsStatusActive,
-          },
-          {
-            name: 'Failed',
-            stat: 1,
-            icon: IconsStatusError,
           },
         ]"
       />
@@ -98,7 +72,7 @@
             :items="[
               {
                 color: 'rgba(5, 150, 105, 0.7)',
-                value: 1,
+                value: 4,
               },
               {
                 color: 'rgba(2, 132, 199, 0.7)',
@@ -106,7 +80,7 @@
               },
               {
                 color: 'rgba(71, 85, 105, 0.7)',
-                value: 3,
+                value: 4,
               },
               {
                 color: 'rgba(100, 116, 139, 0.7)',
@@ -124,7 +98,7 @@
             :items="[
               {
                 icon: IconsStatusActive,
-                stat: 1,
+                stat: 4,
                 name: 'Running',
                 // url: links to item url if there is one,
                 classes: 'text-emerald-600 hover:text-emerald-700',
@@ -138,7 +112,7 @@
               },
               {
                 icon: IconsStatusPaused,
-                stat: 3,
+                stat: 4,
                 name: 'Stopped',
                 // url: links to item url if there is one,
                 classes: 'text-slate-600 hover:text-slate-700',
@@ -153,6 +127,106 @@
               {
                 icon: IconsStatusError,
                 stat: 1,
+                name: 'Failed',
+                // url: links to item url if there is one,
+                classes: 'text-rose-600 hover:text-rose-700',
+              },
+            ]"
+          />
+        </div>
+      </div>
+      <!-- actions -->
+      <HeaderDetails
+        class="items-center rounded border border-slate-200 bg-white p-2 lg:order-2"
+        headline="Train & Evaluate"
+        title="Actions"
+        :icon="IconsActions"
+        is-card-header
+      />
+      <StatsGrid
+        class="lg:order-4"
+        :items="[
+          {
+            name: pluralize(10, 'Action'),
+            stat: 10,
+            icon: IconsActions,
+          },
+          {
+            name: 'Running',
+            stat: 1,
+            icon: IconsStatusActive,
+          },
+          {
+            name: 'Failed',
+            stat: 2,
+            icon: IconsStatusError,
+          },
+        ]"
+      />
+      <div
+        class="flex flex-col rounded border border-slate-200 bg-slate-100 p-6 lg:order-5"
+      >
+        <div class="flex h-full justify-center">
+          <StatsPercentageBar
+            class="w-2 rounded-l-lg"
+            :items="[
+              {
+                color: 'rgba(5, 150, 105, 0.7)',
+                value: 1,
+              },
+              {
+                color: 'rgba(2, 132, 199, 0.7)',
+                value: 1,
+              },
+              {
+                color: 'rgba(71, 85, 105, 0.7)',
+                value: 3,
+              },
+              {
+                color: 'rgba(100, 116, 139, 0.7)',
+                value: 2,
+              },
+              {
+                color: 'rgba(225, 29, 72, 0.7)',
+                value: 3,
+              },
+            ]"
+          />
+          <StatsList
+            class="h-full"
+            title="Stats"
+            :items="[
+              {
+                icon: IconsStatusActive,
+                stat: 1,
+                name: 'Running',
+                // url: links to item url if there is one,
+                classes: 'text-emerald-600 hover:text-emerald-700',
+              },
+              {
+                icon: IconsStatusLoading,
+                stat: 1,
+                name: 'Starting',
+                // url: links to item url if there is one,
+                classes: 'text-sky-600 hover:text-sky-700',
+              },
+              {
+                icon: IconsStatusPaused,
+                stat: 3,
+                name: 'Stopped',
+                // url: links to item url if there is one,
+                classes: 'text-slate-600 hover:text-slate-700',
+              },
+              {
+                icon: IconsStatusPending,
+                stat: 2,
+                name: 'Pending',
+                // url: links to item url if there is one,
+                classes: 'text-slate-500 hover:text-slate-600',
+              },
+              {
+                icon: IconsStatusError,
+                stat: 3,
                 name: 'Failed',
                 // url: links to item url if there is one,
                 classes: 'text-rose-600 hover:text-rose-700',

@@ -151,7 +151,7 @@
                 {
                   icon: IconsWorker,
                   stat: 1,
-                  name: 'GPU',
+                  name: 'gpu',
                 },
               ]"
             />
@@ -274,7 +274,7 @@
                 {
                   icon: IconsWorker,
                   stat: 1,
-                  name: 'GPU',
+                  name: 'gpu',
                 },
               ]"
             />

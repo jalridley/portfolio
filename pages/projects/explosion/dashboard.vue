@@ -92,47 +92,70 @@
               },
             ]"
           />
-          <StatsList
-            class="h-full"
-            title="Stats"
-            :items="[
-              {
-                icon: IconsStatusActive,
-                stat: 4,
-                name: 'Running',
-                // url: links to item url if there is one,
-                classes: 'text-emerald-600 hover:text-emerald-700',
-              },
-              {
-                icon: IconsStatusLoading,
-                stat: 2,
-                name: 'Starting',
-                // url: links to item url if there is one,
-                classes: 'text-sky-600 hover:text-sky-700',
-              },
-              {
-                icon: IconsStatusPaused,
-                stat: 4,
-                name: 'Stopped',
-                // url: links to item url if there is one,
-                classes: 'text-slate-600 hover:text-slate-700',
-              },
-              {
-                icon: IconsStatusPending,
-                stat: 1,
-                name: 'Pending',
-                // url: links to item url if there is one,
-                classes: 'text-slate-500 hover:text-slate-600',
-              },
-              {
-                icon: IconsStatusError,
-                stat: 1,
-                name: 'Failed',
-                // url: links to item url if there is one,
-                classes: 'text-rose-600 hover:text-rose-700',
-              },
-            ]"
-          />
+          <div class="grid w-full grid-cols-2 gap-6">
+            <StatsList
+              class="h-full"
+              title="Stats"
+              :items="[
+                {
+                  icon: IconsStatusActive,
+                  stat: 4,
+                  name: 'Running',
+                  // url: links to item url if there is one,
+                  classes: 'text-emerald-600 hover:text-emerald-700',
+                },
+                {
+                  icon: IconsStatusLoading,
+                  stat: 2,
+                  name: 'Starting',
+                  // url: links to item url if there is one,
+                  classes: 'text-sky-600 hover:text-sky-700',
+                },
+                {
+                  icon: IconsStatusPaused,
+                  stat: 4,
+                  name: 'Stopped',
+                  // url: links to item url if there is one,
+                  classes: 'text-slate-600 hover:text-slate-700',
+                },
+                {
+                  icon: IconsStatusPending,
+                  stat: 1,
+                  name: 'Pending',
+                  // url: links to item url if there is one,
+                  classes: 'text-slate-500 hover:text-slate-600',
+                },
+                {
+                  icon: IconsStatusError,
+                  stat: 1,
+                  name: 'Failed',
+                  // url: links to item url if there is one,
+                  classes: 'text-rose-600 hover:text-rose-700',
+                },
+              ]"
+            />
+            <StatsList
+              class="h-full text-emerald-600"
+              title="Workers in-use"
+              :items="[
+                {
+                  icon: IconsWorker,
+                  stat: 2,
+                  name: 'medium',
+                },
+                {
+                  icon: IconsWorker,
+                  stat: 1,
+                  name: 'large',
+                },
+                {
+                  icon: IconsWorker,
+                  stat: 1,
+                  name: 'GPU',
+                },
+              ]"
+            />
+          </div>
         </div>
       </div>
       <!-- actions -->
@@ -172,7 +195,7 @@
             :items="[
               {
                 color: 'rgba(5, 150, 105, 0.7)',
-                value: 1,
+                value: 2,
               },
               {
                 color: 'rgba(2, 132, 199, 0.7)',
@@ -188,7 +211,7 @@
               },
               {
                 color: 'rgba(225, 29, 72, 0.7)',
-                value: 3,
+                value: 2,
               },
             ]"
           />
@@ -199,7 +222,7 @@
               :items="[
                 {
                   icon: IconsStatusActive,
-                  stat: 1,
+                  stat: 2,
                   name: 'Running',
                   // url: links to item url if there is one,
                   classes: 'text-emerald-600 hover:text-emerald-700',
@@ -227,7 +250,7 @@
                 },
                 {
                   icon: IconsStatusError,
-                  stat: 3,
+                  stat: 2,
                   name: 'Failed',
                   // url: links to item url if there is one,
                   classes: 'text-rose-600 hover:text-rose-700',
@@ -247,6 +270,11 @@
                   icon: IconsWorker,
                   stat: 1,
                   name: 'large',
+                },
+                {
+                  icon: IconsWorker,
+                  stat: 1,
+                  name: 'GPU',
                 },
               ]"
             />

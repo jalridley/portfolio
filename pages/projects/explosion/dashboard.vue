@@ -67,6 +67,8 @@
         class="flex flex-col rounded border border-slate-200 bg-slate-100 p-6 lg:order-5"
       >
         <div class="flex h-full justify-center">
+          <!-- EmptyState conditional when dynamic without mock data -->
+          <!-- v-if="stats.tasks_count" -->
           <StatsPercentageBar
             class="w-2 rounded-l-lg"
             :items="[
@@ -135,6 +137,8 @@
                 },
               ]"
             />
+            <!-- conditional when dynamic without mock data: -->
+            <!-- v-if="stats.tasks_workers" -->
             <StatsList
               class="h-full text-emerald-600"
               title="Workers in-use"
@@ -157,8 +161,16 @@
               ]"
             />
           </div>
+          <!-- EmptyState conditional when dynamic without mock data -->
+          <!-- <EmptyState
+            v-else
+            class="flex w-full flex-col justify-center !bg-slate-100"
+            empty-title="No tasks"
+            empty-text="Get started by adding one below"
+          /> -->
         </div>
       </div>
+
       <!-- actions -->
       <HeaderDetails
         class="items-center rounded border border-slate-200 bg-white p-2 lg:order-2"
@@ -216,6 +228,8 @@
               },
             ]"
           />
+          <!-- EmptyState conditional when dynamic without mock data  -->
+          <!-- v-if="stats.actions_count" -->
           <div class="grid w-full grid-cols-2 gap-6">
             <StatsList
               class="h-full"
@@ -258,6 +272,8 @@
                 },
               ]"
             />
+            <!-- conditional when dynamic without mock data: -->
+            <!-- v-if="stats.actions_workers" -->
             <StatsList
               class="h-full text-emerald-600"
               title="Workers in-use"
@@ -280,6 +296,13 @@
               ]"
             />
           </div>
+          <!-- EmptyState conditional when dynamic without mock data: -->
+          <!-- <EmptyState
+            v-else
+            class="flex w-full flex-col justify-center !bg-slate-100"
+            empty-title="No actions"
+            empty-text="Get started by adding one below"
+          /> -->
         </div>
       </div>
     </section>
@@ -305,4 +328,6 @@ import IconsWorker from '~/components/icons/IconsWorker.vue'
 useHead({
   title: 'Dashboard',
 })
+
+const empty = ref(true)
 </script>

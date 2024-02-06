@@ -1,5 +1,10 @@
 <template>
-  <svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <svg
+    aria-hidden="true"
+    viewBox="0 0 12 12"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+  >
     <g clip-path="url(#a)">
       <path
         fill="currentColor"

@@ -6,6 +6,7 @@
     <ul class="py-1">
       <li v-for="item in filteredItems" :key="item.name" class="text-sm">
         <NuxtLink
+          to=""
           class="group my-1 flex h-full w-full items-center justify-between px-4 py-2 transition"
           :class="[
             {
@@ -14,7 +15,6 @@
             },
             item.classes,
           ]"
-          :to="item.url"
         >
           <span class="flex items-center">
             <span class="mr-2 h-3.5 w-3.5">
@@ -24,7 +24,7 @@
             {{ item.stat }}
             {{ item.name }}
           </span>
-          <img
+          <IconsChevronUp
             v-if="item.url"
             name="arrow-up"
             class="ml-2 h-2.5 w-2.5 rotate-90"

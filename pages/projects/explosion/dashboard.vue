@@ -4,7 +4,6 @@
       <section
         class="container mx-auto mt-2 px-6 py-2 md:py-4 lg:flex lg:max-w-4xl lg:justify-between lg:py-6 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
       >
-        <!-- <h1 class="flex justify-center text-5xl font-bold">Dashboard page</h1> -->
         <HeaderDetails
           title="Project X"
           :icon="IconsHome"

@@ -24,11 +24,7 @@
             {{ item.stat }}
             {{ item.name }}
           </span>
-          <IconsChevronUp
-            v-if="item.url"
-            name="arrow-up"
-            class="ml-2 h-2.5 w-2.5 rotate-90"
-          />
+          <IconsChevronUp v-if="item.url" class="ml-2 h-2.5 w-2.5 rotate-90" />
         </NuxtLink>
       </li>
     </ul>

@@ -192,47 +192,65 @@
               },
             ]"
           />
-          <StatsList
-            class="h-full"
-            title="Stats"
-            :items="[
-              {
-                icon: IconsStatusActive,
-                stat: 1,
-                name: 'Running',
-                // url: links to item url if there is one,
-                classes: 'text-emerald-600 hover:text-emerald-700',
-              },
-              {
-                icon: IconsStatusLoading,
-                stat: 1,
-                name: 'Starting',
-                // url: links to item url if there is one,
-                classes: 'text-sky-600 hover:text-sky-700',
-              },
-              {
-                icon: IconsStatusPaused,
-                stat: 3,
-                name: 'Stopped',
-                // url: links to item url if there is one,
-                classes: 'text-slate-600 hover:text-slate-700',
-              },
-              {
-                icon: IconsStatusPending,
-                stat: 2,
-                name: 'Pending',
-                // url: links to item url if there is one,
-                classes: 'text-slate-500 hover:text-slate-600',
-              },
-              {
-                icon: IconsStatusError,
-                stat: 3,
-                name: 'Failed',
-                // url: links to item url if there is one,
-                classes: 'text-rose-600 hover:text-rose-700',
-              },
-            ]"
-          />
+          <div class="grid w-full grid-cols-2 gap-6">
+            <StatsList
+              class="h-full"
+              title="Stats"
+              :items="[
+                {
+                  icon: IconsStatusActive,
+                  stat: 1,
+                  name: 'Running',
+                  // url: links to item url if there is one,
+                  classes: 'text-emerald-600 hover:text-emerald-700',
+                },
+                {
+                  icon: IconsStatusLoading,
+                  stat: 1,
+                  name: 'Starting',
+                  // url: links to item url if there is one,
+                  classes: 'text-sky-600 hover:text-sky-700',
+                },
+                {
+                  icon: IconsStatusPaused,
+                  stat: 3,
+                  name: 'Stopped',
+                  // url: links to item url if there is one,
+                  classes: 'text-slate-600 hover:text-slate-700',
+                },
+                {
+                  icon: IconsStatusPending,
+                  stat: 2,
+                  name: 'Pending',
+                  // url: links to item url if there is one,
+                  classes: 'text-slate-500 hover:text-slate-600',
+                },
+                {
+                  icon: IconsStatusError,
+                  stat: 3,
+                  name: 'Failed',
+                  // url: links to item url if there is one,
+                  classes: 'text-rose-600 hover:text-rose-700',
+                },
+              ]"
+            />
+            <StatsList
+              class="h-full text-emerald-600"
+              title="Workers in-use"
+              :items="[
+                {
+                  icon: IconsWorker,
+                  stat: 1,
+                  name: 'medium',
+                },
+                {
+                  icon: IconsWorker,
+                  stat: 1,
+                  name: 'large',
+                },
+              ]"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -253,6 +271,7 @@ import IconsAdministrator from '~/components/icons/IconsAdministrator.vue'
 import IconsCode from '~/components/icons/IconsCode.vue'
 import IconsHome from '~/components/icons/IconsHome.vue'
 import IconsAnimateSparkles from '~/components/icons/IconsAnimateSparkles.vue'
+import IconsWorker from '~/components/icons/IconsWorker.vue'
 
 useHead({
   title: 'Dashboard',

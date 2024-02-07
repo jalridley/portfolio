@@ -20,7 +20,6 @@
             <span class="mr-2 h-3.5 w-3.5">
               <component :is="item.icon" />
             </span>
-
             {{ item.stat }}
             {{ item.name }}
           </span>

@@ -93,7 +93,7 @@
               },
             ]"
           />
-          <div class="grid w-full grid-cols-2 gap-6">
+          <div class="w-full sm:grid sm:grid-cols-2 sm:gap-6">
             <StatsList
               class="h-full"
               title="Stats"

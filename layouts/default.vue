@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto h-screen w-full p-4 2xl:w-3/5 3xl:w-1/2">
+  <div class="container mx-auto h-screen w-full p-4 2xl:w-3/5">
     <header class="bg-yellow-100 text-right">
       <div>dark mode toggle</div>
     </header>

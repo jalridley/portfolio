@@ -168,6 +168,22 @@
             empty-text="Get started by adding one below"
           /> -->
         </div>
+        <div class="mt-6 flex justify-center space-x-3">
+          <LinkButton
+            :icon="IconsTasks"
+            variant="primaryButton"
+            to=""
+            ariaLabel="View all tasks"
+            >All tasks</LinkButton
+          >
+          <LinkButton
+            :icon="IconsPlus"
+            variant="secondaryButton"
+            to=""
+            ariaLabel="Create new task"
+            >New task</LinkButton
+          >
+        </div>
       </div>
 
       <!-- actions -->
@@ -303,6 +319,22 @@
             empty-text="Get started by adding one below"
           /> -->
         </div>
+        <div class="mt-6 flex justify-center space-x-3">
+          <LinkButton
+            :icon="IconsActions"
+            variant="primaryButton"
+            to=""
+            ariaLabel="View all actions"
+            >All Actions</LinkButton
+          >
+          <LinkButton
+            :icon="IconsPlus"
+            variant="secondaryButton"
+            to=""
+            ariaLabel="Create new action"
+            >New action</LinkButton
+          >
+        </div>
       </div>
     </section>
   </main>
@@ -323,10 +355,9 @@ import IconsCode from '~/components/icons/IconsCode.vue'
 import IconsHome from '~/components/icons/IconsHome.vue'
 import IconsAnimateSparkles from '~/components/icons/IconsAnimateSparkles.vue'
 import IconsWorker from '~/components/icons/IconsWorker.vue'
+import IconsPlus from '~/components/icons/IconsPlus.vue'
 
 useHead({
   title: 'Dashboard',
 })
-
-const empty = ref(true)
 </script>

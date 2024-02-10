@@ -5,26 +5,29 @@
     </div>
     <ul class="py-1">
       <li v-for="item in filteredItems" :key="item.name" class="text-sm">
-        <NuxtLink
+        <LinkButton
+          v-if="item.url"
+          variant="tertiaryButton"
           to=""
-          class="group my-1 flex h-full w-full items-center justify-between px-4 py-2 transition"
-          :class="[
-            {
-              'focus-visible:focus-inset cursor-pointer hover:bg-slate-100':
-                item.url,
-            },
-            item.classes,
-          ]"
+          :icon="item.icon"
+          :aria-label="`Link to ${item.name} stats`"
+          iconClass="h-3.5 w-3.5"
+          class="group my-1"
+          :class="item.classes"
         >
-          <span class="flex items-center">
-            <span class="mr-2 h-3.5 w-3.5">
-              <component :is="item.icon" />
+          <span class="flex w-full items-center justify-between">
+            <span>
+              {{ item.stat }}
+              {{ item.name }}
             </span>
-            {{ item.stat }}
-            {{ item.name }}
+            <IconsChevronUp class="h-2.5 w-2.5 rotate-90" />
           </span>
-          <IconsChevronUp v-if="item.url" class="ml-2 h-2.5 w-2.5 rotate-90" />
-        </NuxtLink>
+        </LinkButton>
+        <div v-else class="my-1 flex items-center px-4 py-2">
+          <component :is="item.icon" class="mr-2 h-3.5 w-3.5" />
+          {{ item.stat }}
+          {{ item.name }}
+        </div>
       </li>
     </ul>
   </div>

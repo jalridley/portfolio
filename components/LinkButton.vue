@@ -3,8 +3,8 @@
     <component
       v-if="icon"
       :is="icon"
-      class="shrink-0"
-      :class="iconClass || 'mr-2 h-3 w-3'"
+      class="mr-2 shrink-0"
+      :class="iconClass || 'h-3 w-3'"
     />
     <slot />
   </NuxtLink>

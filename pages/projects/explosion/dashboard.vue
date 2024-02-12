@@ -104,14 +104,15 @@
                   name: 'Running',
                   url: 'link to item url',
                   classes: 'text-emerald-600 hover:text-emerald-700',
+                  id: 'Tasks',
                 },
                 {
                   icon: IconsStatusLoading,
                   stat: 2,
                   name: 'Starting',
                   url: 'link to item url',
-
                   classes: 'text-sky-600 hover:text-sky-700',
+                  id: 'Tasks',
                 },
                 {
                   icon: IconsStatusPaused,
@@ -119,6 +120,7 @@
                   name: 'Stopped',
                   url: 'link to item url',
                   classes: 'text-slate-600 hover:text-slate-700',
+                  id: 'Tasks',
                 },
                 {
                   icon: IconsStatusPending,
@@ -126,6 +128,7 @@
                   name: 'Pending',
                   url: 'link to item url',
                   classes: 'text-slate-500 hover:text-slate-600',
+                  id: 'Tasks',
                 },
                 {
                   icon: IconsStatusError,
@@ -133,6 +136,7 @@
                   name: 'Failed',
                   url: 'link to item url',
                   classes: 'text-rose-600 hover:text-rose-700',
+                  id: 'tasks',
                 },
               ]"
             />
@@ -256,6 +260,7 @@
                   name: 'Running',
                   url: 'link to item url',
                   classes: 'text-emerald-600 hover:text-emerald-700',
+                  id: 'Actions',
                 },
                 {
                   icon: IconsStatusLoading,
@@ -263,6 +268,7 @@
                   name: 'Starting',
                   url: 'link to item url',
                   classes: 'text-sky-600 hover:text-sky-700',
+                  id: 'Actions',
                 },
                 {
                   icon: IconsStatusPaused,
@@ -270,6 +276,7 @@
                   name: 'Stopped',
                   url: 'link to item url',
                   classes: 'text-slate-600 hover:text-slate-700',
+                  id: 'Actions',
                 },
                 {
                   icon: IconsStatusPending,
@@ -277,6 +284,7 @@
                   name: 'Pending',
                   url: 'link to item url',
                   classes: 'text-slate-500 hover:text-slate-600',
+                  id: 'Actions',
                 },
                 {
                   icon: IconsStatusError,
@@ -284,6 +292,7 @@
                   name: 'Failed',
                   url: 'link to item url',
                   classes: 'text-rose-600 hover:text-rose-700',
+                  id: 'Actions',
                 },
               ]"
             />

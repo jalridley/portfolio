@@ -10,7 +10,7 @@
           variant="tertiaryButton"
           to=""
           :icon="item.icon"
-          :aria-label="`Link to ${item.name} stats`"
+          :aria-label="`Link to ${item.name} ${item.id}`"
           iconClass="h-3.5 w-3.5"
           class="group my-1"
           :class="item.classes"

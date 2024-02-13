@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full rounded border border-slate-200 bg-white">
+  <div class="rounded border border-slate-200 bg-white">
     <div class="border-b border-slate-200 px-4 py-2 font-medium text-slate-600">
       {{ title }}
     </div>

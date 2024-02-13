@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-slate-50">
+  <main class="min-w-[430px] overflow-x-auto bg-slate-50">
     <header>
       <section
         class="container mx-auto mt-2 px-6 py-2 md:py-4 lg:flex lg:max-w-4xl lg:justify-between lg:py-6 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
@@ -10,7 +10,7 @@
           description="US news in English"
         />
         <Stats
-          classes="ml-0 flex shrink-0 grow-0 items-center justify-center text-slate-500 lg:ml-10"
+          classes="ml-0 flex items-center justify-center text-slate-500 lg:ml-10"
           :items="[
             {
               name: pluralize(1, 'Admin'),
@@ -32,7 +32,7 @@
       </section>
     </header>
     <section
-      class="container mx-auto mt-2 grid grid-cols-1 gap-8 px-6 lg:max-w-4xl lg:grid-cols-2 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
+      class="container mx-auto mt-2 grid grid-cols-1 gap-6 px-6 md:gap-8 lg:max-w-4xl lg:grid-cols-2 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
     >
       <!-- tasks -->
       <HeaderDetails
@@ -65,7 +65,7 @@
       <div
         class="flex flex-col rounded border border-slate-200 bg-slate-100 p-6 lg:order-5"
       >
-        <div class="flex h-full justify-center">
+        <div class="flex justify-center">
           <!-- EmptyState conditional when dynamic without mock data -->
           <!-- v-if="stats.tasks_count" -->
           <StatsPercentageBar
@@ -93,9 +93,10 @@
               },
             ]"
           />
-          <div class="w-full sm:grid sm:grid-cols-2 sm:gap-6">
+          <div
+            class="w-full space-y-6 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0"
+          >
             <StatsList
-              class="h-full"
               title="Stats"
               :items="[
                 {
@@ -143,7 +144,7 @@
             <!-- conditional when dynamic without mock data: -->
             <!-- v-if="stats.tasks_workers" -->
             <StatsList
-              class="h-full text-emerald-600"
+              class="text-emerald-600"
               title="Workers in-use"
               :items="[
                 {
@@ -221,7 +222,7 @@
       <div
         class="flex flex-col rounded border border-slate-200 bg-slate-100 p-6 lg:order-5"
       >
-        <div class="flex h-full justify-center">
+        <div class="flex justify-center">
           <StatsPercentageBar
             class="w-2 rounded-l-lg"
             :items="[
@@ -249,9 +250,11 @@
           />
           <!-- EmptyState conditional when dynamic without mock data  -->
           <!-- v-if="stats.actions_count" -->
-          <div class="grid w-full grid-cols-2 gap-6">
+
+          <div
+            class="w-full space-y-6 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0"
+          >
             <StatsList
-              class="h-full"
               title="Stats"
               :items="[
                 {
@@ -299,7 +302,7 @@
             <!-- conditional when dynamic without mock data: -->
             <!-- v-if="stats.actions_workers" -->
             <StatsList
-              class="h-full text-emerald-600"
+              class="text-emerald-600"
               title="Workers in-use"
               :items="[
                 {

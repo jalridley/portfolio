@@ -14,5 +14,10 @@
       </nav>
       <slot />
     </main>
+    <footer class="flex w-full justify-center p-5">
+      <div class="text-xs text-slate-500">
+        &copy; {{ new Date().getFullYear() }} Jal Ridley. All Rights Reserved.
+      </div>
+    </footer>
   </div>
 </template>

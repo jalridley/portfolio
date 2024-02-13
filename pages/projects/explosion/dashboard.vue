@@ -178,7 +178,9 @@
             empty-text="Get started by adding one below"
           /> -->
           </div>
-          <div class="mt-6 flex justify-center space-x-3">
+          <div
+            class="mt-6 space-y-2 sm:flex sm:justify-center sm:space-x-3 sm:space-y-0"
+          >
             <LinkButton
               :icon="IconsTasks"
               variant="primaryButton"
@@ -336,7 +338,9 @@
             empty-text="Get started by adding one below"
           /> -->
           </div>
-          <div class="mt-6 flex justify-center space-x-3">
+          <div
+            class="mt-6 space-y-2 sm:flex sm:justify-center sm:space-x-3 sm:space-y-0"
+          >
             <LinkButton
               :icon="IconsActions"
               variant="primaryButton"

@@ -68,79 +68,82 @@
         <div class="flex justify-center">
           <!-- EmptyState conditional when dynamic without mock data -->
           <!-- v-if="stats.tasks_count" -->
-          <StatsPercentageBar
-            class="w-2 rounded-l-lg"
-            :items="[
-              {
-                color: 'rgba(5, 150, 105, 0.7)',
-                value: 4,
-              },
-              {
-                color: 'rgba(2, 132, 199, 0.7)',
-                value: 2,
-              },
-              {
-                color: 'rgba(71, 85, 105, 0.7)',
-                value: 4,
-              },
-              {
-                color: 'rgba(100, 116, 139, 0.7)',
-                value: 1,
-              },
-              {
-                color: 'rgba(225, 29, 72, 0.7)',
-                value: 1,
-              },
-            ]"
-          />
           <div
             class="w-full space-y-6 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0"
           >
-            <StatsList
-              title="Stats"
-              :items="[
-                {
-                  icon: IconsStatusActive,
-                  stat: 4,
-                  name: 'Running',
-                  url: 'link to item url',
-                  classes: 'text-emerald-600 hover:text-emerald-700',
-                  id: 'Tasks',
-                },
-                {
-                  icon: IconsStatusLoading,
-                  stat: 2,
-                  name: 'Starting',
-                  url: 'link to item url',
-                  classes: 'text-sky-600 hover:text-sky-700',
-                  id: 'Tasks',
-                },
-                {
-                  icon: IconsStatusPaused,
-                  stat: 4,
-                  name: 'Stopped',
-                  url: 'link to item url',
-                  classes: 'text-slate-600 hover:text-slate-700',
-                  id: 'Tasks',
-                },
-                {
-                  icon: IconsStatusPending,
-                  stat: 1,
-                  name: 'Pending',
-                  url: 'link to item url',
-                  classes: 'text-slate-500 hover:text-slate-600',
-                  id: 'Tasks',
-                },
-                {
-                  icon: IconsStatusError,
-                  stat: 1,
-                  name: 'Failed',
-                  url: 'link to item url',
-                  classes: 'text-rose-600 hover:text-rose-700',
-                  id: 'tasks',
-                },
-              ]"
-            />
+            <div class="flex">
+              <StatsPercentageBar
+                class="w-2 rounded-l-lg"
+                :items="[
+                  {
+                    color: 'rgba(5, 150, 105, 0.7)',
+                    value: 4,
+                  },
+                  {
+                    color: 'rgba(2, 132, 199, 0.7)',
+                    value: 2,
+                  },
+                  {
+                    color: 'rgba(71, 85, 105, 0.7)',
+                    value: 4,
+                  },
+                  {
+                    color: 'rgba(100, 116, 139, 0.7)',
+                    value: 1,
+                  },
+                  {
+                    color: 'rgba(225, 29, 72, 0.7)',
+                    value: 1,
+                  },
+                ]"
+              />
+              <StatsList
+                class="w-full"
+                title="Stats"
+                :items="[
+                  {
+                    icon: IconsStatusActive,
+                    stat: 4,
+                    name: 'Running',
+                    url: 'link to item url',
+                    classes: 'text-emerald-600 hover:text-emerald-700',
+                    id: 'Tasks',
+                  },
+                  {
+                    icon: IconsStatusLoading,
+                    stat: 2,
+                    name: 'Starting',
+                    url: 'link to item url',
+                    classes: 'text-sky-600 hover:text-sky-700',
+                    id: 'Tasks',
+                  },
+                  {
+                    icon: IconsStatusPaused,
+                    stat: 4,
+                    name: 'Stopped',
+                    url: 'link to item url',
+                    classes: 'text-slate-600 hover:text-slate-700',
+                    id: 'Tasks',
+                  },
+                  {
+                    icon: IconsStatusPending,
+                    stat: 1,
+                    name: 'Pending',
+                    url: 'link to item url',
+                    classes: 'text-slate-500 hover:text-slate-600',
+                    id: 'Tasks',
+                  },
+                  {
+                    icon: IconsStatusError,
+                    stat: 1,
+                    name: 'Failed',
+                    url: 'link to item url',
+                    classes: 'text-rose-600 hover:text-rose-700',
+                    id: 'tasks',
+                  },
+                ]"
+              />
+            </div>
             <!-- conditional when dynamic without mock data: -->
             <!-- v-if="stats.tasks_workers" -->
             <StatsList
@@ -223,82 +226,82 @@
         class="flex flex-col rounded border border-slate-200 bg-slate-100 p-6 lg:order-5"
       >
         <div class="flex justify-center">
-          <StatsPercentageBar
-            class="w-2 rounded-l-lg"
-            :items="[
-              {
-                color: 'rgba(5, 150, 105, 0.7)',
-                value: 2,
-              },
-              {
-                color: 'rgba(2, 132, 199, 0.7)',
-                value: 1,
-              },
-              {
-                color: 'rgba(71, 85, 105, 0.7)',
-                value: 3,
-              },
-              {
-                color: 'rgba(100, 116, 139, 0.7)',
-                value: 2,
-              },
-              {
-                color: 'rgba(225, 29, 72, 0.7)',
-                value: 2,
-              },
-            ]"
-          />
-          <!-- EmptyState conditional when dynamic without mock data  -->
-          <!-- v-if="stats.actions_count" -->
-
           <div
             class="w-full space-y-6 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0"
           >
-            <StatsList
-              title="Stats"
-              :items="[
-                {
-                  icon: IconsStatusActive,
-                  stat: 2,
-                  name: 'Running',
-                  url: 'link to item url',
-                  classes: 'text-emerald-600 hover:text-emerald-700',
-                  id: 'Actions',
-                },
-                {
-                  icon: IconsStatusLoading,
-                  stat: 1,
-                  name: 'Starting',
-                  url: 'link to item url',
-                  classes: 'text-sky-600 hover:text-sky-700',
-                  id: 'Actions',
-                },
-                {
-                  icon: IconsStatusPaused,
-                  stat: 3,
-                  name: 'Stopped',
-                  url: 'link to item url',
-                  classes: 'text-slate-600 hover:text-slate-700',
-                  id: 'Actions',
-                },
-                {
-                  icon: IconsStatusPending,
-                  stat: 2,
-                  name: 'Pending',
-                  url: 'link to item url',
-                  classes: 'text-slate-500 hover:text-slate-600',
-                  id: 'Actions',
-                },
-                {
-                  icon: IconsStatusError,
-                  stat: 2,
-                  name: 'Failed',
-                  url: 'link to item url',
-                  classes: 'text-rose-600 hover:text-rose-700',
-                  id: 'Actions',
-                },
-              ]"
-            />
+            <div class="flex">
+              <StatsPercentageBar
+                class="w-2 rounded-l-lg"
+                :items="[
+                  {
+                    color: 'rgba(5, 150, 105, 0.7)',
+                    value: 2,
+                  },
+                  {
+                    color: 'rgba(2, 132, 199, 0.7)',
+                    value: 1,
+                  },
+                  {
+                    color: 'rgba(71, 85, 105, 0.7)',
+                    value: 3,
+                  },
+                  {
+                    color: 'rgba(100, 116, 139, 0.7)',
+                    value: 2,
+                  },
+                  {
+                    color: 'rgba(225, 29, 72, 0.7)',
+                    value: 2,
+                  },
+                ]"
+              />
+              <StatsList
+                class="w-full"
+                title="Stats"
+                :items="[
+                  {
+                    icon: IconsStatusActive,
+                    stat: 2,
+                    name: 'Running',
+                    url: 'link to item url',
+                    classes: 'text-emerald-600 hover:text-emerald-700',
+                    id: 'Actions',
+                  },
+                  {
+                    icon: IconsStatusLoading,
+                    stat: 1,
+                    name: 'Starting',
+                    url: 'link to item url',
+                    classes: 'text-sky-600 hover:text-sky-700',
+                    id: 'Actions',
+                  },
+                  {
+                    icon: IconsStatusPaused,
+                    stat: 3,
+                    name: 'Stopped',
+                    url: 'link to item url',
+                    classes: 'text-slate-600 hover:text-slate-700',
+                    id: 'Actions',
+                  },
+                  {
+                    icon: IconsStatusPending,
+                    stat: 2,
+                    name: 'Pending',
+                    url: 'link to item url',
+                    classes: 'text-slate-500 hover:text-slate-600',
+                    id: 'Actions',
+                  },
+                  {
+                    icon: IconsStatusError,
+                    stat: 2,
+                    name: 'Failed',
+                    url: 'link to item url',
+                    classes: 'text-rose-600 hover:text-rose-700',
+                    id: 'Actions',
+                  },
+                ]"
+              />
+            </div>
             <!-- conditional when dynamic without mock data: -->
             <!-- v-if="stats.actions_workers" -->
             <StatsList

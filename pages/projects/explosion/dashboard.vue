@@ -1,38 +1,36 @@
 <template>
   <!--  TODO: update calc when app layout is complete -->
   <div class="h-[calc(100vh-144px)]">
-    <main class="h-full overflow-x-auto bg-slate-50">
-      <header>
-        <section
-          class="container mx-auto mt-2 px-6 py-2 md:py-4 lg:flex lg:max-w-4xl lg:justify-between lg:py-6 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
-        >
-          <HeaderDetails
-            title="Project X"
-            :icon="IconsHome"
-            description="US news in English"
-          />
-          <Stats
-            classes="ml-0 flex items-center justify-center text-slate-500 lg:ml-10"
-            :items="[
-              {
-                name: pluralize(1, 'Admin'),
-                icon: IconsAdministrator,
-                stat: 1,
-              },
-              {
-                name: pluralize(8, 'Dev'),
-                icon: IconsCode,
-                stat: 8,
-              },
-              {
-                name: pluralize(22, 'Annotator'),
-                icon: IconsAnnotation,
-                stat: 22,
-              },
-            ]"
-          />
-        </section>
-      </header>
+    <div class="h-full overflow-x-auto bg-slate-50">
+      <section
+        class="container mx-auto mt-2 px-6 py-2 md:py-4 lg:flex lg:max-w-4xl lg:justify-between lg:py-6 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
+      >
+        <HeaderDetails
+          title="Project X"
+          :icon="IconsHome"
+          description="US news in English"
+        />
+        <Stats
+          classes="ml-0 flex items-center justify-center text-slate-500 lg:ml-10"
+          :items="[
+            {
+              name: pluralize(1, 'Admin'),
+              icon: IconsAdministrator,
+              stat: 1,
+            },
+            {
+              name: pluralize(8, 'Dev'),
+              icon: IconsCode,
+              stat: 8,
+            },
+            {
+              name: pluralize(22, 'Annotator'),
+              icon: IconsAnnotation,
+              stat: 22,
+            },
+          ]"
+        />
+      </section>
       <section
         class="container mx-auto mt-2 grid grid-cols-1 gap-6 px-6 md:gap-8 lg:max-w-4xl lg:grid-cols-2 xl:max-w-5xl 2xl:max-w-6xl 3xl:max-w-7xl"
       >
@@ -358,7 +356,7 @@
           </div>
         </div>
       </section>
-    </main>
+    </div>
   </div>
 </template>
 

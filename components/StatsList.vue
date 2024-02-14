@@ -8,7 +8,7 @@
         <LinkButton
           v-if="item.url"
           variant="tertiaryButton"
-          to=""
+          :to="item.url"
           :icon="item.icon"
           :aria-label="`Link to ${item.name} ${item.id}`"
           iconClass="h-3.5 w-3.5"

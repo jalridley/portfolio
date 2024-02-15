@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto flex min-h-screen min-w-[390px] flex-col overflow-x-auto p-4 2xl:w-3/5"
+    class="container mx-auto flex min-h-screen flex-col overflow-x-auto p-4 2xl:w-3/5"
   >
     <header class="bg-yellow-100">
       <div class="text-right">dark mode toggle</div>

@@ -13,7 +13,7 @@
         <NuxtLink to="/contact">contact</NuxtLink>
       </nav>
     </header>
-    <main class="flex-grow">
+    <main class="grow">
       <slot />
     </main>
     <footer class="flex justify-center p-2">

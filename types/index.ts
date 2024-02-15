@@ -9,4 +9,5 @@ export type StatItem = {
   url?: string
   stat: number
   classes?: string
+  id?: string
 }

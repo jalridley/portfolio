@@ -13,29 +13,30 @@
       temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
       necessitatibus.
     </p>
-    <article class="rounded border border-gray-400 bg-purple-300 p-4">
-      <h2>Header Details Component</h2>
-      <div class="flex justify-center space-x-10">
+
+    <Card header="header component">
+      <div class="bg-purple p-8">
         <HeaderDetails
+          class="mb-3 w-full rounded-xl border bg-white px-4 py-2"
           title="Project X"
           :icon="IconsHome"
           description="US news in English"
         />
         <HeaderDetails
+          class="w-full rounded-lg border bg-white px-4 py-2"
           headline="Train & Evaluate"
           title="Actions"
           :icon="IconsActions"
           is-card-header
         />
       </div>
-      <p>
-        <strong>Descriptive text about Component</strong>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
-        quos corrupti, odit officia hic non illum, modi labore similique neque
-        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
-        necessitatibus.
-      </p>
-    </article>
+
+      <template #text>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
+        quidem sequi illum facere recusandae voluptatibus
+      </template>
+    </Card>
+
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Empty State Component</h2>
 

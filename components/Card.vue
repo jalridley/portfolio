@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-xs overflow-hidden rounded-xl bg-white shadow-lg dark:bg-gray-800"
+    class="shadow-3xl max-w-xs overflow-hidden rounded-xl bg-white dark:bg-gray-800"
   >
     <slot />
     <div class="px-4 py-2">

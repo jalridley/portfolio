@@ -13,42 +13,43 @@
       temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
       necessitatibus.
     </p>
+    <div class="flex space-x-4">
+      <Card header="header component">
+        <div class="h-full bg-purple p-8">
+          <HeaderDetails
+            class="mb-3 w-full rounded-xl border bg-white px-4 py-2"
+            title="Project X"
+            :icon="IconsHome"
+            description="US news in English"
+          />
+          <HeaderDetails
+            class="w-full rounded-lg border bg-white px-4 py-2"
+            headline="Train & Evaluate"
+            title="Actions"
+            :icon="IconsActions"
+            is-card-header
+          />
+        </div>
 
-    <Card header="header component">
-      <div class="bg-purple p-8">
-        <HeaderDetails
-          class="mb-3 w-full rounded-xl border bg-white px-4 py-2"
-          title="Project X"
-          :icon="IconsHome"
-          description="US news in English"
-        />
-        <HeaderDetails
-          class="w-full rounded-lg border bg-white px-4 py-2"
-          headline="Train & Evaluate"
-          title="Actions"
-          :icon="IconsActions"
-          is-card-header
-        />
-      </div>
+        <template #text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
+          quidem sequi illum facere recusandae voluptatibus
+        </template>
+      </Card>
 
-      <template #text>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
-        quidem sequi illum facere recusandae voluptatibus
-      </template>
-    </Card>
+      <Card header="Empty State Component" class="rounded-b-0">
+        <div class="h-full border-b bg-white">
+          <EmptyState />
+        </div>
+        <template #text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          veniam quos corrupti, odit officia hic non illum, modi labore
+          similique neque temporibus sapiente. Minus qui eos repudiandae
+          perspiciatis ullam necessitatibus.
+        </template>
+      </Card>
+    </div>
 
-    <article class="rounded border border-gray-400 bg-purple-300 p-4">
-      <h2>Empty State Component</h2>
-
-      <EmptyState />
-      <p>
-        <strong>Descriptive text about Component</strong>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
-        quos corrupti, odit officia hic non illum, modi labore similique neque
-        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
-        necessitatibus.
-      </p>
-    </article>
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Stats Percentage Bar Component</h2>
       <div class="flex h-full justify-center">

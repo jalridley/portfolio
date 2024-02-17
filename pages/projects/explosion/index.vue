@@ -13,17 +13,17 @@
       temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
       necessitatibus.
     </p>
-    <div class="flex space-x-4">
+    <div class="w-full space-y-4 md:grid md:grid-cols-3 md:gap-4 md:space-y-0">
       <Card header="header">
-        <div class="h-full bg-purple p-8">
+        <div class="flex h-full flex-col justify-between bg-purple p-5">
           <HeaderDetails
-            class="mb-3 w-full rounded-xl border bg-white px-4 py-2"
+            class="h-1/2 w-full rounded-xl border bg-white px-4 py-2"
             title="Project X"
             :icon="IconsHome"
             description="US news in English"
           />
           <HeaderDetails
-            class="w-full rounded-lg border bg-white px-4 py-2"
+            class="h-2/5 w-full rounded-lg border bg-white px-4 py-2"
             headline="Train & Evaluate"
             title="Actions"
             :icon="IconsActions"
@@ -49,44 +49,6 @@
       </Card>
     </div>
 
-    <article class="rounded border border-gray-400 bg-purple-300 p-4">
-      <h2>Stats Percentage Bar Component</h2>
-      <div class="flex h-full justify-center">
-        <StatsPercentageBar
-          class="h-40 w-2 rounded-l-lg"
-          :items="[
-            {
-              color: 'rgba(5, 150, 105, 0.7)',
-              value: 9,
-            },
-            {
-              color: 'rgba(2, 132, 199, 0.7)',
-              value: 7,
-            },
-            {
-              color: 'rgba(71, 85, 105, 0.7)',
-              value: 3,
-            },
-            {
-              color: 'rgba(100, 116, 139, 0.7)',
-              value: 5,
-            },
-            {
-              color: 'rgba(225, 29, 72, 0.7)',
-              value: 5,
-            },
-          ]"
-        />
-      </div>
-
-      <p>
-        <strong>Descriptive text about Component</strong>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
-        quos corrupti, odit officia hic non illum, modi labore similique neque
-        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
-        necessitatibus.
-      </p>
-    </article>
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Custom Icon Design</h2>
       <span class="flex flex-wrap space-x-2">

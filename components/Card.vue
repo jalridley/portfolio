@@ -1,5 +1,5 @@
 <template>
-  <div
+  <article
     class="shadow-3xl max-w-xs overflow-hidden rounded-xl bg-white dark:bg-gray-800"
   >
     <slot />
@@ -11,7 +11,7 @@
         <slot name="text" />
       </p>
     </div>
-  </div>
+  </article>
 </template>
 <script setup lang="ts">
 interface Props {

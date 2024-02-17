@@ -14,7 +14,7 @@
       necessitatibus.
     </p>
     <div class="flex space-x-4">
-      <Card header="header component">
+      <Card header="header">
         <div class="h-full bg-purple p-8">
           <HeaderDetails
             class="mb-3 w-full rounded-xl border bg-white px-4 py-2"
@@ -30,14 +30,13 @@
             is-card-header
           />
         </div>
-
         <template #text>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
           quidem sequi illum facere recusandae voluptatibus
         </template>
       </Card>
 
-      <Card header="Empty State Component" class="rounded-b-0">
+      <Card header="Empty State" class="rounded-b-0">
         <div class="h-full border-b bg-white">
           <EmptyState />
         </div>

@@ -47,6 +47,42 @@
           perspiciatis ullam necessitatibus.
         </template>
       </Card>
+
+      <Card header="Percentage Bar" class="rounded-b-0">
+        <div class="flex h-full justify-center border-b bg-orange-100 py-5">
+          <StatsPercentageBar
+            class="w-10 rounded-lg"
+            :items="[
+              {
+                color: 'rgba(5, 150, 105, 0.7)',
+                value: 9,
+              },
+              {
+                color: 'rgba(2, 132, 199, 0.7)',
+                value: 7,
+              },
+              {
+                color: 'rgba(71, 85, 105, 0.7)',
+                value: 3,
+              },
+              {
+                color: 'rgba(100, 116, 139, 0.7)',
+                value: 5,
+              },
+              {
+                color: 'rgba(225, 29, 72, 0.7)',
+                value: 5,
+              },
+            ]"
+          />
+        </div>
+        <template #text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          veniam quos corrupti, odit officia hic non illum, modi labore
+          similique neque temporibus sapiente. Minus qui eos repudiandae
+          perspiciatis ullam necessitatibus.
+        </template>
+      </Card>
     </div>
 
     <article class="rounded border border-gray-400 bg-purple-300 p-4">

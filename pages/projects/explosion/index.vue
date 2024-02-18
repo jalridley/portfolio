@@ -1,5 +1,5 @@
 <template>
-  <section class="space-y-6">
+  <section>
     <h1 class="flex justify-center text-3xl font-bold">Explosion page 💥</h1>
     <NuxtLink class="hover:text-emerald-700" to="/projects/explosion/dashboard"
       >Dashboard Feature</NuxtLink
@@ -13,7 +13,7 @@
       temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
       necessitatibus.
     </p>
-    <div class="w-full space-y-4 md:grid md:grid-cols-3 md:gap-4 md:space-y-0">
+    <div class="md:gap3 w-full md:grid md:grid-cols-3 md:gap-4">
       <Card header="header">
         <div class="flex h-full flex-col justify-between bg-purple p-5">
           <HeaderDetails
@@ -74,6 +74,56 @@
                 value: 5,
               },
             ]"
+          />
+        </div>
+        <template #text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          veniam quos corrupti, odit officia hic non illum, modi labore
+          similique neque temporibus sapiente. Minus qui eos repudiandae
+          perspiciatis ullam necessitatibus.
+        </template>
+      </Card>
+      <Card header="custom icons">
+        <div class="grid h-full grid-cols-3 gap-2 bg-teal-600 p-5">
+          <IconsActions
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsTasks
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsHome
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsLoading
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsSaveDisc
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsAnimateSparklesBlk
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsFlag
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsTag
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsTrash
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsAdministrator
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsUserMinus
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+          <IconsUserPlus
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+          />
+
+          <IconsTeam
+            class="col-span-3 flex h-full w-full rounded-lg bg-white p-2"
           />
         </div>
         <template #text>
@@ -322,6 +372,14 @@ import IconsAnnotation from '~/components/icons/IconsAnnotation.vue'
 import IconsAdministrator from '~/components/icons/IconsAdministrator.vue'
 import IconsCode from '~/components/icons/IconsCode.vue'
 import IconsHome from '~/components/icons/IconsHome.vue'
+import IconsFlag from '~/components/icons/IconsFlag.vue'
+import IconsTag from '~/components/icons/IconsTag.vue'
+import IconsSaveDisc from '~/components/icons/IconsSaveDisc.vue'
+import IconsTeam from '~/components/icons/IconsTeam.vue'
+import IconsTrash from '~/components/icons/IconsTrash.vue'
+import IconsUserMinus from '~/components/icons/IconsUserMinus.vue'
+import IconsUserPlus from '~/components/icons/IconsUserPlus.vue'
+import IconsAnimateSparklesBlk from '~/components/icons/IconsAnimateSparklesBlk.vue'
 
 useHead({
   title: 'Explosion Ai',

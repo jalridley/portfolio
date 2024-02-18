@@ -1,8 +1,8 @@
 <template>
   <article
-    class="shadow-3xl overflow-hidden rounded-xl bg-white dark:bg-gray-800"
+    class="shadow-3xl max-w-sm overflow-hidden rounded-xl bg-white dark:bg-gray-800"
   >
-    <div class="h-52">
+    <div class="h-72">
       <slot />
     </div>
     <div class="px-4 py-2">

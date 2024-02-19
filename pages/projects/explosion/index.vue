@@ -183,6 +183,29 @@
           perspiciatis ullam necessitatibus.
         </template>
       </Card>
+      <Card header="Stats Grid">
+        <div class="flex h-full flex-col justify-center border-b p-5">
+          <StatsGrid
+            :items="[
+              {
+                name: pluralize(3, 'Action'),
+                stat: 12,
+                icon: IconsActions,
+              },
+              {
+                name: 'Running',
+                stat: 9,
+                icon: IconsStatusActive,
+              },
+              {
+                name: 'Failed',
+                stat: 2,
+                icon: IconsStatusError,
+              },
+            ]"
+          />
+        </div>
+      </Card>
     </div>
 
     <article class="rounded border border-gray-400 bg-purple-300 p-4">

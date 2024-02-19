@@ -3,21 +3,23 @@
     class="flex w-full items-center overflow-hidden rounded-xl border bg-purple-100 p-8"
   >
     <div class="mr-8">
-      <h1>Explosion AI: Prodigy Teams</h1>
-      <p>
-        <strong
-          >Descriptive text about Explosion AI work and Prodigy Teams:</strong
+      <div>
+        <h1>Explosion AI: Prodigy Teams</h1>
+        <p>
+          <strong
+            >Descriptive text about Explosion AI work and Prodigy Teams:</strong
+          >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          veniam quos corrupti, odit officia hic non illum, modi labore
+          similique neque temporibus sapiente. Minus qui eos repudiandae
+          perspiciatis ullam necessitatibus.
+        </p>
+      </div>
+      <div class="mt-8 flex">
+        <LinkButton variant="primaryButton" to="/projects/explosion/dashboard"
+          >Dashboard Feature</LinkButton
         >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
-        quos corrupti, odit officia hic non illum, modi labore similique neque
-        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
-        necessitatibus.
-      </p>
-      <NuxtLink
-        class="hover:text-emerald-700"
-        to="/projects/explosion/dashboard"
-        >Dashboard Feature</NuxtLink
-      >
+      </div>
     </div>
     <img
       src="@/assets/images/dashboard.png"

@@ -1,18 +1,31 @@
 <template>
-  <section>
-    <h1 class="flex justify-center text-3xl font-bold">Explosion page 💥</h1>
-    <NuxtLink class="hover:text-emerald-700" to="/projects/explosion/dashboard"
-      >Dashboard Feature</NuxtLink
-    >
-    <p>
-      <strong
-        >Descriptive text about Explosion AI work and Prodigy Teams:</strong
+  <header
+    class="flex w-full items-center overflow-hidden rounded-xl border bg-purple-100 p-8"
+  >
+    <div class="mr-8">
+      <h1>Explosion AI: Prodigy Teams</h1>
+      <p>
+        <strong
+          >Descriptive text about Explosion AI work and Prodigy Teams:</strong
+        >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
+        quos corrupti, odit officia hic non illum, modi labore similique neque
+        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
+        necessitatibus.
+      </p>
+      <NuxtLink
+        class="hover:text-emerald-700"
+        to="/projects/explosion/dashboard"
+        >Dashboard Feature</NuxtLink
       >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
-      quos corrupti, odit officia hic non illum, modi labore similique neque
-      temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
-      necessitatibus.
-    </p>
+    </div>
+    <img
+      src="@/assets/images/dashboard.png"
+      alt="dashboard"
+      class="w-1/2 rounded-xl"
+    />
+  </header>
+  <section>
     <div class="w-full lg:grid lg:grid-cols-2 lg:gap-3 xl:grid-cols-3">
       <Card header="header">
         <div class="flex h-full flex-col justify-between bg-purple p-5">

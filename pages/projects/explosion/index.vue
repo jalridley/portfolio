@@ -205,6 +205,12 @@
             ]"
           />
         </div>
+        <template #text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          veniam quos corrupti, odit officia hic non illum, modi labore
+          similique neque temporibus sapiente. Minus qui eos repudiandae
+          perspiciatis ullam necessitatibus.
+        </template>
       </Card>
     </div>
 

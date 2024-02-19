@@ -10,7 +10,7 @@
         description="US news in English"
       />
       <Stats
-        classes="ml-0 flex items-center justify-center text-slate-500 lg:ml-10"
+        classes="ml-0 mt-2 sm:mt-0 sm:flex text-slate-500 lg:ml-10 sm:gap-x-4 lg:gap-x-10 sm:justify-center"
         :items="[
           {
             name: pluralize(1, 'Admin'),

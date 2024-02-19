@@ -52,6 +52,9 @@ export default {
       animation: {
         'icon-bounce': 'anim-bounce 2s 1 ease',
       },
+      boxShadow: {
+        '3xl': '0 0 25px rgba(0, 0, 0, 0.1)',
+      },
     },
   },
   plugins: [],

@@ -13,7 +13,7 @@
       temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
       necessitatibus.
     </p>
-    <div class="md:gap3 w-full md:grid md:grid-cols-3 md:gap-4">
+    <div class="w-full lg:grid lg:grid-cols-2 lg:gap-3 xl:grid-cols-3">
       <Card header="header">
         <div class="flex h-full flex-col justify-between bg-purple p-5">
           <HeaderDetails
@@ -201,6 +201,36 @@
                 name: 'Failed',
                 stat: 2,
                 icon: IconsStatusError,
+              },
+            ]"
+          />
+        </div>
+        <template #text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          veniam quos corrupti, odit officia hic non illum, modi labore
+          similique neque temporibus sapiente. Minus qui eos repudiandae
+          perspiciatis ullam necessitatibus.
+        </template>
+      </Card>
+      <Card header="Stats">
+        <div class="flex h-full flex-col justify-center border-b p-5">
+          <Stats
+            classes="sm:flex sm:justify-between text-slate-500"
+            :items="[
+              {
+                name: pluralize(1, 'Admin'),
+                icon: IconsAdministrator,
+                stat: 1,
+              },
+              {
+                name: pluralize(8, 'Dev'),
+                icon: IconsCode,
+                stat: 8,
+              },
+              {
+                name: pluralize(22, 'Annotator'),
+                icon: IconsAnnotation,
+                stat: 22,
               },
             ]"
           />

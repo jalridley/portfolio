@@ -184,56 +184,7 @@
         </template>
       </Card>
     </div>
-    <article class="rounded border border-gray-400 bg-purple-300 p-4">
-      <h2>Stats List Component</h2>
-      <StatsList
-        title="Stats"
-        :items="[
-          {
-            icon: IconsStatusActive,
-            stat: 9,
-            name: 'Running',
-            // url: links to item url if there is one,
-            classes: 'text-emerald-600 hover:text-emerald-700',
-          },
-          {
-            icon: IconsStatusLoading,
-            stat: 7,
-            name: 'Starting',
-            // url: links to item url if there is one,
-            classes: 'text-sky-600 hover:text-sky-700',
-          },
-          {
-            icon: IconsStatusPaused,
-            stat: 3,
-            name: 'Stopped',
-            // url: links to item url if there is one,
-            classes: 'text-slate-600 hover:text-slate-700',
-          },
-          {
-            icon: IconsStatusPending,
-            stat: 5,
-            name: 'Pending',
-            // url: links to item url if there is one,
-            classes: 'text-slate-500 hover:text-slate-600',
-          },
-          {
-            icon: IconsStatusError,
-            stat: 5,
-            name: 'Failed',
-            // url: links to item url if there is one,
-            classes: 'text-rose-600 hover:text-rose-700',
-          },
-        ]"
-      />
-      <p>
-        <strong>Descriptive text about Component</strong>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam
-        quos corrupti, odit officia hic non illum, modi labore similique neque
-        temporibus sapiente. Minus qui eos repudiandae perspiciatis ullam
-        necessitatibus.
-      </p>
-    </article>
+
     <article class="rounded border border-gray-400 bg-purple-300 p-4">
       <h2>Stats Grid Component</h2>
       <StatsGrid

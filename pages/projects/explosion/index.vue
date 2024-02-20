@@ -60,8 +60,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
-          quidem sequi illum facere recusandae voluptatibus
+          The header is used throughout the app in main sections and subsections, which required it to be flexible in its size, style and layout. The custom icons which I created and used in part in this component contribute to the personality of the Prodigy Teams SaaS app while aligning with the pixel aesthetic of its mother app, Prodigy.
         </template>
       </Card>
 

@@ -255,10 +255,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          These stats are to be horizontal (the Prodigy Teams app being desktop first) with no dynamic colours or links, differentiating them from the other stats components.  A simple component but needed dynamic spacing for use on small screens for use in my portfolio.
         </template>
       </Card>
     </div>

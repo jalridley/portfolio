@@ -6,11 +6,11 @@
       <div>
         <h1 class="mb-5 text-xl font-bold text-gray-800">Explosion AI: Prodigy Teams</h1>
         <p class="mb-5">
-          I worked as a Front End Engineer at Explosion AI (developer tools for
+          I worked as a Front End Engineer at <a href="https://explosion.ai/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Explosion AI</a> (developer tools for
           AI, Machine Learning and Natural Language Processing) on their SaaS
-          product, Prodigy Teams, until the team dissolved due to financial
+          product, <a href="https://prodigy.ai/teams" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Prodigy Teams</a>, until the team dissolved due to financial
           reasons. Prodigy Teams collaboratively uses their developer tool,
-          Prodigy, in the cloud, managing teams, annotators, data tasks, and
+          <a href="https://prodi.gy/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Prodigy</a>, in the cloud, managing teams, annotators, data tasks, and
           running automated processes like model training (including LLMs), all
           while the user hosts their own data on their own cluster. A far cry
           from beginner friendly for my first job in tech, but I thrived on the challenge. 

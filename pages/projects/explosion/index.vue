@@ -4,18 +4,32 @@
   >
     <div class="mr-8">
       <div>
-        <h1>Explosion AI: Prodigy Teams</h1>
-        <p>
-          <strong
-            >Descriptive text about Explosion AI work and Prodigy Teams:</strong
-          >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+        <h1 class="mb-5 text-xl font-bold text-gray-800">Explosion AI: Prodigy Teams</h1>
+        <p class="mb-5">
+          I worked as a Front End Engineer at Explosion AI (developer tools for
+          AI, Machine Learning and Natural Language Processing) on their SaaS
+          product, Prodigy Teams, until the team dissolved due to financial
+          reasons. Prodigy Teams collaboratively uses their developer tool,
+          Prodigy, in the cloud, managing teams, annotators, data tasks, and
+          running automated processes like model training (including LLMs), all
+          while the user hosts their own data on their own cluster. A far cry
+          from beginner friendly for my first job in tech, but I thrived on the challenge. 
+
+          <p class="mb-5" >With permission from the
+          founders (full disclosure: it was their idea), as a taste of a portion
+          of my contributions, I am showcasing the dashboard feature and all of
+          its components I made for Prodigy Teams. Instead of screenshots, have
+          refactored it in its entirety for use in my portfolio to show the full
+          code.</p> 
+          
+          <p class="mb-8">I learned a lot from the process of getting this to look and
+          function as it did in the original app, which was built desktop first
+          with a very complicated backend. It was great to strip the components
+          down even further, see where they could be improved, or recognize
+          weird decisions on my part.</p> 
         </p>
       </div>
-      <div class="mt-8 flex">
+      <div class="flex">
         <LinkButton variant="primaryButton" to="/projects/explosion/dashboard"
           >Dashboard Feature</LinkButton
         >

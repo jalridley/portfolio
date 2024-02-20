@@ -11,7 +11,7 @@
           product, <a href="https://prodigy.ai/teams" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Prodigy Teams</a>. Prodigy Teams collaboratively uses their developer tool,
           <a href="https://prodi.gy/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Prodigy</a>, in the cloud, managing teams, annotators, data tasks, and
           running automated processes like model training (including LLMs), all
-          while the user hosts their data on their own cluster. It was built in Vue/Nuxt 3 with interdependent projects using TailwindCSS, Typescript, Cypress for e2e tests, Storybook for building components in isolation, using Docker containers and Nomad. A far cry from beginner friendly for my first job in tech, but I thrived on the challenge. 
+          while the user hosts their data on their own cluster. It was built in Vue/Nuxt 3 with Pinia, TailwindCSS, Typescript, Vitest, Cypress for e2e tests, Storybook for building components in isolation, Docker containers/Nomad. A far cry from beginner friendly for my first job in tech, but I thrived on the challenge. 
 
           <p class="mb-5" >With permission from the
           founders (full disclosure: it was their idea), as a taste of a portion

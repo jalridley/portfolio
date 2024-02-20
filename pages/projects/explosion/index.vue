@@ -149,10 +149,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          Ah the world of Figma! I loved putting on my design hat to give the app unique personality through icons. The main icons were designed in a wide pixel style, while all others were thinner but equally as cool. The sparkle animation displays to the admin when an annotator is currently annotating. I refactored all of the original svgs into components (the Vue/Nuxt 3 way) with the Typescript Component type.
         </template>
       </Card>
       <Card header="stats list" class="rounded-b-0">

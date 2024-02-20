@@ -196,7 +196,7 @@
           />
         </div>
         <template #text>
-          This was build specifically for the dashboard while following the same theme used throughout the app to display the state of data. It was tricky for my backend coworkers to nail down the complexity of these states which were coming from Nomad and I was lucky to work with them getting the states we needed written in python for me to wire it up to UI. The items are to to be links, but I have prevented them from going anywhere for this portfolio.
+          This was built specifically for the dashboard while following the same theme used throughout the app to display the state of data. It was tricky for my backend coworkers to nail down the complexity of these states which were coming from Nomad and I was lucky to work with them getting the states we needed written in python for me to wire it up to UI. The items are to to be links, but I have prevented them from going anywhere for this portfolio.
         </template>
       </Card>
       <Card header="Stats Grid">

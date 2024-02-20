@@ -4,18 +4,32 @@
   >
     <div class="mr-8">
       <div>
-        <h1>Explosion AI: Prodigy Teams</h1>
-        <p>
-          <strong
-            >Descriptive text about Explosion AI work and Prodigy Teams:</strong
-          >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+        <h1 class="mb-5 text-xl font-bold text-gray-800">Explosion AI: Prodigy Teams</h1>
+        <p class="mb-5">
+          I worked as a Front End Engineer at <a href="https://explosion.ai/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Explosion AI</a> (developer tools for
+          AI, Machine Learning and Natural Language Processing) on their SaaS
+          product, <a href="https://prodigy.ai/teams" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Prodigy Teams</a>, until the team dissolved due to financial
+          reasons. Prodigy Teams collaboratively uses their developer tool,
+          <a href="https://prodi.gy/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Prodigy</a>, in the cloud, managing teams, annotators, data tasks, and
+          running automated processes like model training (including LLMs), all
+          while the user hosts their own data on their own cluster. A far cry
+          from beginner friendly for my first job in tech, but I thrived on the challenge. 
+
+          <p class="mb-5" >With permission from the
+          founders (full disclosure: it was their idea), as a taste of a portion
+          of my contributions, I am showcasing the dashboard feature and all of
+          its components I made for Prodigy Teams. Instead of screenshots, have
+          refactored it in its entirety for use in my portfolio to show the full
+          code.</p> 
+          
+          <p class="mb-8">I learned a lot from the process of getting this to look and
+          function as it did in the original app, which was built desktop first
+          with a very complicated backend. It was great to strip the components
+          down even further, see where they could be improved, or recognize
+          weird decisions on my part.</p> 
         </p>
       </div>
-      <div class="mt-8 flex">
+      <div class="flex">
         <LinkButton variant="primaryButton" to="/projects/explosion/dashboard"
           >Dashboard Feature</LinkButton
         >
@@ -46,8 +60,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
-          quidem sequi illum facere recusandae voluptatibus
+          The header is used throughout the app in main sections and subsections, which required it to be flexible in its size, style and layout. The custom icons which I created and used in part in this component contribute to the personality of the Prodigy Teams SaaS app while aligning with the pixel aesthetic of its mother app, Prodigy.
         </template>
       </Card>
 
@@ -56,10 +69,7 @@
           <EmptyState />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          Empty states are app wide in previews, dropdowns, individual items, error states, and data statuses.  The icon and text are dynamic, matching the related data, with the dashboard using its generic default. The little bounce animation is a subtle but nice touch.
         </template>
       </Card>
 
@@ -92,10 +102,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          This was an extra fun one to build.  The linear gradient is a utility function which has unit tests, and adding the white break between each colour was an added challenge in order to exclude it if there is only one stat taking up the entire height. 
         </template>
       </Card>
       <Card header="custom icons">
@@ -142,10 +149,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          Ah the world of Figma! I loved putting on my design hat to give the app unique personality through icons. The main icons were designed in a wide pixel style, while all others were thinner but equally as cool. The sparkle animation displays to the admin when an annotator is currently annotating. I refactored all of the original svgs into components (the Vue/Nuxt 3 way) with the Typescript Component type.
         </template>
       </Card>
       <Card header="stats list" class="rounded-b-0">
@@ -192,10 +196,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          This was built specifically for the dashboard while following the same theme used throughout the app to display the state of data. It was tricky for my backend coworkers to nail down the complexity of these states which were coming from Nomad and I was lucky to work with them getting the states we needed written in python for me to wire it up to UI. The items are to to be links, but I have prevented them from going anywhere for this portfolio.
         </template>
       </Card>
       <Card header="Stats Grid">
@@ -221,10 +222,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          The stats in grid form are the most prioritized and dominant stats throughout the app, sitting just below the header. It is large with a maximum of 3 items which vary depending on the type of data.  If the stat value is zero, the icon is grey, while if above zero, its corresponding colour matches the stat.
         </template>
       </Card>
       <Card header="Stats">
@@ -251,10 +249,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          These stats are to be horizontal (the Prodigy Teams app being desktop first) with no dynamic colours or links, differentiating them from the other stats components.  A simple component but needed dynamic spacing for use on small screens for use in my portfolio.
         </template>
       </Card>
     </div>

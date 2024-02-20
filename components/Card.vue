@@ -4,10 +4,10 @@
       <slot />
     </div>
     <div class="px-4 py-2">
-      <h1 class="text-xl font-bold uppercase text-gray-800">
+      <h1 class="text-xl font-bold uppercase">
         {{ header }}
       </h1>
-      <p class="mt-1 text-gray-600">
+      <p class="mt-1">
         <slot name="text" />
       </p>
     </div>

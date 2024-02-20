@@ -7,7 +7,7 @@
       <h1 class="text-xl font-bold uppercase text-gray-800">
         {{ header }}
       </h1>
-      <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+      <p class="mt-1 text-gray-600">
         <slot name="text" />
       </p>
     </div>

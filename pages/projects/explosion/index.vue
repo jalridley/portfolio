@@ -8,25 +8,23 @@
         <p class="mb-5">
           I worked as a Front End Engineer at <a href="https://explosion.ai/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Explosion AI</a> (developer tools for
           AI, Machine Learning and Natural Language Processing) on their SaaS
-          product, <a href="https://prodigy.ai/teams" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Prodigy Teams</a>, until the team dissolved due to financial
-          reasons. Prodigy Teams collaboratively uses their developer tool,
+          product, <a href="https://prodigy.ai/teams" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Prodigy Teams</a>. Prodigy Teams collaboratively uses their developer tool,
           <a href="https://prodi.gy/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Prodigy</a>, in the cloud, managing teams, annotators, data tasks, and
           running automated processes like model training (including LLMs), all
-          while the user hosts their own data on their own cluster. A far cry
-          from beginner friendly for my first job in tech, but I thrived on the challenge. 
+          while the user hosts their data on their own cluster. It was built in Vue/Nuxt 3 with interdependent projects using TailwindCSS, Typescript, Cypress for e2e tests, Storybook for building components in isolation, using Docker containers and Nomad. A far cry from beginner friendly for my first job in tech, but I thrived on the challenge. 
 
           <p class="mb-5" >With permission from the
           founders (full disclosure: it was their idea), as a taste of a portion
           of my contributions, I am showcasing the dashboard feature and all of
-          its components I made for Prodigy Teams. Instead of screenshots, have
+          its components I made for Prodigy Teams. 
+          Instead of screenshots, have
           refactored it in its entirety for use in my portfolio to show the full
           code.</p> 
           
           <p class="mb-8">I learned a lot from the process of getting this to look and
           function as it did in the original app, which was built desktop first
           with a very complicated backend. It was great to strip the components
-          down even further, see where they could be improved, or recognize
-          weird decisions on my part.</p> 
+          down even further and see where they could be improved.</p> 
         </p>
       </div>
       <div class="flex">

@@ -225,10 +225,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          The stats in grid form are the most prioritized and dominant stats throughout the app, sitting just below the header. It is large with a maximum of 3 items which vary depending on the type of data.  If the stat value is zero, the icon is grey, while if above zero, its corresponding colour matches the stat.
         </template>
       </Card>
       <Card header="Stats">

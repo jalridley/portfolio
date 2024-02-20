@@ -69,10 +69,7 @@
           <EmptyState />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          Empty states are app wide in previews, dropdowns, individual items, error states, and data statuses.  The icon and text are dynamic, matching the related data, with the dashboard using its generic default. The little bounce animation is a subtle but nice touch.
         </template>
       </Card>
 

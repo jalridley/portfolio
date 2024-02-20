@@ -102,10 +102,7 @@
           />
         </div>
         <template #text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          veniam quos corrupti, odit officia hic non illum, modi labore
-          similique neque temporibus sapiente. Minus qui eos repudiandae
-          perspiciatis ullam necessitatibus.
+          This was an extra fun one to build.  The linear gradient is a utility function which has unit tests, and adding the white break between each colour was an added challenge in order to exclude it if there is only one stat taking up the entire height. 
         </template>
       </Card>
       <Card header="custom icons">

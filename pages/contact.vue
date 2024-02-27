@@ -16,8 +16,12 @@
       <div>
         <a
           href="https://www.linkedin.com/in/jal-ridley"
-          class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-          >LinkedIn</a
+          class="flex items-center text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+          ><img
+            src="/assets/svg/linkedin.svg"
+            alt="github logo"
+            class="mr-1 h-5 w-5"
+          />LinkedIn</a
         >
       </div>
       <div>

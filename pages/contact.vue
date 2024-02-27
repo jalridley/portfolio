@@ -4,8 +4,13 @@
       <div>
         <a
           href="https://github.com/jalridley"
-          class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-          >Github</a
+          class="flex items-center text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+        >
+          <img
+            src="/assets/svg/github-mark.svg"
+            alt="github logo"
+            class="mr-1 h-4"
+          />Github</a
         >
       </div>
       <div>

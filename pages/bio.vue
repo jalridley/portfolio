@@ -7,7 +7,10 @@
       Front End Developer.
     </p>
     <p class="mb-5">
-      <strong> New Rock: </strong>
+      <strong class="flex items-center"
+        ><img src="/assets/svg/fire.svg" alt="fire icon" class="mr-1 h-5 w-5" />
+        New Rock:
+      </strong>
       Using my indoor time during the pandemic, I began teaching myself
       programming as a hobby and quickly discovered it gave me a passion similar
       to writing music. I was hooked. Throwing myself head first in the pursuit
@@ -29,7 +32,7 @@
         ><img
           src="/assets/svg/bolt.svg"
           alt="bolt icon"
-          class="mr-1 h-6 w-6"
+          class="mr-1 h-5 w-5"
         />Hard Rock:</strong
       >
       I’ve worked with Vue.js, Nuxt, Tailwind CSS, Typescript, CSS/HTML, Cypress

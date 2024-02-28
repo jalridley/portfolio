@@ -49,7 +49,13 @@
       Vue skills to learning more.
     </p>
     <p class="mb-5">
-      <strong>Soft Rock:</strong>
+      <strong class="flex items-center"
+        ><img
+          src="/assets/svg/user-group.svg"
+          alt="user-group icon"
+          class="mr-1 h-5 w-5"
+        />Soft Rock:</strong
+      >
       I carry with me the skills I have learned along the way from my life
       experiences before becoming a developer - problem solving, conflict
       management, clear communication, the ability to work solo, with a team,

@@ -13,7 +13,6 @@
           dark
         </span>
       </div>
-      <h1 class="bg-blue-200">Hello, I am Jal.</h1>
       <nav class="flex items-center space-x-4 bg-green-200">
         <NuxtLink to="/"
           ><img src="/assets/svg/home.svg" alt="home icon" class="h-4 w-4"

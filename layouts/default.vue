@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto flex min-h-screen max-w-5xl flex-col px-4 sm:px-6 lg:px-8"
+    class="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pt-6 sm:px-6 lg:px-8"
   >
     <header>
       <div class="flex justify-end">

@@ -1,12 +1,13 @@
 <template>
   <section>
     <p class="mb-5">
-      <strong>Musician Gone Web Dev:</strong> I moved from Toronto to Berlin to
-      further my music and event planning career, and after twisting, turning,
-      growing and evolving, I am now a Front End Developer.
+      <strong class="flex items-center">Musician Gone Web Dev:</strong>
+      I moved from Toronto to Berlin to further my music and event planning
+      career, and after twisting, turning, growing and evolving, I am now a
+      Front End Developer.
     </p>
     <p class="mb-5">
-      <strong>New Rock:</strong>
+      <strong> New Rock: </strong>
       Using my indoor time during the pandemic, I began teaching myself
       programming as a hobby and quickly discovered it gave me a passion similar
       to writing music. I was hooked. Throwing myself head first in the pursuit
@@ -24,7 +25,13 @@
       beginner friendly and my brain hurt. I absolutely loved it.
     </p>
     <p class="mb-5">
-      <strong>Hard Rock:</strong>
+      <strong class="flex items-center"
+        ><img
+          src="/assets/svg/bolt.svg"
+          alt="bolt icon"
+          class="mr-1 h-6 w-6"
+        />Hard Rock:</strong
+      >
       I’ve worked with Vue.js, Nuxt, Tailwind CSS, Typescript, CSS/HTML, Cypress
       e2e testing, unit tests with Vitest, Docker containers, GitHub Actions, UI
       wireframe and custom icon design in Figma, responsive design, UX

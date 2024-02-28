@@ -1,5 +1,7 @@
 <template>
-  <div class="container mx-auto flex min-h-screen flex-col overflow-x-auto p-4">
+  <div
+    class="mx-auto flex min-h-screen max-w-5xl flex-col px-4 sm:px-6 lg:px-8"
+  >
     <header class="bg-yellow-100">
       <div class="text-right">dark mode toggle</div>
       <h1 class="bg-blue-200">Hello, I am Jal.</h1>
@@ -18,7 +20,7 @@
     </main>
     <footer class="flex justify-center p-2">
       <div class="text-xs text-slate-500">
-        &copy; {{ new Date().getFullYear() }} Jal Ridley. All Rights Reserved.
+        &copy; {{ new Date().getFullYear() }} Jal Ridley.
       </div>
     </footer>
   </div>

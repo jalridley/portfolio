@@ -4,7 +4,11 @@
   >
     <div class="mr-8">
       <div>
-        <h1 class="mb-5 text-xl font-bold text-gray-800">Explosion AI: Prodigy Teams</h1>
+        <h1 class="mb-5 text-xl font-bold text-gray-800 flex items-center"><img
+            src="/assets/svg/explosion.svg"
+            alt="Explosion logo"
+            class="mr-1 h-6 w-6"
+          />Explosion AI: Prodigy Teams</h1>
         <p class="mb-5">
           I worked as a Front End Engineer at <a href="https://explosion.ai/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Explosion AI</a> (developer tools for
           AI, Machine Learning and Natural Language Processing) on their SaaS

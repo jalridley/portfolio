@@ -7,7 +7,7 @@
           class="flex items-center text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
         >
           <img
-            src="/assets/svg/github-mark.svg"
+            src="/assets/svg/github-black.svg"
             alt="github logo"
             class="mr-1 h-3.5"
           />Github</a
@@ -19,7 +19,7 @@
           class="flex items-center text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
           ><img
             src="/assets/svg/linkedin.svg"
-            alt="github logo"
+            alt="linkedIn logo"
             class="mr-1 h-4 w-4"
           />LinkedIn</a
         >
@@ -30,7 +30,7 @@
           class="flex items-center text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
           ><img
             src="/assets/svg/envelope.svg"
-            alt="github logo"
+            alt="envelope icon"
             class="mr-1 h-4 w-4"
           />Email</a
         >

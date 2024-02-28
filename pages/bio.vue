@@ -1,7 +1,13 @@
 <template>
   <section>
     <p class="mb-5">
-      <strong class="flex items-center">Musician Gone Web Dev:</strong>
+      <strong class="flex items-center"
+        ><img
+          src="/assets/svg/radio.svg"
+          alt="radio icon"
+          class="mr-1 h-5 w-5"
+        />Musician Gone Web Dev:</strong
+      >
       I moved from Toronto to Berlin to further my music and event planning
       career, and after twisting, turning, growing and evolving, I am now a
       Front End Developer.

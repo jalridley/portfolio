@@ -57,7 +57,13 @@
     </p>
 
     <p class="mb-5">
-      <strong>THE Rock:</strong>
+      <strong class="flex items-center"
+        ><img
+          src="/assets/svg/rocket.svg"
+          alt="rocket icon"
+          class="mr-1 h-5 w-5"
+        />THE Rock:</strong
+      >
       Determination. Determination is my driver.
     </p>
   </section>

@@ -1,6 +1,10 @@
 <template>
-  <section>
-    <h1 class="flex justify-center text-5xl font-bold">Home page</h1>
+  <section class="flex">
+    <h1 class="font-belsey flex flex-col text-5xl font-bold">
+      <span>Introducing A</span>
+      <span>Web Developer.</span>
+      <span> Jal Ridley.</span>
+    </h1>
     <img
       src="/assets/images/avatar.png"
       alt="animated avatar of Jal smiling with hair styled up with shaved sides"

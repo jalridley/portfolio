@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 export default {
   content: [
     './components/**/*.{js,vue,ts}',
@@ -54,6 +56,9 @@ export default {
       },
       boxShadow: {
         '3xl': '0 0 25px rgba(0, 0, 0, 0.1)',
+      },
+      fontFamily: {
+        belsey: ['Belsey'],
       },
     },
   },

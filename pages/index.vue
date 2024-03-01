@@ -1,8 +1,8 @@
 <template>
   <section class="flex">
-    <h1 class="font-belsey flex flex-col text-5xl font-bold">
-      <span>Introducing A</span>
-      <span>Web Developer.</span>
+    <h1 class="font-belsey flex flex-col text-7xl font-bold">
+      <span>Introducing</span>
+      <span>A Developer.</span>
       <span> Jal Ridley.</span>
     </h1>
     <img

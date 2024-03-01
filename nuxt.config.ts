@@ -12,6 +12,8 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Besley: [600, 700, 800],
+      Roboto: [400, 500, 700],
+      Epilogue: [400, 500, 600, 700, 800],
     },
   },
 })

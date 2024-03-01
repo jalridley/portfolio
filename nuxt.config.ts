@@ -8,4 +8,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ['@nuxtjs/google-fonts'],
+  googleFonts: {
+    families: {
+      Besley: [600, 700, 800],
+    },
+  },
 })

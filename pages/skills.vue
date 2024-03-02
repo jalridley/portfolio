@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="flex justify-center text-3xl font-bold">skills page</h1>
+    <h1 class="font-besley text-2xl">skills page</h1>
     <ul class="mb-5">
       <li>Javascript</li>
       <li>Vue.js</li>

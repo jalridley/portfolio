@@ -59,8 +59,7 @@ export default {
       },
       fontFamily: {
         belsey: ['Belsey'],
-        roboto: ['Roboto'],
-        epilogue: ['Epilogue'],
+        raleway: ['Raleway'],
       },
     },
   },

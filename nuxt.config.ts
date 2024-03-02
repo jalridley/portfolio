@@ -11,9 +11,8 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/google-fonts'],
   googleFonts: {
     families: {
-      Besley: [600, 700, 800],
-      Roboto: [400, 500, 700],
-      Epilogue: [400, 500, 600, 700, 800],
+      Besley: [600, 700],
+      Raleway: [400, 500],
     },
   },
 })

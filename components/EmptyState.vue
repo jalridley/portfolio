@@ -1,5 +1,7 @@
 <template>
-  <div class="rounded-md bg-white px-4 py-12 text-center text-gray-500">
+  <div
+    class="rounded-md bg-white px-4 py-12 text-center font-sans text-gray-500"
+  >
     <component
       :is="icon"
       class="mx-auto h-16 w-16 motion-safe:animate-icon-bounce"

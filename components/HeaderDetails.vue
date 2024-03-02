@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col font-sans">
     <span v-if="headline" class="text-sm uppercase text-slate-500">
       {{ headline }}
     </span>

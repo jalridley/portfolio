@@ -1,5 +1,5 @@
 <template>
-  <ul :class="classes">
+  <ul class="font-sans" :class="classes">
     <li v-for="item in items" :key="item.name" class="flex items-center">
       <component :is="item.icon" class="mr-2 h-3 w-3" />
       <strong class="mr-1 text-base font-medium text-slate-800">{{

@@ -1,5 +1,11 @@
 <template>
-  <NuxtLink v-bind="$attrs" :to="to" :class="classes" :aria-label="ariaLabel">
+  <NuxtLink
+    v-bind="$attrs"
+    :to="to"
+    class="font-sans"
+    :class="classes"
+    :aria-label="ariaLabel"
+  >
     <component
       v-if="icon"
       :is="icon"

@@ -1,5 +1,6 @@
 <template>
   <section>
+    <h1 class="font-besley text-2xl">contact page</h1>
     <div>
       <div>
         <a

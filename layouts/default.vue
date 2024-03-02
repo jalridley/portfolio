@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pt-6 sm:px-6 lg:px-8"
+    class="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pt-6 font-raleway sm:px-6 lg:px-8"
   >
     <header>
       <div class="flex justify-end">
@@ -23,7 +23,7 @@
         <NuxtLink to="/contact">contact</NuxtLink>
       </nav>
     </header>
-    <main class="flex grow flex-col">
+    <main class="mt-10 flex grow flex-col">
       <slot />
     </main>
     <footer class="flex justify-center p-2">

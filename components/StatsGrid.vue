@@ -1,6 +1,6 @@
 <template>
   <dl
-    class="grid divide-x divide-gray-200 rounded border border-gray-200 bg-white"
+    class="grid divide-x divide-gray-200 rounded border border-gray-200 bg-white font-sans"
     :class="[numCols.get(itemsLength(items))]"
   >
     <div v-for="item in items" :key="item.name" class="p-4 text-center">

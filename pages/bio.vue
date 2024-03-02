@@ -1,19 +1,20 @@
 <template>
   <section>
     <p class="mb-5">
-      <strong class="flex items-center"
+      <strong class="flex items-center font-besley text-2xl"
         ><img
           src="/assets/svg/radio.svg"
           alt="radio icon"
           class="mr-1 h-5 w-5"
         />Musician Gone Web Dev:</strong
       >
+
       I moved from Toronto to Berlin to further my music and event planning
       career, and after twisting, turning, growing and evolving, I am now a
       Front End Developer.
     </p>
     <p class="mb-5">
-      <strong class="flex items-center"
+      <strong class="flex items-center font-besley text-2xl"
         ><img src="/assets/svg/fire.svg" alt="fire icon" class="mr-1 h-5 w-5" />
         New Rock:
       </strong>
@@ -34,7 +35,7 @@
       beginner friendly and my brain hurt. I absolutely loved it.
     </p>
     <p class="mb-5">
-      <strong class="flex items-center"
+      <strong class="flex items-center font-besley text-2xl"
         ><img
           src="/assets/svg/bolt.svg"
           alt="bolt icon"
@@ -49,7 +50,7 @@
       Vue skills to learning more.
     </p>
     <p class="mb-5">
-      <strong class="flex items-center"
+      <strong class="flex items-center font-besley text-2xl"
         ><img
           src="/assets/svg/user-group.svg"
           alt="user-group icon"
@@ -63,7 +64,7 @@
     </p>
 
     <p class="mb-5">
-      <strong class="flex items-center"
+      <strong class="flex items-center font-besley text-2xl"
         ><img
           src="/assets/svg/rocket.svg"
           alt="rocket icon"

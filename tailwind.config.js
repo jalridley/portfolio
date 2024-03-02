@@ -58,7 +58,7 @@ export default {
         '3xl': '0 0 25px rgba(0, 0, 0, 0.1)',
       },
       fontFamily: {
-        belsey: ['Belsey', 'serif'],
+        besley: ['Besley', 'serif'],
         raleway: ['Raleway', 'sans-serif'],
       },
     },

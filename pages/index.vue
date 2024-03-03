@@ -10,11 +10,11 @@
     </h1>
     <NuxtImg
       src="/avatar.png"
-      class="mt-5 flex-1 rounded-b-full"
+      class="mt-6 flex-1 rounded-b-full md:mt-10 lg:mt-14"
       alt="illustration of Jal smiling with short hair styled up"
       width="960px"
       height="992px"
-      sizes="192px sm:288px md:384px lg:448px"
+      sizes="148px sm:248px md:348px lg:448px"
       format="webp"
       decoding="auto"
       loading="lazy"

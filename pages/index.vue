@@ -1,15 +1,24 @@
 <template>
   <section class="flex justify-between">
-    <h1 class="flex flex-col font-besley text-7xl font-bold">
+    <h1
+      class="flex flex-col font-besley text-2xl font-bold sm:text-3xl md:text-5xl lg:text-7xl"
+    >
       <span>Introducing</span>
       <span>Jal Ridley.</span>
       <span>Front End</span>
       <span>Developer.</span>
     </h1>
-    <img
-      src="/assets/images/avatar.png"
-      alt="animated avatar of Jal smiling with hair styled up with shaved sides"
-      class="h-[28rem] w-[28rem] rounded-b-full object-scale-down"
+    <NuxtImg
+      src="/avatar.png"
+      class="mt-6 flex-1 rounded-b-full md:mt-10 lg:mt-14"
+      alt="illustration of Jal smiling with short hair styled up"
+      width="960px"
+      height="992px"
+      sizes="148px sm:248px md:348px lg:448px"
+      format="webp"
+      decoding="auto"
+      loading="lazy"
+      ismap
     />
   </section>
 </template>

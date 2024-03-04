@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pt-6 font-raleway sm:px-6 lg:px-8"
+    class="mx-auto flex min-h-screen max-w-5xl flex-col font-raleway sm:mt-6 lg:mt-12"
   >
     <nav class="flex justify-between bg-green-200">
       <div class="flex items-center space-x-4">

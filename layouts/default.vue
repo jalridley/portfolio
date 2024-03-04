@@ -2,7 +2,7 @@
   <div
     class="mx-auto flex min-h-screen max-w-5xl flex-col font-raleway sm:mt-6 lg:mt-12"
   >
-    <nav class="flex justify-between bg-green-200">
+    <nav class="flex justify-between bg-green-200 p-3 md:p-4">
       <div class="flex items-center space-x-4">
         <NuxtLink to="/"
           ><img src="/assets/svg/home.svg" alt="home icon" class="h-4 w-4"

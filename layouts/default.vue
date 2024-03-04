@@ -2,8 +2,10 @@
   <div
     class="mx-auto flex min-h-screen max-w-5xl flex-col font-raleway sm:mt-6 lg:mt-12"
   >
-    <nav class="flex justify-between bg-green-200 p-3 md:p-4">
-      <div class="flex items-center space-x-4">
+    <nav
+      class="lg::mb-10 mb-3 flex justify-between bg-green-200 p-3 md:mb-8 md:p-4"
+    >
+      <div class="flex items-center gap-4">
         <NuxtLink to="/"
           ><img src="/assets/svg/home.svg" alt="home icon" class="h-4 w-4"
         /></NuxtLink>
@@ -23,7 +25,7 @@
         </span>
       </div>
     </nav>
-    <main class="mt-10 flex grow flex-col">
+    <main class="flex grow flex-col">
       <slot />
     </main>
     <footer class="flex justify-center p-2">

@@ -23,7 +23,7 @@
         </span>
       </div>
     </nav>
-    <main class="mt-10 flex grow flex-col text-white">
+    <main class="mt-10 flex grow flex-col">
       <slot />
     </main>
     <footer class="flex justify-center p-2">

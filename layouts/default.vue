@@ -23,7 +23,6 @@
         </span>
       </div>
     </nav>
-    <header></header>
     <main class="mt-10 flex grow flex-col text-white">
       <slot />
     </main>

@@ -1,12 +1,10 @@
 <template>
-  <div
-    class="mx-auto flex min-h-screen max-w-5xl flex-col font-raleway sm:mt-6 lg:mt-12"
-  >
+  <div class="mx-auto flex min-h-screen max-w-5xl flex-col font-raleway">
     <nav
-      class="sticky top-0 mb-3 flex justify-between border-b border-slate-950/10 bg-white p-3 md:mb-8 md:p-4 lg:mb-10 dark:bg-slate-950"
+      class="sticky top-0 mb-3 flex justify-between border-b border-slate-950/10 bg-white p-3 sm:mt-6 md:mb-8 md:p-4 lg:mb-10 lg:mt-12 dark:bg-slate-950"
     >
       <div class="flex items-center gap-4 md:gap-8 lg:gap-10">
-        <NuxtLink class="link-hover" to="/"
+        <NuxtLink class="nav-hover" to="/"
           ><img src="/assets/svg/home.svg" alt="home icon" class="h-6 w-6"
         /></NuxtLink>
         <NuxtLink class="nav-hover" to="/bio">journey</NuxtLink>

@@ -3,7 +3,7 @@
     class="mx-auto flex min-h-screen max-w-5xl flex-col font-raleway sm:mt-6 lg:mt-12"
   >
     <nav
-      class="lg::mb-10 mb-3 flex justify-between border-b border-slate-900/10 p-3 md:mb-8 md:p-4"
+      class="sticky top-0 mb-3 flex justify-between border-b border-slate-950/10 bg-white p-3 md:mb-8 md:p-4 lg:mb-10 dark:bg-slate-950"
     >
       <div class="flex items-center gap-4 md:gap-8 lg:gap-10">
         <NuxtLink to="/"
@@ -21,8 +21,8 @@
     <main class="flex grow flex-col">
       <slot />
     </main>
-    <footer class="flex justify-center p-2">
-      <div class="text-xs text-slate-500">
+    <footer class="flex justify-center bg-white p-2 dark:bg-slate-950">
+      <div class="text-xs">
         &copy; {{ new Date().getFullYear() }} Jal Ridley.
       </div>
     </footer>

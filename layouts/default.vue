@@ -4,13 +4,13 @@
       class="sticky top-0 mb-3 flex justify-between border-b border-slate-950/10 bg-white p-3 sm:mt-6 md:mb-8 md:p-4 lg:mb-10 lg:mt-12 dark:bg-slate-950"
     >
       <div class="flex items-center gap-4 md:gap-8 lg:gap-10">
-        <NuxtLink class="nav-hover" to="/"
+        <NuxtLink class="nav-element" to="/"
           ><img src="/assets/svg/home.svg" alt="home icon" class="h-6 w-6"
         /></NuxtLink>
-        <NuxtLink class="nav-hover" to="/bio">journey</NuxtLink>
-        <NuxtLink class="nav-hover" to="/skills">skills</NuxtLink>
-        <NuxtLink class="nav-hover" to="/projects">projects</NuxtLink>
-        <NuxtLink class="nav-hover" to="/contact">contact</NuxtLink>
+        <NuxtLink class="nav-element" to="/bio">journey</NuxtLink>
+        <NuxtLink class="nav-element" to="/skills">skills</NuxtLink>
+        <NuxtLink class="nav-element" to="/projects">projects</NuxtLink>
+        <NuxtLink class="nav-element" to="/contact">contact</NuxtLink>
       </div>
       <span class="flex items-center">
         <img src="/assets/svg/sun.svg" alt="sun icon" class="mr-1 h-6 w-6" />

@@ -11,3 +11,9 @@
     @apply bg-white dark:bg-slate-950;
   }
 }
+
+@layer components {
+  .nav-hover {
+    @apply relative block w-fit after:absolute after:block after:h-[4px] after:w-full after:origin-center after:scale-x-0 after:bg-yellow-500 after:transition after:duration-300 after:content-[''] after:hover:scale-x-100;
+  }
+}

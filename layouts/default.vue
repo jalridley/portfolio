@@ -2,8 +2,17 @@
   <div
     class="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pt-6 font-raleway sm:px-6 lg:px-8"
   >
-    <header>
-      <div class="flex justify-end">
+    <nav class="flex justify-between bg-green-200">
+      <div class="flex items-center space-x-4">
+        <NuxtLink to="/"
+          ><img src="/assets/svg/home.svg" alt="home icon" class="h-4 w-4"
+        /></NuxtLink>
+        <NuxtLink to="/bio">bio</NuxtLink>
+        <NuxtLink to="/skills">skills</NuxtLink>
+        <NuxtLink to="/projects">projects</NuxtLink>
+        <NuxtLink to="/contact">contact</NuxtLink>
+      </div>
+      <div class="flex">
         <span class="flex items-center">
           <img src="/assets/svg/sun.svg" alt="sun icon" class="h-4 w-4" />
           light
@@ -13,17 +22,9 @@
           dark
         </span>
       </div>
-      <nav class="flex items-center space-x-4 bg-green-200">
-        <NuxtLink to="/"
-          ><img src="/assets/svg/home.svg" alt="home icon" class="h-4 w-4"
-        /></NuxtLink>
-        <NuxtLink to="/bio">bio</NuxtLink>
-        <NuxtLink to="/skills">skills</NuxtLink>
-        <NuxtLink to="/projects">projects</NuxtLink>
-        <NuxtLink to="/contact">contact</NuxtLink>
-      </nav>
-    </header>
-    <main class="mt-10 flex grow flex-col">
+    </nav>
+    <header></header>
+    <main class="mt-10 flex grow flex-col text-white">
       <slot />
     </main>
     <footer class="flex justify-center p-2">

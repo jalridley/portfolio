@@ -21,13 +21,13 @@
       <NuxtLink
         class="hover:text-emerald-700"
         to="/projects/palmodoro"
-        aria-label="Read more about Jal's project Pinball Wizard"
+        aria-label="Read more about Jal's project Palmodoro"
         >Palmodoro</NuxtLink
       >
       <NuxtLink
         class="hover:text-emerald-700"
         to="/projects/plantfam"
-        aria-label="Read more about Jal's project Pinball Wizard"
+        aria-label="Read more about Jal's project Plantfam"
         >Plantfam</NuxtLink
       >
     </div>

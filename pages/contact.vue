@@ -1,6 +1,10 @@
 <template>
   <section>
-    <h1 class="font-besley text-2xl">contact page</h1>
+    <h1
+      class="mb-5 flex flex-col font-besley text-2xl font-bold sm:text-3xl md:text-5xl lg:text-7xl"
+    >
+      Contact.
+    </h1>
     <div>
       <div class="flex items-center">
         <Icon name="mdi:github" class="h-6 w-6" />

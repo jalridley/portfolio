@@ -1,7 +1,9 @@
 <template>
   <section>
     <header>
-      <h1 class="mb-5 font-besley text-2xl sm:text-3xl md:text-5xl lg:text-7xl">
+      <h1
+        class="mb-5 font-besley text-2xl font-bold sm:text-3xl md:text-5xl lg:text-7xl"
+      >
         Journey.
       </h1>
     </header>

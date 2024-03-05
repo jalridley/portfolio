@@ -1,14 +1,20 @@
 <template>
+  <h1
+      class="mb-5 flex flex-col font-besley text-2xl font-bold sm:text-3xl md:text-5xl lg:text-7xl"
+    >
+    Explosion AI.
+    </h1>
   <header
-    class="flex w-full items-center overflow-hidden rounded-xl border bg-purple-100 p-8"
+    class="flex w-full items-center overflow-hidden rounded-xl border p-8"
   >
     <div class="mr-8">
       <div>
-        <h1 class="mb-5 text-xl font-bold text-gray-800 flex items-center"><img
+        <img
             src="/assets/svg/explosion.svg"
             alt="Explosion logo"
-            class="mr-1 h-6 w-6"
-          />Explosion AI: Prodigy Teams</h1>
+            class="mr-1 h-12 w-12"
+          />
+        <h2 class="flex items-center font-besley text-lg sm:text-xl md:text-2xl lg:text-3xl">Prodigy Teams</h2>
         <p class="mb-5">
           I worked as a Front End Engineer at <a href="https://explosion.ai/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Explosion AI</a> (developer tools for
           AI, Machine Learning and Natural Language Processing) on their SaaS

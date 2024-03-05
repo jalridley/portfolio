@@ -1,6 +1,10 @@
 <template>
   <section>
-    <h1 class="font-besley text-2xl">skills page</h1>
+    <h1
+      class="mb-5 flex flex-col font-besley text-2xl font-bold sm:text-3xl md:text-5xl lg:text-7xl"
+    >
+      Skills.
+    </h1>
     <ul class="mb-5">
       <li class="flex">
         <Icon name="skill-icons:javascript" />

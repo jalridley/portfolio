@@ -32,7 +32,7 @@
         </p>
       </div>
       <div class="flex">
-        <LinkButton variant="primaryButton" to="/projects/explosion/dashboard"
+        <LinkButton variant="primaryButton" to="/projects/explosion/dashboard" aria-label="Go to the dashboard feature"
           >Dashboard Feature</LinkButton
         >
       </div>

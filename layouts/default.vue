@@ -13,7 +13,8 @@
         <NuxtLink class="nav-item" to="/contact">contact</NuxtLink>
       </div>
       <span class="flex items-center">
-        <img src="/assets/svg/sun.svg" alt="sun icon" class="mr-1 h-6 w-6" />
+        <Icon name="heroicons:sun" class="mr-0" />
+        <!-- <Icon name="heroicons:moon" class="mr-0" /> -->
       </span>
     </nav>
     <main class="flex grow flex-col px-4 lg:px-0">

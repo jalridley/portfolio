@@ -77,6 +77,6 @@
 </template>
 <script setup lang="ts">
 useHead({
-  title: 'Bio',
+  title: 'Journey',
 })
 </script>

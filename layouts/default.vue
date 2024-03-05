@@ -7,7 +7,7 @@
         <NuxtLink class="nav-item" to="/"
           ><img src="/assets/svg/home.svg" alt="home icon" class="h-6 w-6"
         /></NuxtLink>
-        <NuxtLink class="nav-item" to="/bio">journey</NuxtLink>
+        <NuxtLink class="nav-item" to="/journey">journey</NuxtLink>
         <NuxtLink class="nav-item" to="/skills">skills</NuxtLink>
         <NuxtLink class="nav-item" to="/projects">projects</NuxtLink>
         <NuxtLink class="nav-item" to="/contact">contact</NuxtLink>

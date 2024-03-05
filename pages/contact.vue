@@ -2,38 +2,30 @@
   <section>
     <h1 class="font-besley text-2xl">contact page</h1>
     <div>
-      <div>
+      <div class="flex items-center">
+        <Icon name="mdi:github" class="h-6 w-6" />
         <a
           href="https://github.com/jalridley"
-          class="flex items-center text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+          class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
         >
-          <img
-            src="/assets/svg/github-black.svg"
-            alt="github logo"
-            class="mr-1 h-3.5"
-          />Github</a
+          Github</a
         >
       </div>
-      <div>
+      <div class="flex items-center">
+        <Icon name="mdi:linkedin" class="h-6 w-6" />
         <a
           href="https://www.linkedin.com/in/jal-ridley"
-          class="flex items-center text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-          ><img
-            src="/assets/svg/linkedin.svg"
-            alt="linkedIn logo"
-            class="mr-1 h-4 w-4"
-          />LinkedIn</a
+          class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+        >
+          LinkedIn</a
         >
       </div>
-      <div>
+      <div class="flex items-center">
+        <Icon name="heroicons:envelope" />
         <a
           href="mailto:ridleyjal@gmail.com"
-          class="flex items-center text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-          ><img
-            src="/assets/svg/envelope.svg"
-            alt="envelope icon"
-            class="mr-1 h-4 w-4"
-          />Email</a
+          class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+          >Email</a
         >
       </div>
     </div>

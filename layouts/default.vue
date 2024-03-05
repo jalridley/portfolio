@@ -5,15 +5,16 @@
     >
       <div class="flex items-center gap-4 md:gap-8 lg:gap-10">
         <NuxtLink class="nav-item" to="/"
-          ><img src="/assets/svg/home.svg" alt="home icon" class="h-6 w-6"
+          ><Icon name="heroicons-outline:home" class="mr-0 h-6 w-6"
         /></NuxtLink>
-        <NuxtLink class="nav-item" to="/bio">journey</NuxtLink>
+        <NuxtLink class="nav-item" to="/journey">journey</NuxtLink>
         <NuxtLink class="nav-item" to="/skills">skills</NuxtLink>
         <NuxtLink class="nav-item" to="/projects">projects</NuxtLink>
         <NuxtLink class="nav-item" to="/contact">contact</NuxtLink>
       </div>
       <span class="flex items-center">
-        <img src="/assets/svg/sun.svg" alt="sun icon" class="mr-1 h-6 w-6" />
+        <Icon name="heroicons:sun" class="mr-0 h-6 w-6" />
+        <!-- <Icon name="heroicons:moon" class="mr-0" /> -->
       </span>
     </nav>
     <main class="flex grow flex-col px-4 lg:px-0">

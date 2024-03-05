@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/google-fonts', '@nuxt/image'],
+  modules: ['@nuxtjs/google-fonts', '@nuxt/image', 'nuxt-icon'],
   image: { dir: 'assets/images' },
   googleFonts: {
     families: {

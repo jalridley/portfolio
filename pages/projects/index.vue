@@ -24,6 +24,12 @@
         aria-label="Read more about Jal's project Pinball Wizard"
         >Palmodoro</NuxtLink
       >
+      <NuxtLink
+        class="hover:text-emerald-700"
+        to="/projects/plantfam"
+        aria-label="Read more about Jal's project Pinball Wizard"
+        >Plantfam</NuxtLink
+      >
     </div>
   </section>
 </template>

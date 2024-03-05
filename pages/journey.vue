@@ -1,12 +1,9 @@
 <template>
   <section>
     <p class="mb-5">
-      <strong class="flex items-center font-besley text-2xl"
-        ><img
-          src="/assets/svg/radio.svg"
-          alt="radio icon"
-          class="mr-1 h-5 w-5"
-        />Musician Gone Web Dev:</strong
+      <strong class="flex items-center font-besley text-2xl">
+        <Icon name="mdi:amplifier" />
+        Musician Gone Web Dev:</strong
       >
 
       I moved from Toronto to Berlin to further my music and event planning
@@ -15,7 +12,7 @@
     </p>
     <p class="mb-5">
       <strong class="flex items-center font-besley text-2xl"
-        ><img src="/assets/svg/fire.svg" alt="fire icon" class="mr-1 h-5 w-5" />
+        ><Icon name="heroicons:fire-16-solid" />
         New Rock:
       </strong>
       Using my indoor time during the pandemic, I began teaching myself
@@ -36,11 +33,7 @@
     </p>
     <p class="mb-5">
       <strong class="flex items-center font-besley text-2xl"
-        ><img
-          src="/assets/svg/bolt.svg"
-          alt="bolt icon"
-          class="mr-1 h-5 w-5"
-        />Hard Rock:</strong
+        ><Icon name="heroicons:bolt-20-solid" />Hard Rock:</strong
       >
       I’ve worked with Vue.js, Nuxt, Tailwind CSS, Typescript, CSS/HTML, Cypress
       e2e testing, unit tests with Vitest, Docker containers, GitHub Actions, UI
@@ -51,11 +44,7 @@
     </p>
     <p class="mb-5">
       <strong class="flex items-center font-besley text-2xl"
-        ><img
-          src="/assets/svg/user-group.svg"
-          alt="user-group icon"
-          class="mr-1 h-5 w-5"
-        />Soft Rock:</strong
+        ><Icon name="ph:feather-fill" />Soft Rock:</strong
       >
       I carry with me the skills I have learned along the way from my life
       experiences before becoming a developer - problem solving, conflict
@@ -64,12 +53,9 @@
     </p>
 
     <p class="mb-5">
-      <strong class="flex items-center font-besley text-2xl"
-        ><img
-          src="/assets/svg/rocket.svg"
-          alt="rocket icon"
-          class="mr-1 h-5 w-5"
-        />THE Rock:</strong
+      <strong class="flex items-center font-besley text-2xl">
+        <Icon name="heroicons:rocket-launch-16-solid" />
+        THE Rock:</strong
       >
       Determination. Determination is my driver.
     </p>

@@ -5,7 +5,7 @@
     >
       <div class="flex items-center gap-4 md:gap-8 lg:gap-10">
         <NuxtLink class="nav-item" to="/"
-          ><img src="/assets/svg/home.svg" alt="home icon" class="h-6 w-6"
+          ><Icon name="heroicons-outline:home" class="mr-0"
         /></NuxtLink>
         <NuxtLink class="nav-item" to="/journey">journey</NuxtLink>
         <NuxtLink class="nav-item" to="/skills">skills</NuxtLink>

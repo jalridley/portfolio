@@ -1,7 +1,7 @@
 <template>
   <section class="flex justify-between">
     <h1
-      class="flex flex-col font-besley text-2xl font-bold sm:text-3xl md:text-5xl lg:text-7xl"
+      class="flex flex-col font-besley text-2xl font-bold sm:text-3xl md:space-y-2 md:text-5xl lg:text-7xl"
     >
       <span>Introducing</span>
       <span>Jal Ridley.</span>

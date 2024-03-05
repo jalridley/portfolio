@@ -3,7 +3,7 @@
     <h1 class="font-besley text-2xl">contact page</h1>
     <div>
       <div class="flex items-center">
-        <Icon name="mdi:github" />
+        <Icon name="mdi:github" class="h-6 w-6" />
         <a
           href="https://github.com/jalridley"
           class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
@@ -12,7 +12,7 @@
         >
       </div>
       <div class="flex items-center">
-        <Icon name="mdi:linkedin" />
+        <Icon name="mdi:linkedin" class="h-6 w-6" />
         <a
           href="https://www.linkedin.com/in/jal-ridley"
           class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"

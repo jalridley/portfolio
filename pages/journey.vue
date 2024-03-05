@@ -34,6 +34,7 @@
       <a
         href="https://explosion.ai/"
         class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+        aria-label="Read more about Explosion AI on their website"
         >Explosion AI</a
       >
       thriving on the exciting challenge of jumping from a non-tech career into

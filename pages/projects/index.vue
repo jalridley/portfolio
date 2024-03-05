@@ -1,7 +1,10 @@
 <template>
   <section>
     <h1 class="font-besley text-2xl">projects page</h1>
-    <NuxtLink class="hover:text-emerald-700" to="/projects/explosion"
+    <NuxtLink
+      class="hover:text-emerald-700"
+      to="/projects/explosion"
+      aria-label="Read more about Jal's work at Explosion AI"
       >Explosion Ai</NuxtLink
     >
   </section>

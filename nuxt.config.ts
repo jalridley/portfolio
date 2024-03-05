@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/google-fonts', '@nuxt/image', 'nuxt-icon'],
   image: { dir: 'assets/images' },
   googleFonts: {
+    display: 'swap',
     families: {
       Besley: [600, 700],
       Raleway: [400, 500],

@@ -5,7 +5,7 @@
     >
       <div class="flex items-center gap-4 md:gap-8 lg:gap-10">
         <NuxtLink class="nav-item" to="/"
-          ><Icon name="heroicons-outline:home" class="mr-0"
+          ><Icon name="heroicons-outline:home" class="mr-0 h-6 w-6"
         /></NuxtLink>
         <NuxtLink class="nav-item" to="/journey">journey</NuxtLink>
         <NuxtLink class="nav-item" to="/skills">skills</NuxtLink>
@@ -13,7 +13,7 @@
         <NuxtLink class="nav-item" to="/contact">contact</NuxtLink>
       </div>
       <span class="flex items-center">
-        <Icon name="heroicons:sun" class="mr-0" />
+        <Icon name="heroicons:sun" class="mr-0 h-6 w-6" />
         <!-- <Icon name="heroicons:moon" class="mr-0" /> -->
       </span>
     </nav>

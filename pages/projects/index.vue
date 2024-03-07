@@ -5,14 +5,7 @@
     >
       Projects.
     </h1>
-    <div class="flex flex-col">
-      <NuxtLink
-        class="hover:text-emerald-700"
-        to="/projects/palmodoro"
-        aria-label="Read more about Jal's project Palmodoro"
-        >Palmodoro</NuxtLink
-      >
-    </div>
+    <div class="flex flex-col"></div>
     <Card header="Explosion AI">
       <NuxtLink
         class="flex h-full w-full items-center justify-center bg-purple text-white transition ease-in-out hover:bg-yellow-500 hover:text-slate-900 hover:duration-500"

@@ -1,9 +1,9 @@
 <template>
-  <article class="max-w-sm overflow-hidden rounded-xl bg-white shadow-3xl">
-    <div class="max-h-72">
+  <article class="max-w-md overflow-hidden rounded-xl bg-white shadow-3xl">
+    <div class="h-80">
       <slot />
     </div>
-    <div>
+    <div class="p-5">
       <h1 class="font-besley text-xl font-bold uppercase">
         {{ header }}
       </h1>

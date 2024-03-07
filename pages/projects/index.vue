@@ -12,13 +12,6 @@
         aria-label="Read more about Jal's project Palmodoro"
         >Palmodoro</NuxtLink
       >
-      <NuxtLink
-        class="hover:text-emerald-700"
-        target="_blank"
-        to="https://github.com/brednadflex/plantfam?tab=readme-ov-file"
-        aria-label="Read more about Jal's project Plantfam"
-        >Plantfam</NuxtLink
-      >
     </div>
     <Card header="Explosion AI">
       <NuxtLink
@@ -55,6 +48,38 @@
           width="1024px"
           height="795px"
           sizes="288px sm:604px md:736px lg:795px"
+          format="webp"
+          decoding="auto"
+          loading="lazy"
+          ismap
+        />
+      </NuxtLink>
+
+      <template #text>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
+          quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam minus
+          iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Atque eius quam assumenda voluptatem
+          quidem quae ullam quo accusantium, voluptatibus vitae amet molestias
+          dolorem illum tempore asperiores dolor labore. Aliquam, quos!
+        </p>
+      </template>
+    </Card>
+    <Card header="Plantfam">
+      <NuxtLink
+        class="flex h-full w-full items-center justify-center bg-green-500 transition ease-in-out hover:bg-yellow-500 hover:duration-500"
+        target="_blank"
+        to="https://github.com/brednadflex/plantfam?tab=readme-ov-file"
+        aria-label="Read more about Jal's project Plantfam"
+      >
+        <NuxtImg
+          src="/plantfam-logo.png"
+          class="h-92 w-92 hover:p-10"
+          alt="illustration of Jal smiling with short hair styled up"
+          width="263px"
+          height="263px"
           format="webp"
           decoding="auto"
           loading="lazy"

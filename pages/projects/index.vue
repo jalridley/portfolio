@@ -36,13 +36,13 @@
     </Card>
     <Card header="Pinball Wizard">
       <NuxtLink
-        class="flex h-full w-full items-center justify-center bg-slate-900 transition ease-in-out hover:bg-yellow-500 hover:p-10 hover:duration-500"
+        class="flex h-full w-full items-center justify-center bg-black transition ease-in-out hover:bg-yellow-500 hover:p-10 hover:duration-500"
         target="_blank"
         to="https://github.com/jalridley/digital-counter"
         aria-label="Read more about Jal's project Pinball Wizard"
       >
         <NuxtImg
-          src="/pinball-wizard-wip-2.png"
+          src="/pinball-wizard-wip.png"
           class="h-full w-full object-cover"
           alt="illustration of Jal smiling with short hair styled up"
           width="1024px"
@@ -55,6 +55,38 @@
         />
       </NuxtLink>
 
+      <template #text>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
+          quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam minus
+          iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Atque eius quam assumenda voluptatem
+          quidem quae ullam quo accusantium, voluptatibus vitae amet molestias
+          dolorem illum tempore asperiores dolor labore. Aliquam, quos!
+        </p>
+      </template>
+    </Card>
+    <Card header="Palmodoro">
+      <NuxtLink
+        class="flex h-full w-full items-center justify-center bg-pink-500 transition ease-in-out hover:bg-yellow-500 hover:p-10 hover:duration-500"
+        target="_blank"
+        to="https://github.com/jalridley/palmodoro"
+        aria-label="Read more about Jal's project Palmodoro"
+      >
+        <NuxtImg
+          src="/palmodoro-wip.png"
+          class="h-full w-full object-contain"
+          alt="illustration of Jal smiling with short hair styled up"
+          width="1024px"
+          height="1224px"
+          sizes="288px sm:604px md:736px lg:795px"
+          format="webp"
+          decoding="auto"
+          loading="lazy"
+          ismap
+        />
+      </NuxtLink>
       <template #text>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.

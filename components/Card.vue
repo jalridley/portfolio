@@ -8,7 +8,7 @@
       <h1 class="font-besley text-xl font-bold uppercase">
         {{ header }}
       </h1>
-      <p class="mt-1">
+      <p class="pt-3">
         <slot name="text" />
       </p>
     </div>

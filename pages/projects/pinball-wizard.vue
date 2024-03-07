@@ -19,6 +19,7 @@
         loading="lazy"
         ismap
       />
+
       <template #text>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.

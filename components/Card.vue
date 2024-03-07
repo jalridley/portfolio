@@ -3,7 +3,8 @@
     <div class="h-80">
       <slot />
     </div>
-    <div class="p-5">
+
+    <div class="border-t p-5">
       <h1 class="font-besley text-xl font-bold uppercase">
         {{ header }}
       </h1>

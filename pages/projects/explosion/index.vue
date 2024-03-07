@@ -9,11 +9,7 @@
   >
     <div class="mr-8">
       <div>
-        <img
-            src="/assets/svg/explosion.svg"
-            alt="Explosion logo"
-            class="mr-1 h-12 w-12"
-          />
+        <ExplosionLogo class="w-24 h-24"/>
         <h2 class="flex items-center font-besley text-lg sm:text-xl md:text-2xl lg:text-3xl">Prodigy Teams</h2>
         <p class="mb-5">
           I worked as a Front End Engineer at <a href="https://explosion.ai/" target="_blank" class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Explosion AI</a> (developer tools for
@@ -284,6 +280,7 @@ import IconsTrash from '~/components/icons/IconsTrash.vue'
 import IconsUserMinus from '~/components/icons/IconsUserMinus.vue'
 import IconsUserPlus from '~/components/icons/IconsUserPlus.vue'
 import IconsAnimateSparklesBlk from '~/components/icons/IconsAnimateSparklesBlk.vue'
+import ExplosionLogo from '~/components/ExplosionLogo.vue'
 
 useHead({
   title: 'Explosion Ai',

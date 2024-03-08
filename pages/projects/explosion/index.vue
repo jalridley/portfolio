@@ -90,8 +90,8 @@
         </template>
       </Card>
 
-      <Card header="Percentage Bar" class="rounded-b-0">
-        <div class="flex h-full justify-center border-b bg-orange-100 py-5">
+      <Card header="Percentage Bar">
+        <div class="flex h-full justify-center bg-orange-100 p-5">
           <StatsPercentageBar
             class="w-10 rounded-lg"
             :items="[

@@ -1,6 +1,6 @@
 <template>
-  <article class="max-w-md overflow-hidden rounded-xl bg-white shadow-3xl">
-    <div class="h-80">
+  <article class="w-full overflow-hidden rounded-xl bg-white shadow-3xl">
+    <div class="h-96">
       <slot />
     </div>
 
@@ -18,6 +18,5 @@
 interface Props {
   header: string
 }
-
 defineProps<Props>()
 </script>

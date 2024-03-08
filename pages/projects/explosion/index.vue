@@ -231,7 +231,7 @@
         </template>
       </Card>
       <Card header="Stats Grid">
-        <div class="flex h-full flex-col justify-center border-b p-5">
+        <div class="flex h-full flex-col justify-center p-5">
           <StatsGrid
             :items="[
               {

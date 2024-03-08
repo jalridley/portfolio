@@ -4,7 +4,7 @@
   >
     Explosion AI.
   </h1>
-  <header
+  <!-- <header
     class="flex w-full items-center overflow-hidden rounded-xl border p-8"
   >
     <div class="mr-8">
@@ -44,10 +44,80 @@
       alt="dashboard"
       class="w-1/2 rounded-xl"
     />
-  </header>
+  </header> -->
+
+  <!-- class="flex items-center font-besley text-lg sm:text-xl md:text-2xl lg:text-3xl" -->
   <section>
-    <!-- <div class="w-full lg:grid lg:grid-cols-2 lg:gap-3 xl:grid-cols-3"> -->
     <div class="grid gap-8 md:grid-cols-2 lg:gap-10">
+      <article
+        class="col-span-2 flex w-full items-center justify-between overflow-hidden rounded-xl bg-white p-5 shadow-3xl"
+      >
+        <div class="mr-8 w-1/2">
+          <ExplosionLogo class="mb-5 h-24 w-24" />
+          <h2 class="font-besley text-xl font-bold uppercase">Prodigy Teams</h2>
+          <p class="pt-3">
+            I worked as a Front End Engineer at
+            <a
+              href="https://explosion.ai/"
+              target="_blank"
+              class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+              >Explosion AI</a
+            >
+            (developer tools for AI, Machine Learning and Natural Language
+            Processing) on their SaaS product,
+            <a
+              href="https://prodigy.ai/teams"
+              target="_blank"
+              class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+              >Prodigy Teams</a
+            >. Prodigy Teams collaboratively uses their developer tool,
+            <a
+              href="https://prodi.gy/"
+              target="_blank"
+              class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+              >Prodigy</a
+            >, in the cloud, managing teams, annotators, data tasks, and running
+            automated processes like model training (including LLMs), all while
+            the user hosts their data on their own cluster. It was built in
+            Vue/Nuxt 3 with Pinia, TailwindCSS, Typescript, Vitest, Cypress for
+            e2e tests, Storybook for building components in isolation, Docker
+            containers/Nomad. A far cry from beginner friendly for my first job
+            in tech, but I thrived on the challenge.
+          </p>
+
+          <p class="mb-5">
+            With permission from the founders (full disclosure: it was their
+            idea), as a taste of a portion of my contributions, I am showcasing
+            the dashboard feature and all of its components I made for Prodigy
+            Teams. Instead of screenshots, have refactored it in its entirety
+            for use in my portfolio to show the full code.
+          </p>
+
+          <p class="mb-8">
+            I learned a lot from the process of getting this to look and
+            function as it did in the original app, which was built desktop
+            first with a very complicated backend. It was great to strip the
+            components down even further and see where they could be improved.
+          </p>
+        </div>
+        <!-- IMAGE START -->
+        <div class="flex w-1/2 flex-col items-center justify-center gap-10">
+          <img
+            src="@/assets/images/dashboard.png"
+            alt="dashboard"
+            class="h-96 w-96 rounded-full object-cover shadow-xl transition ease-in-out hover:bg-slate-100 hover:object-contain hover:duration-500"
+          />
+          <div class="flex">
+            <LinkButton
+              variant="primaryButton"
+              to="/projects/explosion/dashboard"
+              aria-label="Go to the dashboard feature"
+              >Dashboard feature</LinkButton
+            >
+          </div>
+        </div>
+      </article>
+
       <Card header="header">
         <div class="flex h-full flex-col gap-5 bg-purple p-5">
           <span
@@ -126,7 +196,9 @@
         </template>
       </Card>
       <Card header="custom icons">
-        <div class="grid h-full grid-cols-3 gap-y-3 gap-x-4 md:gap-x-5 bg-teal-600 p-5">
+        <div
+          class="grid h-full grid-cols-3 gap-x-4 gap-y-3 bg-teal-600 p-5 md:gap-x-5"
+        >
           <IconsActions
             class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
@@ -178,7 +250,7 @@
         </template>
       </Card>
       <Card header="stats list">
-        <div class="p-5 flex flex-col h-full justify-center">
+        <div class="flex h-full flex-col justify-center p-5">
           <StatsList
             title="Stats"
             :items="[
@@ -260,11 +332,13 @@
           corresponding colour matches the stat.
         </template>
       </Card>
-     
+
       <Card header="Stats">
-        <div class="flex h-full w-full flex-col justify-center items-center p-5">
+        <div
+          class="flex h-full w-full flex-col items-center justify-center p-5"
+        >
           <Stats
-          classes="sm:flex sm:justify-between text-slate-500 sm:w-full items-center lg:px-10 p-10 md:py-5 md:px-4 border rounded"
+            classes="sm:flex sm:justify-between text-slate-500 sm:w-full items-center lg:px-10 p-10 md:py-5 md:px-4 border rounded"
             :items="[
               {
                 name: pluralize(1, 'Admin'),

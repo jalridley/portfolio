@@ -1,9 +1,9 @@
 <template>
   <h1
-      class="mb-3 flex flex-col font-besley text-3xl font-bold sm:text-5xl md:mb-8 md:text-6xl lg:mb-10 lg:text-7xl"
-    >
+    class="mb-3 flex flex-col font-besley text-3xl font-bold sm:text-5xl md:mb-8 md:text-6xl lg:mb-10 lg:text-7xl"
+  >
     Explosion AI.
-    </h1>
+  </h1>
   <header
     class="flex w-full items-center overflow-hidden rounded-xl border p-8"
   >
@@ -46,25 +46,37 @@
     />
   </header>
   <section>
-    <div class="w-full lg:grid lg:grid-cols-2 lg:gap-3 xl:grid-cols-3">
+    <!-- <div class="w-full lg:grid lg:grid-cols-2 lg:gap-3 xl:grid-cols-3"> -->
+    <div class="grid gap-8 md:grid-cols-2 lg:gap-10">
       <Card header="header">
-        <div class="flex h-full flex-col justify-between bg-purple p-5">
-          <HeaderDetails
-            class="h-1/2 w-full rounded-xl border bg-white px-4 py-2"
-            title="Project X"
-            :icon="IconsHome"
-            description="US news in English"
-          />
-          <HeaderDetails
-            class="h-2/5 w-full rounded-lg border bg-white px-4 py-2"
-            headline="Train & Evaluate"
-            title="Actions"
-            :icon="IconsActions"
-            is-card-header
-          />
+        <div class="flex h-full flex-col gap-5 bg-purple p-5">
+          <span
+            class="flex h-1/2 w-full items-center justify-center rounded-xl bg-white"
+          >
+            <HeaderDetails
+              class="flex h-full justify-center"
+              title="Project X"
+              :icon="IconsHome"
+              description="US news in English"
+            />
+          </span>
+          <span
+            class="flex h-1/2 w-full items-center justify-center rounded-xl bg-white"
+          >
+            <HeaderDetails
+              class="flex h-full justify-center"
+              headline="Train & Evaluate"
+              title="Actions"
+              :icon="IconsActions"
+              is-card-header
+          /></span>
         </div>
         <template #text>
-          The header is used throughout the app in main sections and subsections, which required it to be flexible in its size, style and layout. The custom icons which I created and used in part in this component contribute to the personality of the Prodigy Teams SaaS app while aligning with the pixel aesthetic of its mother app, Prodigy.
+          The header is used throughout the app in main sections and
+          subsections, which required it to be flexible in its size, style and
+          layout. The custom icons which I created and used in part in this
+          component contribute to the personality of the Prodigy Teams SaaS app
+          while aligning with the pixel aesthetic of its mother app, Prodigy.
         </template>
       </Card>
 
@@ -73,7 +85,10 @@
           <EmptyState />
         </div>
         <template #text>
-          Empty states are app wide in previews, dropdowns, individual items, error states, and data statuses.  The icon and text are dynamic, matching the related data, with the dashboard using its generic default. The little bounce animation is a subtle but nice touch.
+          Empty states are app wide in previews, dropdowns, individual items,
+          error states, and data statuses. The icon and text are dynamic,
+          matching the related data, with the dashboard using its generic
+          default. The little bounce animation is a subtle but nice touch.
         </template>
       </Card>
 
@@ -106,7 +121,10 @@
           />
         </div>
         <template #text>
-          This was an extra fun one to build.  The linear gradient is a utility function which has unit tests, and adding the white break between each colour was an added challenge in order to exclude it if there is only one stat taking up the entire height. 
+          This was an extra fun one to build. The linear gradient is a utility
+          function which has unit tests, and adding the white break between each
+          colour was an added challenge in order to exclude it if there is only
+          one stat taking up the entire height.
         </template>
       </Card>
       <Card header="custom icons">
@@ -153,7 +171,12 @@
           />
         </div>
         <template #text>
-          Ah the world of Figma! I loved putting on my design hat to give the app unique personality through icons. The main icons were designed in a wide pixel style, while all others were thinner but equally as cool. The sparkle animation displays to the admin when an annotator is currently annotating. I refactored all of the original svgs into components (the Vue/Nuxt 3 way) with the Typescript Component type.
+          Ah the world of Figma! I loved putting on my design hat to give the
+          app unique personality through icons. The main icons were designed in
+          a wide pixel style, while all others were thinner but equally as cool.
+          The sparkle animation displays to the admin when an annotator is
+          currently annotating. I refactored all of the original svgs into
+          components (the Vue/Nuxt 3 way) with the Typescript Component type.
         </template>
       </Card>
       <Card header="stats list" class="rounded-b-0">
@@ -200,7 +223,13 @@
           />
         </div>
         <template #text>
-          This was built specifically for the dashboard while following the same theme used throughout the app to display the state of data. It was tricky for my backend coworkers to nail down the complexity of these states which were coming from Nomad and I was lucky to work with them getting the states we needed written in python for me to wire it up to UI. The items are to to be links, but I have prevented them from going anywhere for this portfolio.
+          This was built specifically for the dashboard while following the same
+          theme used throughout the app to display the state of data. It was
+          tricky for my backend coworkers to nail down the complexity of these
+          states which were coming from Nomad and I was lucky to work with them
+          getting the states we needed written in python for me to wire it up to
+          UI. The items are to to be links, but I have prevented them from going
+          anywhere for this portfolio.
         </template>
       </Card>
       <Card header="Stats Grid">
@@ -226,7 +255,11 @@
           />
         </div>
         <template #text>
-          The stats in grid form are the most prioritized and dominant stats throughout the app, sitting just below the header. It is large with a maximum of 3 items which vary depending on the type of data.  If the stat value is zero, the icon is grey, while if above zero, its corresponding colour matches the stat.
+          The stats in grid form are the most prioritized and dominant stats
+          throughout the app, sitting just below the header. It is large with a
+          maximum of 3 items which vary depending on the type of data. If the
+          stat value is zero, the icon is grey, while if above zero, its
+          corresponding colour matches the stat.
         </template>
       </Card>
       <Card header="Stats">
@@ -253,7 +286,10 @@
           />
         </div>
         <template #text>
-          These stats are to be horizontal (the Prodigy Teams app being desktop first) with no dynamic colours or links, differentiating them from the other stats components.  A simple component but needed dynamic spacing for use on small screens for use in my portfolio.
+          These stats are to be horizontal (the Prodigy Teams app being desktop
+          first) with no dynamic colours or links, differentiating them from the
+          other stats components. A simple component but needed dynamic spacing
+          for use on small screens for use in my portfolio.
         </template>
       </Card>
     </div>

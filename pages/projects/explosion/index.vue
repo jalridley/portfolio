@@ -80,10 +80,8 @@
         </template>
       </Card>
 
-      <Card header="Empty State" class="rounded-b-0">
-        <div class="h-full border-b bg-white">
-          <EmptyState />
-        </div>
+      <Card header="Empty State">
+        <EmptyState class="flex h-full flex-col justify-center" />
         <template #text>
           Empty states are app wide in previews, dropdowns, individual items,
           error states, and data statuses. The icon and text are dynamic,

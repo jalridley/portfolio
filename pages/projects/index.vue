@@ -38,7 +38,7 @@
           <NuxtImg
             src="/pinball-wizard-wip.png"
             class="h-full w-full object-contain"
-            alt="illustration of Jal smiling with short hair styled up"
+            alt="Screenshot of Jal's project Pinball Wizard"
             width="1024px"
             height="795px"
             sizes="288px sm:604px md:736px lg:795px"
@@ -71,7 +71,7 @@
           <NuxtImg
             src="/palmodoro-wip.png"
             class="h-full w-full object-contain"
-            alt="illustration of Jal smiling with short hair styled up"
+            alt="Screenshot of Jal's project Palmodoro"
             width="1024px"
             height="1224px"
             sizes="288px sm:604px md:736px lg:795px"
@@ -104,7 +104,7 @@
           <NuxtImg
             src="/plantfam-logo.png"
             class="h-92 w-92 hover:p-10"
-            alt="illustration of Jal smiling with short hair styled up"
+            alt="Screenshot of Jal's project Plantfam"
             width="263px"
             height="263px"
             format="webp"

@@ -260,10 +260,11 @@
           corresponding colour matches the stat.
         </template>
       </Card>
-      <Card header="Stats">
-        <div class="flex h-full flex-col justify-center border-b p-5">
+     
+      <Card header="Stats" >
+        <div class="flex h-full w-full flex-col justify-center items-center p-5">
           <Stats
-            classes="sm:flex sm:justify-between text-slate-500"
+          classes="sm:flex sm:justify-between text-slate-500 sm:w-full items-center lg:px-10 p-10 md:py-5 md:px-4 border rounded"
             :items="[
               {
                 name: pluralize(1, 'Admin'),

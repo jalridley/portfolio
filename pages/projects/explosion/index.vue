@@ -126,46 +126,46 @@
         </template>
       </Card>
       <Card header="custom icons">
-        <div class="grid h-full grid-cols-3 gap-2 bg-teal-600 p-5">
+        <div class="grid h-full grid-cols-3 gap-y-3 gap-x-4 md:gap-x-5 bg-teal-600 p-5">
           <IconsActions
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsTasks
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsHome
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsLoading
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsSaveDisc
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsAnimateSparklesBlk
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsFlag
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsTag
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsTrash
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsAdministrator
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsUserMinus
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
           <IconsUserPlus
-            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-2"
+            class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
           />
 
           <IconsTeam
-            class="col-span-3 flex h-full w-full rounded-lg bg-white p-2"
+            class="col-span-3 flex h-full w-full rounded-lg bg-white p-3"
           />
         </div>
         <template #text>

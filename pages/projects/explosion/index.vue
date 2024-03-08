@@ -177,8 +177,8 @@
           components (the Vue/Nuxt 3 way) with the Typescript Component type.
         </template>
       </Card>
-      <Card header="stats list" class="rounded-b-0">
-        <div class="h-full border-b p-5">
+      <Card header="stats list">
+        <div class="p-5 flex flex-col h-full justify-center">
           <StatsList
             title="Stats"
             :items="[

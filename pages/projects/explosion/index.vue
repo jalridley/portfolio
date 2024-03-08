@@ -60,13 +60,18 @@
             components down even further and see where they could be improved.
           </p>
         </div>
-
-        <!-- IMAGE START -->
         <div class="flex w-full flex-col items-center justify-center gap-10">
-          <img
-            src="@/assets/images/dashboard.png"
-            alt="dashboard"
-            class="h-72 w-72 rounded-full object-cover shadow-xl transition ease-in-out hover:bg-slate-100 hover:object-contain hover:duration-500 md:h-96 md:w-96"
+          <NuxtImg
+            class="h-72 w-72 rounded-full bg-slate-100 object-contain shadow-xl md:h-96 md:w-96"
+            src="/dashboard.png"
+            alt="Screenshot of the dashboard feature"
+            width="460px"
+            height="574px"
+            sizes="248px sm:288px md:384px"
+            format="webp"
+            decoding="auto"
+            loading="lazy"
+            ismap
           />
           <div class="flex">
             <LinkButton

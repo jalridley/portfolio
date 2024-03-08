@@ -261,7 +261,7 @@
         </template>
       </Card>
      
-      <Card header="Stats" >
+      <Card header="Stats">
         <div class="flex h-full w-full flex-col justify-center items-center p-5">
           <Stats
           classes="sm:flex sm:justify-between text-slate-500 sm:w-full items-center lg:px-10 p-10 md:py-5 md:px-4 border rounded"

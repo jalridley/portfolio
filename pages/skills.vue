@@ -5,9 +5,7 @@
     >
       Skills.
     </h1>
-    <div
-      class="grid grid-cols-3 gap-5 rounded-xl sm:gap-10 md:grid-cols-4 lg:gap-16"
-    >
+    <div class="grid grid-cols-3 gap-5 sm:gap-10 md:grid-cols-4 lg:gap-16">
       <CardIcon icon="skill-icons:javascript" title="Javascript" />
       <!-- <CardIcon icon="skill-icons:vuejs-light" title="Vue.js" /> -->
       <CardIcon icon="skill-icons:vuejs-dark" title="Vue.js" />

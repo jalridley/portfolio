@@ -5,7 +5,9 @@
     >
       Journey.
     </h1>
-    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+    <h2
+      class="mb-1 flex items-center font-besley text-xl font-bold md:mb-2 md:text-3xl"
+    >
       <Icon name="mdi:amplifier" class="mr-1 h-6 w-6 md:h-8 md:w-8" />
       Musician Gone Web Dev
     </h2>
@@ -14,7 +16,9 @@
       career, and after twisting, turning, growing and evolving, I am now a
       Front End Developer.
     </p>
-    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+    <h2
+      class="mb-1 flex items-center font-besley text-xl font-bold md:mb-2 md:text-3xl"
+    >
       <Icon name="heroicons:fire-16-solid" class="mr-1 h-6 w-6 md:h-8 md:w-8" />
       New Rock
     </h2>
@@ -36,7 +40,9 @@
       building was ambitious and the codebase complex. It was a far cry from
       beginner friendly and my brain hurt. I absolutely loved it.
     </p>
-    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+    <h2
+      class="mb-1 flex items-center font-besley text-xl font-bold md:mb-2 md:text-3xl"
+    >
       <Icon name="heroicons:bolt-20-solid" class="mr-1 h-6 w-6 md:h-8 md:w-8" />
       Hard Rock
     </h2>
@@ -48,7 +54,9 @@
       with ReactJS while building a personal project with plans to transfer my
       Vue skills to learning more.
     </p>
-    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+    <h2
+      class="mb-1 flex items-center font-besley text-xl font-bold md:mb-2 md:text-3xl"
+    >
       <Icon name="ph:feather-fill" class="mr-1 h-6 w-6 md:h-8 md:w-8" />
       Soft Rock
     </h2>
@@ -59,7 +67,9 @@
       see all sides of a story, and use criticism as a tool to improve.
     </p>
 
-    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+    <h2
+      class="mb-1 flex items-center font-besley text-xl font-bold md:mb-2 md:text-3xl"
+    >
       <Icon
         name="heroicons:rocket-launch-16-solid"
         class="mr-1 h-6 w-6 md:h-8 md:w-8"

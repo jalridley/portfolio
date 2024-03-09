@@ -86,9 +86,9 @@
     </article>
 
     <Card header="header">
-      <div class="flex h-full flex-col gap-5 bg-purple p-5">
+      <div class="flex h-full flex-col gap-5 p-5">
         <span
-          class="flex h-1/2 w-full items-center justify-center rounded-xl bg-white"
+          class="flex h-1/2 w-full items-center justify-center rounded-xl border bg-white"
         >
           <HeaderDetails
             class="flex h-full justify-center"
@@ -98,7 +98,7 @@
           />
         </span>
         <span
-          class="flex h-1/2 w-full items-center justify-center rounded-xl bg-white"
+          class="flex h-1/2 w-full items-center justify-center rounded-xl border bg-white"
         >
           <HeaderDetails
             class="flex h-full justify-center"
@@ -128,7 +128,7 @@
     </Card>
 
     <Card header="Percentage Bar">
-      <div class="flex h-full justify-center bg-orange-100 p-5">
+      <div class="flex h-full justify-center bg-orange-200 p-5">
         <StatsPercentageBar
           class="w-10 rounded-lg"
           :items="[
@@ -164,7 +164,7 @@
     </Card>
     <Card header="custom icons">
       <div
-        class="grid h-full grid-cols-3 gap-x-4 gap-y-3 bg-teal-600 p-5 md:gap-x-5"
+        class="grid h-full grid-cols-3 gap-x-4 gap-y-3 bg-slate-600 p-5 md:gap-x-5"
       >
         <IconsActions
           class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"

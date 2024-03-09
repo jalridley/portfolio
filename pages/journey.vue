@@ -5,8 +5,8 @@
     >
       Journey.
     </h1>
-    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
-      <Icon name="mdi:amplifier" />
+    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+      <Icon name="mdi:amplifier" class="mr-1 h-6 w-6 md:h-8 md:w-8" />
       Musician Gone Web Dev:
     </h2>
     <p class="mb-5">
@@ -14,8 +14,8 @@
       career, and after twisting, turning, growing and evolving, I am now a
       Front End Developer.
     </p>
-    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
-      <Icon name="heroicons:fire-16-solid" />
+    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+      <Icon name="heroicons:fire-16-solid" class="mr-1 h-6 w-6 md:h-8 md:w-8" />
       New Rock:
     </h2>
     <p class="mb-5">
@@ -36,8 +36,9 @@
       building was ambitious and the codebase complex. It was a far cry from
       beginner friendly and my brain hurt. I absolutely loved it.
     </p>
-    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
-      <Icon name="heroicons:bolt-20-solid" />Hard Rock:
+    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+      <Icon name="heroicons:bolt-20-solid" class="mr-1 h-6 w-6 md:h-8 md:w-8" />
+      Hard Rock:
     </h2>
     <p class="mb-5">
       I’ve worked with Vue.js, Nuxt, Tailwind CSS, Typescript, CSS/HTML, Cypress
@@ -47,8 +48,9 @@
       with ReactJS while building a personal project with plans to transfer my
       Vue skills to learning more.
     </p>
-    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
-      <Icon name="ph:feather-fill" />Soft Rock:
+    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+      <Icon name="ph:feather-fill" class="mr-1 h-6 w-6 md:h-8 md:w-8" />
+      Soft Rock:
     </h2>
     <p class="mb-5">
       I carry with me the skills I have learned along the way from my life
@@ -57,8 +59,11 @@
       see all sides of a story, and use criticism as a tool to improve.
     </p>
 
-    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
-      <Icon name="heroicons:rocket-launch-16-solid" />
+    <h2 class="flex items-center font-besley text-xl font-bold md:text-3xl">
+      <Icon
+        name="heroicons:rocket-launch-16-solid"
+        class="mr-1 h-6 w-6 md:h-8 md:w-8"
+      />
       THE Rock:
     </h2>
     <p class="mb-5">Determination. Determination is my driver.</p>

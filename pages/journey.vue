@@ -31,7 +31,7 @@
       internship, I began working full time as a Front End Developer at
       <NuxtLink
         to="https://explosion.ai/"
-        class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
+        class="text-black underline hover:text-yellow-500"
         aria-label="Read more about Explosion AI on their website"
         >Explosion AI</NuxtLink
       >

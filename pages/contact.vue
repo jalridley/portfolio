@@ -7,15 +7,6 @@
     </h1>
     <div>
       <div class="flex items-center">
-        <Icon name="mdi:github" class="h-6 w-6" />
-        <a
-          href="https://github.com/jalridley"
-          class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-        >
-          Github</a
-        >
-      </div>
-      <div class="flex items-center">
         <Icon name="mdi:linkedin" class="h-6 w-6" />
         <a
           href="https://www.linkedin.com/in/jal-ridley"
@@ -32,6 +23,17 @@
           >Email</a
         >
       </div>
+    </div>
+    <div
+      class="grid grid-cols-3 gap-5 rounded-xl sm:gap-10 md:grid-cols-4 lg:gap-16"
+    >
+      <NuxtLink
+        to="https://github.com/jalridley"
+        aria-label="Go to Jal's Github"
+        class="hover:text-yellow-500"
+      >
+        <CardIcon icon="mdi:github" title="Github" />
+      </NuxtLink>
     </div>
   </section>
 </template>

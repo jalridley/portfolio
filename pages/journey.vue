@@ -1,12 +1,10 @@
 <template>
   <section>
-    <header>
-      <h1
-        class="mb-3 flex flex-col font-besley text-3xl font-bold sm:text-5xl md:mb-8 md:text-6xl lg:mb-10 lg:text-7xl"
-      >
-        Journey.
-      </h1>
-    </header>
+    <h1
+      class="mb-3 flex flex-col font-besley text-3xl font-bold sm:text-5xl md:mb-8 md:text-6xl lg:mb-10 lg:text-7xl"
+    >
+      Journey.
+    </h1>
     <h2
       class="flex items-center font-besley text-lg sm:text-xl md:text-2xl lg:text-3xl"
     >

@@ -6,13 +6,15 @@
   </h1>
   <section class="grid gap-8 md:grid-cols-2 lg:gap-10">
     <article
-      class="mb-5 w-full overflow-hidden rounded-xl border-b bg-white p-5 pb-5 md:col-span-2"
+      class="w-full overflow-hidden border-b bg-white pb-8 md:col-span-2 lg:pb-5"
     >
       <ExplosionLogo class="mb-5 h-24 w-24" />
-      <h2 class="font-besley text-xl font-bold md:text-3xl">Prodigy Teams</h2>
+      <h2 class="mb-1 font-besley text-xl font-bold md:mb-2 md:text-3xl">
+        Prodigy Teams
+      </h2>
       <div class="lg:flex lg:items-center lg:justify-between">
         <div class="mr-8 w-full">
-          <p class="mb-5 pt-3">
+          <p class="mb-5 pt-3 md:mb-8">
             I worked as a Front End Engineer at
             <NuxtLink
               href="https://explosion.ai/"
@@ -29,7 +31,7 @@
               >Prodigy Teams</NuxtLink
             >.
           </p>
-          <p class="mb-5">
+          <p class="mb-5 md:mb-8">
             Prodigy Teams collaboratively uses their developer tool,
             <NuxtLink
               href="https://prodi.gy/"
@@ -45,7 +47,7 @@
             in tech, but I thrived on the challenge.
           </p>
 
-          <p class="mb-5">
+          <p class="mb-5 md:mb-8">
             With permission from the founders (full disclosure: it was their
             idea), as a taste of a portion of my contributions, I am showcasing
             the dashboard feature and all of its components I made for Prodigy
@@ -53,7 +55,7 @@
             for use in my portfolio to show the full code.
           </p>
 
-          <p class="mb-8">
+          <p class="mb-8 md:mb-8">
             I learned a lot from the process of getting this to look and
             function as it did in the original app, which was built desktop
             first with a very complicated backend. It was great to strip the
@@ -84,7 +86,9 @@
         </div>
       </div>
     </article>
-
+    <h2 class="font-besley text-xl font-bold md:col-span-2 md:mb-2 md:text-3xl">
+      Dashboard Components
+    </h2>
     <Card header="header">
       <div class="flex h-full flex-col gap-5 p-5">
         <span

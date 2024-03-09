@@ -5,9 +5,7 @@
     >
       Journey.
     </h1>
-    <h2
-      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
-    >
+    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
       <Icon name="mdi:amplifier" />
       Musician Gone Web Dev:
     </h2>
@@ -16,9 +14,7 @@
       career, and after twisting, turning, growing and evolving, I am now a
       Front End Developer.
     </p>
-    <h2
-      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
-    >
+    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
       <Icon name="heroicons:fire-16-solid" />
       New Rock:
     </h2>
@@ -40,9 +36,7 @@
       building was ambitious and the codebase complex. It was a far cry from
       beginner friendly and my brain hurt. I absolutely loved it.
     </p>
-    <h2
-      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
-    >
+    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
       <Icon name="heroicons:bolt-20-solid" />Hard Rock:
     </h2>
     <p class="mb-5">
@@ -53,9 +47,7 @@
       with ReactJS while building a personal project with plans to transfer my
       Vue skills to learning more.
     </p>
-    <h2
-      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
-    >
+    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
       <Icon name="ph:feather-fill" />Soft Rock:
     </h2>
     <p class="mb-5">
@@ -65,9 +57,7 @@
       see all sides of a story, and use criticism as a tool to improve.
     </p>
 
-    <h2
-      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
-    >
+    <h2 class="flex items-center font-besley text-2xl font-bold md:text-3xl">
       <Icon name="heroicons:rocket-launch-16-solid" />
       THE Rock:
     </h2>

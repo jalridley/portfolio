@@ -8,7 +8,6 @@
     <article
       class="w-full overflow-hidden border-b bg-white pb-8 md:col-span-2 lg:pb-5"
     >
-      <ExplosionLogo class="mb-5 h-24 w-24" />
       <h2 class="mb-1 font-besley text-xl font-bold md:mb-2 md:text-3xl">
         Prodigy Teams
       </h2>

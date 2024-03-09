@@ -14,28 +14,28 @@
         <div class="mr-8 w-full">
           <p class="mb-5 pt-3">
             I worked as a Front End Engineer at
-            <a
+            <NuxtLink
               href="https://explosion.ai/"
               target="_blank"
-              class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-              >Explosion AI</a
+              class="text-black underline hover:text-yellow-500"
+              >Explosion AI</NuxtLink
             >
             (developer tools for AI, Machine Learning and Natural Language
             Processing) on their SaaS product,
-            <a
+            <NuxtLink
               href="https://prodigy.ai/teams"
               target="_blank"
-              class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-              >Prodigy Teams</a
+              class="text-black underline hover:text-yellow-500"
+              >Prodigy Teams</NuxtLink
             >.
           </p>
           <p class="mb-5">
             Prodigy Teams collaboratively uses their developer tool,
-            <a
+            <NuxtLink
               href="https://prodi.gy/"
               target="_blank"
-              class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-              >Prodigy</a
+              class="text-black underline hover:text-yellow-500"
+              >Prodigy</NuxtLink
             >, in the cloud, managing teams, annotators, data tasks, and running
             automated processes like model training (including LLMs), all while
             the user hosts their data on their own cluster. It was built in

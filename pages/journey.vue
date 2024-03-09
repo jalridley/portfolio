@@ -6,7 +6,7 @@
       Journey.
     </h1>
     <h2
-      class="flex items-center font-besley text-lg sm:text-xl md:text-2xl lg:text-3xl"
+      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
     >
       <Icon name="mdi:amplifier" />
       Musician Gone Web Dev:
@@ -17,7 +17,7 @@
       Front End Developer.
     </p>
     <h2
-      class="flex items-center font-besley text-lg sm:text-xl md:text-2xl lg:text-3xl"
+      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
     >
       <Icon name="heroicons:fire-16-solid" />
       New Rock:
@@ -41,7 +41,7 @@
       beginner friendly and my brain hurt. I absolutely loved it.
     </p>
     <h2
-      class="flex items-center font-besley text-lg sm:text-xl md:text-2xl lg:text-3xl"
+      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
     >
       <Icon name="heroicons:bolt-20-solid" />Hard Rock:
     </h2>
@@ -54,7 +54,7 @@
       Vue skills to learning more.
     </p>
     <h2
-      class="flex items-center font-besley text-lg sm:text-xl md:text-2xl lg:text-3xl"
+      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
     >
       <Icon name="ph:feather-fill" />Soft Rock:
     </h2>
@@ -66,7 +66,7 @@
     </p>
 
     <h2
-      class="flex items-center font-besley text-lg sm:text-xl md:text-2xl lg:text-3xl"
+      class="flex items-center font-besley sm:text-xl md:text-2xl lg:text-3xl"
     >
       <Icon name="heroicons:rocket-launch-16-solid" />
       THE Rock:

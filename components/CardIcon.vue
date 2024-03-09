@@ -6,7 +6,7 @@
       class="h-24 w-24 sm:h-32 sm:w-32 lg:h-48 lg:w-48"
       :class="iconClasses"
     />
-    <div class="mt-2 text-center text-lg font-medium sm:text-2xl">
+    <div class="mt-2 text-center font-medium sm:text-2xl">
       {{ title }}
     </div>
   </div>

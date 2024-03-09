@@ -6,7 +6,7 @@
   </h1>
   <section class="grid gap-8 md:grid-cols-2 lg:gap-10">
     <article
-      class="w-full overflow-hidden rounded-xl bg-white p-5 md:col-span-2"
+      class="mb-5 w-full overflow-hidden rounded-xl border-b bg-white p-5 pb-5 md:col-span-2"
     >
       <ExplosionLogo class="mb-5 h-24 w-24" />
       <h2 class="font-besley text-xl font-bold md:text-3xl">Prodigy Teams</h2>

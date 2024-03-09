@@ -5,58 +5,42 @@
     >
       Skills.
     </h1>
-    <ul class="mb-5">
-      <li class="flex">
-        <Icon name="skill-icons:javascript" />
-        Javascript
-      </li>
-      <li class="flex">
-        <Icon name="skill-icons:vuejs-light" /><Icon
-          name="skill-icons:vuejs-dark"
-        />Vue.js
-      </li>
-      <li class="flex">
-        <Icon name="skill-icons:nuxtjs-dark" /><Icon
-          name="skill-icons:nuxtjs-light"
-        />Nuxt
-      </li>
-      <li class="flex">
-        <Icon name="skill-icons:pinia-dark" /><Icon
-          name="skill-icons:pinia-light"
-        />Pinia
-      </li>
-      <li class="flex">
-        <Icon name="skill-icons:tailwindcss-dark" /><Icon
-          name="skill-icons:tailwindcss-light"
-        />TailwindCSS
-      </li>
-      <li class="flex"><Icon name="skill-icons:typescript" />Typescript</li>
-      <li class="flex"><Icon name="skill-icons:html" />HTML</li>
-      <li class="flex"><Icon name="skill-icons:css" />CSS</li>
-      <li class="flex"><Icon name="skill-icons:sass" />SASS</li>
-      <li class="flex">
-        <Icon
-          name="vscode-icons:file-type-storybook"
-          class="rounded-md bg-[#f4f2ed] p-0.5"
-        />Storybook
-      </li>
-      <li class="flex"><Icon name="skill-icons:cypress-light" />Cypress</li>
-      <li class="flex">
-        <Icon name="skill-icons:vitest-dark" /><Icon
-          name="skill-icons:vitest-light"
-        />Vitest
-      </li>
-      <li class="flex">
-        <Icon name="skill-icons:git" /><Icon
-          name="skill-icons:github-dark"
-        /><Icon name="skill-icons:github-light" />Git/Github
-      </li>
-      <li class="flex">
-        <Icon name="skill-icons:figma-dark" /><Icon
-          name="skill-icons:figma-light"
-        />Figma
-      </li>
-    </ul>
+    <div
+      class="mb-5 flex flex-wrap justify-center gap-5 rounded-xl p-5 shadow-3xl sm:gap-10 md:p-16 lg:gap-16"
+    >
+      <CardIcon icon="skill-icons:javascript" title="Javascript" />
+      <!-- <CardIcon icon="skill-icons:vuejs-light" title="Vue.js" /> -->
+      <CardIcon icon="skill-icons:vuejs-dark" title="Vue.js" />
+      <!-- <CardIcon icon="skill-icons:nuxtjs-light" title="Nuxt" /> -->
+      <CardIcon icon="skill-icons:nuxtjs-dark" title="Nuxt" />
+      <!-- <CardIcon icon="skill-icons:pinia-light" title="Pinia" /> -->
+      <CardIcon icon="skill-icons:pinia-dark" title="Pinia" />
+      <!-- <CardIcon icon="skill-icons:tailwindcss-light" title="TailwindCSS" /> -->
+      <CardIcon icon="skill-icons:tailwindcss-dark" title="TailwindCSS" />
+      <CardIcon icon="skill-icons:typescript" title="Typescript" />
+      <CardIcon icon="skill-icons:html" title="HTML" />
+      <CardIcon icon="skill-icons:css" title="CSS" />
+      <CardIcon icon="skill-icons:sass" title="SASS" />
+      <CardIcon
+        icon="vscode-icons:file-type-storybook"
+        title="Storybook"
+        icon-classes="rounded-2xl sm:rounded-3xl bg-[#242938] p-0.5"
+      />
+      <!-- <CardIcon
+        icon="vscode-icons:file-type-storybook"
+        title="Storybook"
+        icon-classes="rounded-2xl sm:rounded-3xl bg-[#f4f2ed] p-0.5"
+      /> -->
+      <!-- <CardIcon icon="skill-icons:cypress-light" title="Cypress" /> -->
+      <CardIcon icon="skill-icons:cypress-dark" title="Cypress" />
+      <!-- <CardIcon icon="skill-icons:vitest-light" title="Vitest" /> -->
+      <CardIcon icon="skill-icons:vitest-dark" title="Vitest" />
+      <CardIcon icon="skill-icons:git" title="Git" />
+      <!-- <CardIcon icon="skill-icons:github-light" title="Github" /> -->
+      <CardIcon icon="skill-icons:github-dark" title="Github" />
+      <!-- <CardIcon icon="skill-icons:figma-light" title="Figma" /> -->
+      <CardIcon icon="skill-icons:figma-dark" title="Figma" />
+    </div>
   </section>
 </template>
 <script setup lang="ts">

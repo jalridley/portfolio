@@ -6,10 +6,10 @@
   </h1>
   <section class="grid gap-8 md:grid-cols-2 lg:gap-10">
     <article
-      class="w-full overflow-hidden rounded-xl bg-white p-5 shadow-3xl md:col-span-2"
+      class="w-full overflow-hidden rounded-xl bg-white p-5 md:col-span-2"
     >
       <ExplosionLogo class="mb-5 h-24 w-24" />
-      <h2 class="font-besley text-xl font-bold uppercase">Prodigy Teams</h2>
+      <h2 class="font-besley text-xl font-bold md:text-3xl">Prodigy Teams</h2>
       <div class="lg:flex lg:items-center lg:justify-between">
         <div class="mr-8 w-full">
           <p class="mb-5 pt-3">

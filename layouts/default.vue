@@ -34,7 +34,7 @@
         <!-- <Icon name="heroicons:moon" class="mr-0" /> -->
       </span>
     </nav>
-    <main class="flex grow flex-col px-4 text-lg lg:px-0">
+    <main class="mb-5 flex grow flex-col px-4 text-lg lg:px-0">
       <slot />
     </main>
     <footer class="flex justify-center bg-white p-2 dark:bg-slate-950">

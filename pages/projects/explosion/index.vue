@@ -356,7 +356,6 @@ import IconsTrash from '~/components/icons/IconsTrash.vue'
 import IconsUserMinus from '~/components/icons/IconsUserMinus.vue'
 import IconsUserPlus from '~/components/icons/IconsUserPlus.vue'
 import IconsAnimateSparklesBlk from '~/components/icons/IconsAnimateSparklesBlk.vue'
-import ExplosionLogo from '~/components/ExplosionLogo.vue'
 
 useHead({
   title: 'Explosion Ai',

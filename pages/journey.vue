@@ -29,11 +29,11 @@
       of web development as a career, I enrolled in Le Wagon’s Full-Stack
       Bootcamp, kicking off my journey. After completion and a successful
       internship, I began working full time as a Front End Developer at
-      <a
-        href="https://explosion.ai/"
+      <NuxtLink
+        to="https://explosion.ai/"
         class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
         aria-label="Read more about Explosion AI on their website"
-        >Explosion AI</a
+        >Explosion AI</NuxtLink
       >
       thriving on the exciting challenge of jumping from a non-tech career into
       the exciting world of machine learning and NLP. The SaaS app we were

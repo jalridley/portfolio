@@ -5,33 +5,31 @@
     >
       Contact.
     </h1>
-    <div>
-      <div class="flex items-center">
-        <Icon name="mdi:github" class="h-6 w-6" />
-        <a
-          href="https://github.com/jalridley"
-          class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-        >
-          Github</a
-        >
-      </div>
-      <div class="flex items-center">
-        <Icon name="mdi:linkedin" class="h-6 w-6" />
-        <a
-          href="https://www.linkedin.com/in/jal-ridley"
-          class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-        >
-          LinkedIn</a
-        >
-      </div>
-      <div class="flex items-center">
-        <Icon name="heroicons:envelope" />
-        <a
-          href="mailto:ridleyjal@gmail.com"
-          class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-          >Email</a
-        >
-      </div>
+    <div class="gap-5 sm:gap-10 md:flex md:justify-center lg:gap-16">
+      <NuxtLink
+        to="https://github.com/jalridley"
+        target="_blank"
+        aria-label="Go to Jal's Github page"
+        class="hover:text-yellow-500"
+      >
+        <CardIcon icon="mdi:github" title="Github" />
+      </NuxtLink>
+      <NuxtLink
+        to="https://www.linkedin.com/in/jal-ridley"
+        target="_blank"
+        aria-label="Go to Jal's LinkedIn profile"
+        class="hover:text-yellow-500"
+      >
+        <CardIcon icon="mdi:linkedin" title="LinkedIn" />
+      </NuxtLink>
+      <NuxtLink
+        to="mailto:ridleyjal@gmail.com"
+        target="_blank"
+        aria-label="Email Jal"
+        class="hover:text-yellow-500"
+      >
+        <CardIcon icon="mdi:email-arrow-right" title="Email" />
+      </NuxtLink>
     </div>
   </section>
 </template>

@@ -5,7 +5,7 @@
     >
       <div class="flex items-center gap-4 md:gap-8 lg:gap-10">
         <NuxtLink class="nav-item" to="/" aria-label="home page"
-          ><Icon name="heroicons-outline:home" class="!mr-0 h-6 w-6"
+          ><Icon name="heroicons-outline:home" class="h-6 w-6"
         /></NuxtLink>
         <NuxtLink
           class="nav-item"

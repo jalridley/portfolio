@@ -6,36 +6,37 @@
   </h1>
   <section class="grid gap-8 md:grid-cols-2 lg:gap-10">
     <article
-      class="w-full overflow-hidden rounded-xl bg-white p-5 shadow-3xl md:col-span-2"
+      class="w-full overflow-hidden border-b bg-white pb-8 md:col-span-2 lg:pb-5"
     >
-      <ExplosionLogo class="mb-5 h-24 w-24" />
-      <h2 class="font-besley text-xl font-bold uppercase">Prodigy Teams</h2>
+      <h2 class="mb-1 font-besley text-xl font-bold md:mb-2 md:text-3xl">
+        Prodigy Teams
+      </h2>
       <div class="lg:flex lg:items-center lg:justify-between">
         <div class="mr-8 w-full">
-          <p class="mb-5 pt-3">
+          <p class="mb-5 pt-3 md:mb-8">
             I worked as a Front End Engineer at
-            <a
+            <NuxtLink
               href="https://explosion.ai/"
               target="_blank"
-              class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-              >Explosion AI</a
+              class="text-black underline hover:text-yellow-500"
+              >Explosion AI</NuxtLink
             >
             (developer tools for AI, Machine Learning and Natural Language
             Processing) on their SaaS product,
-            <a
+            <NuxtLink
               href="https://prodigy.ai/teams"
               target="_blank"
-              class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-              >Prodigy Teams</a
+              class="text-black underline hover:text-yellow-500"
+              >Prodigy Teams</NuxtLink
             >.
           </p>
-          <p class="mb-5">
+          <p class="mb-5 md:mb-8">
             Prodigy Teams collaboratively uses their developer tool,
-            <a
+            <NuxtLink
               href="https://prodi.gy/"
               target="_blank"
-              class="text-blue-600 underline visited:text-purple-600 hover:text-blue-800"
-              >Prodigy</a
+              class="text-black underline hover:text-yellow-500"
+              >Prodigy</NuxtLink
             >, in the cloud, managing teams, annotators, data tasks, and running
             automated processes like model training (including LLMs), all while
             the user hosts their data on their own cluster. It was built in
@@ -45,7 +46,7 @@
             in tech, but I thrived on the challenge.
           </p>
 
-          <p class="mb-5">
+          <p class="mb-5 md:mb-8">
             With permission from the founders (full disclosure: it was their
             idea), as a taste of a portion of my contributions, I am showcasing
             the dashboard feature and all of its components I made for Prodigy
@@ -53,7 +54,7 @@
             for use in my portfolio to show the full code.
           </p>
 
-          <p class="mb-8">
+          <p class="mb-8 md:mb-8">
             I learned a lot from the process of getting this to look and
             function as it did in the original app, which was built desktop
             first with a very complicated backend. It was great to strip the
@@ -84,11 +85,13 @@
         </div>
       </div>
     </article>
-
+    <h2 class="font-besley text-xl font-bold md:col-span-2 md:mb-2 md:text-3xl">
+      Dashboard Components
+    </h2>
     <Card header="header">
-      <div class="flex h-full flex-col gap-5 bg-purple p-5">
+      <div class="flex h-full flex-col gap-5 p-5">
         <span
-          class="flex h-1/2 w-full items-center justify-center rounded-xl bg-white"
+          class="flex h-1/2 w-full items-center justify-center rounded-xl border bg-white"
         >
           <HeaderDetails
             class="flex h-full justify-center"
@@ -98,7 +101,7 @@
           />
         </span>
         <span
-          class="flex h-1/2 w-full items-center justify-center rounded-xl bg-white"
+          class="flex h-1/2 w-full items-center justify-center rounded-xl border bg-white"
         >
           <HeaderDetails
             class="flex h-full justify-center"
@@ -128,7 +131,7 @@
     </Card>
 
     <Card header="Percentage Bar">
-      <div class="flex h-full justify-center bg-orange-100 p-5">
+      <div class="flex h-full justify-center bg-orange-200 p-5">
         <StatsPercentageBar
           class="w-10 rounded-lg"
           :items="[
@@ -164,7 +167,7 @@
     </Card>
     <Card header="custom icons">
       <div
-        class="grid h-full grid-cols-3 gap-x-4 gap-y-3 bg-teal-600 p-5 md:gap-x-5"
+        class="grid h-full grid-cols-3 gap-x-4 gap-y-3 bg-slate-600 p-5 md:gap-x-5"
       >
         <IconsActions
           class="flex h-full w-full items-center justify-center rounded-lg bg-white p-3"
@@ -353,7 +356,6 @@ import IconsTrash from '~/components/icons/IconsTrash.vue'
 import IconsUserMinus from '~/components/icons/IconsUserMinus.vue'
 import IconsUserPlus from '~/components/icons/IconsUserPlus.vue'
 import IconsAnimateSparklesBlk from '~/components/icons/IconsAnimateSparklesBlk.vue'
-import ExplosionLogo from '~/components/ExplosionLogo.vue'
 
 useHead({
   title: 'Explosion Ai',

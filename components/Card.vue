@@ -5,9 +5,9 @@
     </div>
 
     <div class="border-t p-5">
-      <h1 class="font-besley text-xl font-bold uppercase">
+      <h2 class="font-besley text-xl font-bold capitalize md:text-3xl">
         {{ header }}
-      </h1>
+      </h2>
       <p class="pt-3">
         <slot name="text" />
       </p>

@@ -17,14 +17,12 @@
         </NuxtLink>
         <template #text>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
-            quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam
-            minus iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Atque eius quam assumenda
-            voluptatem quidem quae ullam quo accusantium, voluptatibus vitae
-            amet molestias dolorem illum tempore asperiores dolor labore.
-            Aliquam, quos!
+            I had the incredible opportunity to do a three month internship as a
+            Front End Engineer at Explosion AI and was blown away when they
+            officially hired me halfway through. A delightfully intense journey
+            into the world of machine learning and NLP while building a SaaS app
+            for their developer tools, I worked with and learned from a uniquely
+            close knit team of gifted people.
           </p>
         </template>
       </Card>
@@ -50,14 +48,19 @@
         </NuxtLink>
         <template #text>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
-            quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam
-            minus iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Atque eius quam assumenda
-            voluptatem quidem quae ullam quo accusantium, voluptatibus vitae
-            amet molestias dolorem illum tempore asperiores dolor labore.
-            Aliquam, quos!
+            Fake it till ya make it! An extremely niche little app which allows
+            the user to randomly fake their pinball machine scores at the click
+            of a button. Built because I needed it. I made a lightbox for my
+            vintage 1979 Dolly Parton pinball machine backglass and the windows
+            where the digital scores were displayed needed either printed
+            numbers or to be blacked out to block the LED lights. I thought, why
+            hack my way through Photoshop when I can build an app! Vanilla
+            Javascript with some fun CSS to get that sweet 70s digital number
+            overlay and glow. Exports the results to PDF for print to actual
+            size. But it is a one trick pony: it is only for the Dolly Parton
+            pinball machine made by Bally. She's all I needed, but perhaps in
+            the future, I will create more templates for other machines for the
+            few people in the world with backglass lightboxes.
           </p>
         </template>
       </Card>
@@ -83,14 +86,12 @@
         </NuxtLink>
         <template #text>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
-            quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam
-            minus iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Atque eius quam assumenda
-            voluptatem quidem quae ullam quo accusantium, voluptatibus vitae
-            amet molestias dolorem illum tempore asperiores dolor labore.
-            Aliquam, quos!
+            Palmodoro! The Pomodoro timer for neon beach dreamers! The first app
+            I built post bootcamp, and my first venture into ReactJS. I designed
+            it mobile first in Figma before beginning implementation. I learned
+            that choosing your favourite font isn’t always the right font due to
+            layout shift, especially with digital numbers. I used the Zustand
+            library instead of Redux for state management.
           </p>
         </template>
       </Card>
@@ -115,14 +116,19 @@
         </NuxtLink>
         <template #text>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
-            quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam
-            minus iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Atque eius quam assumenda
-            voluptatem quidem quae ullam quo accusantium, voluptatibus vitae
-            amet molestias dolorem illum tempore asperiores dolor labore.
-            Aliquam, quos!
+            The final project created for the bootcamp. Although it is
+            incomplete and newbie code, it is such an amazing idea I wanted to
+            include it in my portfolio. Plantfam is a plant sitting and social
+            media app, where users can hire and offer services, give and receive
+            advice, and show off their plants. There are different levels of
+            expertise, such as the all important top tier Plant Whisperer, as
+            well as location search, and a social media feed with text input and
+            photo upload. This was a group project made in a whirlwind with
+            collaboration using Github, and my focus was on Figma design and
+            front end implementations. I would love to see it to completion and
+            get it out into the world, but the owner of the idea went back to
+            starring in the Blue Man Group and has moved on, such as it is when
+            working with famous people.
           </p>
         </template>
       </Card>

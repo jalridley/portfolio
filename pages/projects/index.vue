@@ -116,14 +116,19 @@
         </NuxtLink>
         <template #text>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
-            quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam
-            minus iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Atque eius quam assumenda
-            voluptatem quidem quae ullam quo accusantium, voluptatibus vitae
-            amet molestias dolorem illum tempore asperiores dolor labore.
-            Aliquam, quos!
+            The final project created for the bootcamp. Although it is
+            incomplete and newbie code, it is such an amazing idea I wanted to
+            include it in my portfolio. Plantfam is a plant sitting and social
+            media app, where users can hire and offer services, give and receive
+            advice, and show off their plants. There are different levels of
+            expertise, such as the all important top tier Plant Whisperer, as
+            well as location search, and a social media feed with text input and
+            photo upload. This was a group project made in a whirlwind with
+            collaboration using Github, and my focus was on Figma design and
+            front end implementations. I would love to see it to completion and
+            get it out into the world, but the owner of the idea went back to
+            starring in the Blue Man Group and has moved on, such as it is when
+            working with famous people.
           </p>
         </template>
       </Card>

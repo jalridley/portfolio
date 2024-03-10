@@ -17,14 +17,12 @@
         </NuxtLink>
         <template #text>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
-            quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam
-            minus iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Atque eius quam assumenda
-            voluptatem quidem quae ullam quo accusantium, voluptatibus vitae
-            amet molestias dolorem illum tempore asperiores dolor labore.
-            Aliquam, quos!
+            I had the incredible opportunity to do a three month internship as a
+            Front End Engineer at Explosion AI and was blown away when they
+            officially hired me halfway through. A delightfully intense journey
+            into the world of machine learning and NLP while building a SaaS app
+            for their developer tools, I worked with and learned from a uniquely
+            close knit team of gifted people.
           </p>
         </template>
       </Card>

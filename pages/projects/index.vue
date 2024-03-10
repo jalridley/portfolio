@@ -48,14 +48,19 @@
         </NuxtLink>
         <template #text>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
-            quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam
-            minus iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Atque eius quam assumenda
-            voluptatem quidem quae ullam quo accusantium, voluptatibus vitae
-            amet molestias dolorem illum tempore asperiores dolor labore.
-            Aliquam, quos!
+            Fake it till ya make it! An extremely niche little app which allows
+            the user to randomly fake their pinball machine scores at the click
+            of a button. Built because I needed it. I made a lightbox for my
+            vintage 1979 Dolly Parton pinball machine backglass and the windows
+            where the digital scores were displayed needed either printed
+            numbers or to be blacked out to block the LED lights. I thought, why
+            hack my way through Photoshop when I can build an app! Vanilla
+            Javascript with some fun CSS to get that sweet 70s digital number
+            overlay and glow. Exports the results to PDF for print to actual
+            size. But it is a one trick pony: it is only for the Dolly Parton
+            pinball machine made by Bally. She's all I needed, but perhaps in
+            the future, I will create more templates for other machines for the
+            few people in the world with backglass lightboxes.
           </p>
         </template>
       </Card>

@@ -86,14 +86,12 @@
         </NuxtLink>
         <template #text>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus voluptas itaque ipsum, commodi obcaecati eius vel ab
-            quibusdam! Ipsa iure exercitationem perferendis? Obcaecati ipsam
-            minus iure ducimus natus, quod perspiciatis? Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Atque eius quam assumenda
-            voluptatem quidem quae ullam quo accusantium, voluptatibus vitae
-            amet molestias dolorem illum tempore asperiores dolor labore.
-            Aliquam, quos!
+            Palmodoro! The Pomodoro timer for neon beach dreamers! The first app
+            I built post bootcamp, and my first venture into ReactJS. I designed
+            it mobile first in Figma before beginning implementation. I learned
+            that choosing your favourite font isn’t always the right font due to
+            layout shift, especially with digital numbers. I used the Zustand
+            library instead of Redux for state management.
           </p>
         </template>
       </Card>

@@ -15,7 +15,7 @@
         alt="illustration of Jal smiling with short hair styled up"
         width="548px"
         height="566px"
-        sizes="xs:200px sm:348px md:448px lg:566px"
+        sizes="xs:200px sm:348px md:448px lg:566px xl:566px"
         format="webp"
         decoding="auto"
         loading="lazy"

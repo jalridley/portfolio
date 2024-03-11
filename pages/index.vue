@@ -8,18 +8,20 @@
       <span>Front End</span>
       <span>Developer.</span>
     </h1>
-    <NuxtImg
-      src="/avatar.png"
-      class="mt-6 flex-1 rounded-b-full md:mt-10 lg:mt-14"
-      alt="illustration of Jal smiling with short hair styled up"
-      width="448px"
-      height="463px"
-      sizes="148px sm:248px md:348px lg:448px"
-      format="webp"
-      decoding="auto"
-      loading="lazy"
-      ismap
-    />
+    <div>
+      <NuxtImg
+        src="/avatar.png"
+        class="mt-6 flex-1 rounded-b-full md:mt-10 lg:mt-14"
+        alt="illustration of Jal smiling with short hair styled up"
+        width="448px"
+        height="463px"
+        sizes="xs:148px sm:248px md:348px lg:448px"
+        format="webp"
+        decoding="auto"
+        loading="lazy"
+        ismap
+      />
+    </div>
   </section>
 </template>
 <script setup lang="ts">

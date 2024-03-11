@@ -3,7 +3,9 @@
     <nav
       class="sticky top-0 mb-3 flex justify-between border-b border-slate-950/10 bg-white p-4 sm:mt-6 md:mb-8 lg:mb-10 lg:mt-12"
     >
-      <div class="flex items-center gap-4 md:gap-8 lg:gap-10">
+      <div
+        class="flex w-full items-center justify-between gap-4 md:w-auto md:justify-normal md:gap-8 lg:gap-10"
+      >
         <NuxtLink class="nav-item" to="/" aria-label="home page"
           ><Icon name="heroicons-outline:home" class="h-6 w-6"
         /></NuxtLink>

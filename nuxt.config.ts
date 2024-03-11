@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     },
   },
   modules: ['@nuxtjs/google-fonts', '@nuxt/image', 'nuxt-icon'],
-  image: { dir: 'assets/images' },
+  image: { provider: 'netlify' },
   googleFonts: {
     display: 'swap',
     families: {

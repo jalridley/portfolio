@@ -8,14 +8,14 @@
       <span>Front End</span>
       <span>Developer.</span>
     </h1>
-    <div>
+    <div class="w-full">
       <NuxtImg
         src="/avatar.png"
         class="mt-6 flex-1 rounded-b-full md:mt-10 lg:mt-14"
         alt="illustration of Jal smiling with short hair styled up"
-        width="448px"
-        height="463px"
-        sizes="xs:148px sm:248px md:348px lg:448px"
+        width="548px"
+        height="566px"
+        sizes="xs:200px sm:348px md:448px lg:566px"
         format="webp"
         decoding="auto"
         loading="lazy"

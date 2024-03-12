@@ -5,7 +5,7 @@
     </div>
 
     <div class="border-t p-5">
-      <h2 class="font-besley text-xl font-bold capitalize md:text-3xl">
+      <h2 class="font-besley text-2xl font-bold capitalize md:text-3xl">
         {{ header }}
       </h2>
       <p class="pt-3">

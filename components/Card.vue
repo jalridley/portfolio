@@ -1,6 +1,6 @@
 <template>
   <article class="w-full overflow-hidden rounded-xl bg-white shadow-3xl">
-    <div class="h-96">
+    <div class="h-72 md:h-80 lg:h-96">
       <slot />
     </div>
 

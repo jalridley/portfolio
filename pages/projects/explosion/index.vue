@@ -74,12 +74,13 @@
             loading="lazy"
             ismap
           />
-          <div class="flex">
+          <div class="flex h-16 w-full md:w-3/5">
             <LinkButton
+              class="w-full"
               variant="primaryButton"
               to="/projects/explosion/dashboard"
-              aria-label="Go to the dashboard feature"
-              >Dashboard feature</LinkButton
+              aria-label="View the dashboard feature"
+              >View dashboard feature</LinkButton
             >
           </div>
         </div>

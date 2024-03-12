@@ -16,14 +16,21 @@
           <ExplosionLogo class="h-72 w-72 p-2 hover:p-6" />
         </NuxtLink>
         <template #text>
-          <p>
-            I had the incredible opportunity to do a three month internship as a
-            Front End Engineer at Explosion AI and was blown away when they
-            officially hired me halfway through. A delightfully intense journey
-            into the world of machine learning and NLP while building a SaaS app
-            for their developer tools, I worked with and learned from a uniquely
-            close knit team of gifted people.
-          </p>
+          <div class="flex flex-col items-center">
+            <p class="mb-10">
+              I had the incredible opportunity to do a three month internship as
+              a Front End Engineer at Explosion AI and was blown away when they
+              officially hired me halfway through. A delightfully intense
+              journey into the world of machine learning and NLP while building
+              a SaaS app for their developer tools, I worked with and learned
+              from a uniquely close knit team of gifted people.
+            </p>
+            <Button
+              to="/projects/explosion"
+              ariaLabel="Read more about Jal's work at Explosion AI"
+              >View Explosion AI work</Button
+            >
+          </div>
         </template>
       </Card>
       <Card header="Pinball Wizard">

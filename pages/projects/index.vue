@@ -13,7 +13,7 @@
           to="/projects/explosion"
           aria-label="Read more about Jal's work at Explosion AI"
         >
-          <ExplosionLogo class="h-72 w-72 hover:p-6" />
+          <ExplosionLogo class="h-72 w-72 p-2 hover:p-6" />
         </NuxtLink>
         <template #text>
           <p>

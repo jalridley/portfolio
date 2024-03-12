@@ -76,7 +76,7 @@
           />
           <div class="flex h-16 w-full md:w-3/5">
             <LinkButton
-              class="w-full"
+              class="w-full text-xl"
               variant="primaryButton"
               to="/projects/explosion/dashboard"
               aria-label="View the dashboard feature"

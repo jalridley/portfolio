@@ -23,6 +23,9 @@
         >
         <NuxtLink
           class="nav-item"
+          :class="{
+            'router-link-active': $route.path.startsWith('/projects'),
+          }"
           to="/projects"
           aria-label="Read more about Jal's projects"
           >projects</NuxtLink
@@ -47,11 +50,11 @@
   </div>
 </template>
 <style lang="postcss" scoped>
-.router-link-exact-active::after {
+.router-link-active::after {
   @apply absolute block h-[4px] w-full scale-x-100 bg-yellow-500  transition-none;
 }
 
-.router-link-exact-active {
+.router-link-active {
   @apply text-slate-600;
 }
 </style>

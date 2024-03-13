@@ -4,90 +4,85 @@
   >
     Explosion AI.
   </h1>
-  <section class="grid gap-8 md:grid-cols-2 lg:gap-10">
-    <article
-      class="w-full overflow-hidden border-b bg-white pb-8 md:col-span-2 lg:pb-5"
-    >
-      <h2 class="mb-1 font-besley text-xl font-bold md:mb-2 md:text-3xl">
-        Prodigy Teams
-      </h2>
-      <div class="lg:flex lg:items-center lg:justify-between">
-        <div class="mr-8 w-full">
-          <p class="mb-5 pt-3 md:mb-8">
-            I worked as a Front End Engineer at
-            <NuxtLink
-              href="https://explosion.ai/"
-              target="_blank"
-              class="text-black underline hover:text-yellow-500"
-              >Explosion AI</NuxtLink
-            >
-            (developer tools for AI, Machine Learning and Natural Language
-            Processing) on their SaaS product,
-            <NuxtLink
-              href="https://prodigy.ai/teams"
-              target="_blank"
-              class="text-black underline hover:text-yellow-500"
-              >Prodigy Teams</NuxtLink
-            >.
-          </p>
-          <p class="mb-5 md:mb-8">
-            Prodigy Teams collaboratively uses their developer tool,
-            <NuxtLink
-              href="https://prodi.gy/"
-              target="_blank"
-              class="text-black underline hover:text-yellow-500"
-              >Prodigy</NuxtLink
-            >, in the cloud, managing teams, annotators, data tasks, and running
-            automated processes like model training (including LLMs), all while
-            the user hosts their data on their own cluster. It was built in
-            Vue/Nuxt 3 with Pinia, TailwindCSS, Typescript, Vitest, Cypress for
-            e2e tests, Storybook for building components in isolation, Docker
-            containers/Nomad. A far cry from beginner friendly for my first job
-            in tech, but I thrived on the challenge.
-          </p>
-
-          <p class="mb-5 md:mb-8">
-            With permission from the founders (full disclosure: it was their
-            idea), as a taste of a portion of my contributions, I am showcasing
-            the dashboard feature and all of its components I made for Prodigy
-            Teams. Instead of screenshots, have refactored it in its entirety
-            for use in my portfolio to show the full code.
-          </p>
-
-          <p class="mb-8 md:mb-8">
-            I learned a lot from the process of getting this to look and
-            function as it did in the original app, which was built desktop
-            first with a very complicated backend. It was great to strip the
-            components down even further and see where they could be improved.
-          </p>
-        </div>
-        <div class="flex w-full flex-col items-center justify-center gap-10">
-          <NuxtImg
-            class="h-72 w-72 rounded-full bg-slate-100 object-contain shadow-xl md:h-96 md:w-96"
-            src="/dashboard.png"
-            alt="Screenshot of the dashboard feature"
-            width="460px"
-            height="574px"
-            sizes="248px sm:288px md:384px"
-            format="webp"
-            decoding="auto"
-            loading="lazy"
-            ismap
-          />
-          <div class="flex">
-            <LinkButton
-              variant="primaryButton"
-              to="/projects/explosion/dashboard"
-              aria-label="Go to the dashboard feature"
-              >Dashboard feature</LinkButton
-            >
-          </div>
-        </div>
-      </div>
-    </article>
-    <h2 class="font-besley text-xl font-bold md:col-span-2 md:mb-2 md:text-3xl">
-      Dashboard Components
+  <article class="w-full overflow-hidden border-b bg-white pb-12">
+    <h2 class="mb-1 font-besley text-xl font-bold md:mb-2 md:text-3xl">
+      Prodigy Teams
     </h2>
+    <div class="lg:flex lg:items-center lg:justify-between">
+      <div class="mr-8 w-full">
+        <p class="mb-5 pt-3 md:mb-8">
+          I worked as a Front End Engineer at
+          <NuxtLink
+            href="https://explosion.ai/"
+            target="_blank"
+            class="text-black underline hover:text-yellow-500"
+            >Explosion AI</NuxtLink
+          >
+          (developer tools for AI, Machine Learning and Natural Language
+          Processing) on their SaaS product,
+          <NuxtLink
+            href="https://prodigy.ai/teams"
+            target="_blank"
+            class="text-black underline hover:text-yellow-500"
+            >Prodigy Teams</NuxtLink
+          >.
+        </p>
+        <p class="mb-5 md:mb-8">
+          Prodigy Teams collaboratively uses their developer tool,
+          <NuxtLink
+            href="https://prodi.gy/"
+            target="_blank"
+            class="text-black underline hover:text-yellow-500"
+            >Prodigy</NuxtLink
+          >, in the cloud, managing teams, annotators, data tasks, and running
+          automated processes like model training (including LLMs), all while
+          the user hosts their data on their own cluster. It was built in
+          Vue/Nuxt 3 with Pinia, TailwindCSS, Typescript, Vitest, Cypress for
+          e2e tests, Storybook for building components in isolation, Docker
+          containers/Nomad. A far cry from beginner friendly for my first job in
+          tech, but I thrived on the challenge.
+        </p>
+
+        <p class="mb-5 md:mb-8">
+          With permission from the founders (full disclosure: it was their
+          idea), as a taste of a portion of my contributions, I am showcasing
+          the dashboard feature and all of its components I made for Prodigy
+          Teams. Instead of screenshots, have refactored it in its entirety for
+          use in my portfolio to show the full code.
+        </p>
+
+        <p class="mb-8 md:mb-8">
+          I learned a lot from the process of getting this to look and function
+          as it did in the original app, which was built desktop first with a
+          very complicated backend. It was great to strip the components down
+          even further and see where they could be improved.
+        </p>
+      </div>
+      <div class="flex w-full flex-col items-center justify-center gap-10">
+        <NuxtImg
+          class="h-72 w-72 rounded-full bg-slate-100 object-contain shadow-xl md:h-96 md:w-96"
+          src="/dashboard.png"
+          alt="Screenshot of the dashboard feature"
+          width="460px"
+          height="574px"
+          sizes="248px sm:288px md:384px"
+          format="webp"
+          decoding="auto"
+          loading="lazy"
+          ismap
+        />
+        <Button
+          to="/projects/explosion/dashboard"
+          ariaLabel="View Jal's dashboard feature"
+          >View dashboard feature</Button
+        >
+      </div>
+    </div>
+  </article>
+  <h2 class="mt-4 py-5 font-besley text-xl font-bold md:col-span-2 md:text-3xl">
+    Dashboard Components
+  </h2>
+  <section class="grid gap-8 md:auto-rows-fr md:grid-cols-2 lg:gap-10">
     <Card header="header">
       <div class="flex h-full flex-col gap-5 p-5">
         <span
@@ -112,21 +107,25 @@
         /></span>
       </div>
       <template #text>
-        The header is used throughout the app in main sections and subsections,
-        which required it to be flexible in its size, style and layout. The
-        custom icons which I created and used in part in this component
-        contribute to the personality of the Prodigy Teams SaaS app while
-        aligning with the pixel aesthetic of its mother app, Prodigy.
+        <p>
+          The header is used throughout the app in main sections and
+          subsections, which required it to be flexible in its size, style and
+          layout. The custom icons which I created and used in part in this
+          component contribute to the personality of the Prodigy Teams SaaS app
+          while aligning with the pixel aesthetic of its mother app, Prodigy.
+        </p>
       </template>
     </Card>
 
     <Card header="Empty State">
       <EmptyState class="flex h-full flex-col justify-center" />
       <template #text>
-        Empty states are app wide in previews, dropdowns, individual items,
-        error states, and data statuses. The icon and text are dynamic, matching
-        the related data, with the dashboard using its generic default. The
-        little bounce animation is a subtle but nice touch.
+        <p>
+          Empty states are app wide in previews, dropdowns, individual items,
+          error states, and data statuses. The icon and text are dynamic,
+          matching the related data, with the dashboard using its generic
+          default. The little bounce animation is a subtle but nice touch.
+        </p>
       </template>
     </Card>
 
@@ -159,10 +158,12 @@
         />
       </div>
       <template #text>
-        This was an extra fun one to build. The linear gradient is a utility
-        function which has unit tests, and adding the white break between each
-        colour was an added challenge in order to exclude it if there is only
-        one stat taking up the entire height.
+        <p>
+          This was an extra fun one to build. The linear gradient is a utility
+          function which has unit tests, and adding the white break between each
+          colour was an added challenge in order to exclude it if there is only
+          one stat taking up the entire height.
+        </p>
       </template>
     </Card>
     <Card header="custom icons">
@@ -211,12 +212,14 @@
         />
       </div>
       <template #text>
-        Ah the world of Figma! I loved putting on my design hat to give the app
-        unique personality through icons. The main icons were designed in a wide
-        pixel style, while all others were thinner but equally as cool. The
-        sparkle animation displays to the admin when an annotator is currently
-        annotating. I refactored all of the original svgs into components (the
-        Vue/Nuxt 3 way) with the Typescript Component type.
+        <p>
+          Ah the world of Figma! I loved putting on my design hat to give the
+          app unique personality through icons. The main icons were designed in
+          a wide pixel style, while all others were thinner but equally as cool.
+          The sparkle animation displays to the admin when an annotator is
+          currently annotating. I refactored all of the original svgs into
+          components (the Vue/Nuxt 3 way) with the Typescript Component type.
+        </p>
       </template>
     </Card>
     <Card header="stats list">
@@ -263,13 +266,15 @@
         />
       </div>
       <template #text>
-        This was built specifically for the dashboard while following the same
-        theme used throughout the app to display the state of data. It was
-        tricky for my backend coworkers to nail down the complexity of these
-        states which were coming from Nomad and I was lucky to work with them
-        getting the states we needed written in python for me to wire it up to
-        UI. The items are to to be links, but I have prevented them from going
-        anywhere for this portfolio.
+        <p>
+          This was built specifically for the dashboard while following the same
+          theme used throughout the app to display the state of data. It was
+          tricky for my backend coworkers to nail down the complexity of these
+          states which were coming from Nomad and I was lucky to work with them
+          getting the states we needed written in python for me to wire it up to
+          UI. The items are to to be links, but I have prevented them from going
+          anywhere for this portfolio.
+        </p>
       </template>
     </Card>
     <Card header="Stats Grid">
@@ -295,11 +300,13 @@
         />
       </div>
       <template #text>
-        The stats in grid form are the most prioritized and dominant stats
-        throughout the app, sitting just below the header. It is large with a
-        maximum of 3 items which vary depending on the type of data. If the stat
-        value is zero, the icon is grey, while if above zero, its corresponding
-        colour matches the stat.
+        <p>
+          The stats in grid form are the most prioritized and dominant stats
+          throughout the app, sitting just below the header. It is large with a
+          maximum of 3 items which vary depending on the type of data. If the
+          stat value is zero, the icon is grey, while if above zero, its
+          corresponding colour matches the stat.
+        </p>
       </template>
     </Card>
 
@@ -327,10 +334,12 @@
         />
       </div>
       <template #text>
-        These stats are to be horizontal (the Prodigy Teams app being desktop
-        first) with no dynamic colours or links, differentiating them from the
-        other stats components. A simple component but needed dynamic spacing
-        for use on small screens for use in my portfolio.
+        <p>
+          These stats are to be horizontal (the Prodigy Teams app being desktop
+          first) with no dynamic colours or links, differentiating them from the
+          other stats components. A simple component but needed dynamic spacing
+          for use on small screens for use in my portfolio.
+        </p>
       </template>
     </Card>
   </section>

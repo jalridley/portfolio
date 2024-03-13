@@ -6,7 +6,7 @@
       Projects.
     </h1>
     <div class="flex flex-col"></div>
-    <div class="grid gap-8 md:grid-cols-2 lg:gap-10">
+    <div class="grid gap-8 md:auto-rows-fr md:grid-cols-2 lg:gap-10">
       <Card header="Explosion AI">
         <NuxtLink
           class="flex h-full w-full items-center justify-center bg-purple text-white transition ease-in-out hover:bg-yellow-500 hover:text-slate-900 hover:duration-500"
@@ -16,7 +16,7 @@
           <ExplosionLogo class="h-72 w-72 p-2 hover:p-6" />
         </NuxtLink>
         <template #text>
-          <p class="mb-10">
+          <p>
             I had the incredible opportunity to do a 3 month internship as a
             Front End Engineer at Explosion AI and was blown away when they
             officially hired me halfway through. I jumped into a complicated
@@ -27,6 +27,8 @@
             collaborative platform for the company’s data annotation and model
             training developer tools.
           </p>
+        </template>
+        <template #button>
           <Button
             to="/projects/explosion"
             ariaLabel="Read more about Jal's work at Explosion AI"
@@ -55,24 +57,24 @@
           />
         </NuxtLink>
         <template #text>
-          <div class="flex flex-col items-center">
-            <p class="mb-10">
-              A niche little app which allows the user to randomly fake their
-              pinball machine scores at the click of a button. Built because I
-              needed it. I made a lightbox for my vintage 1979 Dolly Parton
-              pinball machine backglass and the windows where the digital scores
-              were displayed needed numbers. I thought, why hack my way through
-              Photoshop when I can build an app! Vanilla Javascript with some
-              fun CSS to get that sweet 70s digital number overlay and glow.
-              Exports the results to PDF for print to actual size.
-            </p>
-            <Button
-              to="https://github.com/jalridley/digital-counter"
-              target="_blank"
-              ariaLabel="Go to Jal's Pinball Wizard project"
-              >View Pinball Wizard</Button
-            >
-          </div>
+          <p>
+            A niche little app which allows the user to randomly fake their
+            pinball machine scores at the click of a button. Built because I
+            needed it. I made a lightbox for my vintage 1979 Dolly Parton
+            pinball machine backglass and the windows where the digital scores
+            were displayed needed numbers. I thought, why hack my way through
+            Photoshop when I can build an app! Vanilla Javascript with some fun
+            CSS to get that sweet 70s digital number overlay and glow. Exports
+            the results to PDF for print to actual size.
+          </p>
+        </template>
+        <template #button>
+          <Button
+            to="https://github.com/jalridley/digital-counter"
+            target="_blank"
+            ariaLabel="Go to Jal's Pinball Wizard project"
+            >View Pinball Wizard</Button
+          >
         </template>
       </Card>
       <Card header="Palmodoro">
@@ -80,7 +82,7 @@
           class="flex h-full w-full items-center justify-center bg-pink-500 transition ease-in-out hover:bg-yellow-500 hover:p-10 hover:duration-500"
           target="_blank"
           to="https://github.com/jalridley/palmodoro"
-          aria-label="Read more about Jal's project Palmodoro"
+          aria-label="Go to Jal's project Palmodoro"
         >
           <NuxtImg
             src="/palmodoro-wip.png"
@@ -108,13 +110,21 @@
             library and rather straightforward to use.
           </p>
         </template>
+        <template #button>
+          <Button
+            to="https://github.com/jalridley/palmodoro"
+            target="_blank"
+            ariaLabel="Go to Jal's project Palmodoro"
+            >View Palmodoro</Button
+          >
+        </template>
       </Card>
       <Card header="Plantfam">
         <NuxtLink
           class="flex h-full w-full items-center justify-center bg-green-500 transition ease-in-out hover:bg-yellow-500 hover:duration-500"
           target="_blank"
           to="https://github.com/brednadflex/plantfam?tab=readme-ov-file"
-          aria-label="Read more about Jal's project Plantfam"
+          aria-label="Go to Jal's project Plantfam"
         >
           <NuxtImg
             src="/plantfam-logo.png"
@@ -140,6 +150,14 @@
             completion, but the owner of the idea went back to starring in the
             Blue Man Group and has moved on, such as it is with the famous.
           </p>
+        </template>
+        <template #button>
+          <Button
+            to="https://github.com/brednadflex/plantfam?tab=readme-ov-file"
+            target="_blank"
+            ariaLabel="Go to Jal's project Plantfam"
+            >View Plantfam</Button
+          >
         </template>
       </Card>
     </div>

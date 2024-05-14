@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto flex min-h-screen max-w-5xl flex-col font-raleway">
     <nav
-      class="sticky top-0 mb-3 flex justify-between border-b border-slate-950/10 bg-white p-4 sm:mt-6 md:mb-8 lg:mb-10 lg:mt-12"
+      class="sticky top-0 mb-3 flex justify-between border-b border-slate-950/10 bg-white p-4 text-lg sm:mt-6 md:mb-8 lg:mb-10 lg:mt-12"
     >
       <div
         class="flex w-full items-center justify-between gap-4 md:w-auto md:justify-normal md:gap-8 lg:gap-10"

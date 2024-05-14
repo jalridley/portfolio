@@ -58,14 +58,15 @@
         </NuxtLink>
         <template #text>
           <p>
-            A niche little app which allows the user to randomly fake their
-            pinball machine scores at the click of a button. Built because I
-            needed it. I made a lightbox for my vintage 1979 Dolly Parton
-            pinball machine backglass and the windows where the digital scores
-            were displayed needed numbers. I thought, why hack my way through
+            Built because I needed it, Pinball Wizard randomly fakes pinball
+            machine scores at the click of a button. I made a lightbox for my
+            vintage 1979 Dolly Parton pinball machine backglass to hang on the
+            wall and the windows where the scores used to be displayed are empty
+            clear glass, needing numbers. I thought, why hack my way through
             Photoshop when I can build an app! Vanilla Javascript with some fun
-            CSS to get that sweet 70s digital number overlay and glow. Exports
-            the results to PDF for print to actual size.
+            Tailwind to get that sweet digital number style. Opens the browser
+            print dialog to print the results perfectly sized to fit Bally
+            backglass score board windows.
           </p>
         </template>
         <template #button>

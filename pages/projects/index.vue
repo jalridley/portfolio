@@ -40,11 +40,11 @@
         <NuxtLink
           class="flex h-full w-full items-center justify-center bg-black transition ease-in-out hover:bg-yellow-500 hover:p-10 hover:duration-500"
           target="_blank"
-          to="https://github.com/jalridley/digital-counter"
+          to="https://pinballwizard.netlify.app/"
           aria-label="Go to Jal's Pinball Wizard project"
         >
           <NuxtImg
-            src="/pinball-wizard-wip.png"
+            src="/pinball-wizard.png"
             class="h-full w-full object-contain"
             alt="Screenshot of Jal's project Pinball Wizard"
             width="1024px"

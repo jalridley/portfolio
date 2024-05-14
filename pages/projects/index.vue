@@ -71,7 +71,7 @@
         </template>
         <template #button>
           <Button
-            to="https://github.com/jalridley/digital-counter"
+            to="https://pinballwizard.netlify.app/"
             target="_blank"
             ariaLabel="Go to Jal's Pinball Wizard project"
             >View Pinball Wizard</Button

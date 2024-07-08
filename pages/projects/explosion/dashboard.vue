@@ -181,14 +181,14 @@
           <LinkButton
             :icon="IconsTasks"
             variant="primaryButton"
-            to=""
+            to="#"
             ariaLabel="View all tasks"
             >All tasks</LinkButton
           >
           <LinkButton
             :icon="IconsPlus"
             variant="secondaryButton"
-            to=""
+            to="#"
             ariaLabel="Create new task"
             >New task</LinkButton
           >
@@ -341,14 +341,14 @@
           <LinkButton
             :icon="IconsActions"
             variant="primaryButton"
-            to=""
+            to="#"
             ariaLabel="View all actions"
             >All Actions</LinkButton
           >
           <LinkButton
             :icon="IconsPlus"
             variant="secondaryButton"
-            to=""
+            to="#"
             ariaLabel="Create new action"
             >New action</LinkButton
           >

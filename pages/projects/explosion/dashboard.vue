@@ -321,7 +321,7 @@
                 },
                 {
                   icon: IconsWorker,
-                  stat: 1,
+                  stat: 0,
                   name: 'gpu',
                 },
               ]"

@@ -212,7 +212,7 @@
           },
           {
             name: 'Running',
-            stat: 1,
+            stat: 2,
             icon: IconsStatusActive,
           },
           {
